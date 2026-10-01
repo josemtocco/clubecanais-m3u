@@ -1,1 +1,64 @@
-{"source":"https://clubecanais.com.br/index.php","active_channels":0,"channels":[]}
+{
+  "source": "https://clubecanais.com.br/index.php",
+  "generated_at": "2026-10-01T17:35:59Z",
+  "discovered_channels": 256,
+  "active_channels": 8,
+  "channels": [
+    {
+      "id": "11",
+      "name": "CARIRI TV",
+      "category": "VARIEDADES",
+      "stream": "https://video05.logicahost.com.br/cariritv/cariritv/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "9",
+      "name": "Creative TV Brasil",
+      "category": "VARIEDADES",
+      "stream": "https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "4",
+      "name": "MEGA ONE TV",
+      "category": "VARIEDADES",
+      "stream": "https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "24",
+      "name": "TV 100% CAIPIRA",
+      "category": "VARIEDADES",
+      "stream": "https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "33",
+      "name": "TV Brasil Angola",
+      "category": "VARIEDADES",
+      "stream": "https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "3",
+      "name": "TV LIBERDADE BETEL",
+      "category": "VARIEDADES",
+      "stream": "https://stmv7.voxtvhd.com.br/liberdadebetel/liberdadebetel/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "20",
+      "name": "TV NOTÍCIAS AGRÍCOLAS",
+      "category": "VARIEDADES",
+      "stream": "https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8",
+      "active": true
+    },
+    {
+      "id": "34",
+      "name": "TV SERRANA",
+      "category": "VARIEDADES",
+      "stream": "https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8",
+      "active": true
+    }
+  ]
+}
