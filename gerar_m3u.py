@@ -474,20 +474,90 @@ def write_diag(channels: list[Channel], discovered: int) -> None:
     }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def load_known_channels() -> list[Channel]:
+    """Carrega canais da última execução e do seed.
+
+    Eles não são descartados apenas porque a descoberta/extração desta execução
+    falhou. O stream conhecido é revalidado; somente respostas definitivas
+    (404/410/451) fazem o canal deixar de ser considerado ativo.
+    """
+    items: list[Channel] = []
+    for path, validation_name in ((OUT_JSON, "previous_known"), (SEED_JSON, "seed")):
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            for item in data.get("channels", []):
+                stream = normalize_stream(item.get("stream", ""), BASE)
+                cid = str(item.get("id", ""))
+                if not cid or not stream:
+                    continue
+                items.append(Channel(
+                    id=cid,
+                    name=clean(item.get("name", f"Canal {cid}")),
+                    category=norm_category(item.get("category", "VARIEDADES")),
+                    location=clean(item.get("location", "")),
+                    logo=absolute(item.get("logo", ""), BASE),
+                    stream=stream,
+                    page=absolute(item.get("page", f"channel.php?id={cid}"), BASE),
+                    active=True,
+                    status=item.get("status"),
+                    validation=validation_name,
+                ))
+        except Exception as exc:
+            log.warning("Não foi possível carregar %s: %s", path, exc)
+    # Deduplica por ID/stream sem depender da validação anterior.
+    return dedupe_channels(items)
+
+
+async def revalidate_known_channels(session: requests.Session, known: list[Channel]) -> list[Channel]:
+    """Mantém os canais já conhecidos enquanto seus streams não derem erro definitivo."""
+    if not known:
+        return []
+    sem = asyncio.Semaphore(MAX_CONCURRENCY)
+
+    async def one(c: Channel):
+        async with sem:
+            ok, status, validation = await asyncio.to_thread(check_stream, session, c.stream, c.page or INDEX)
+            if ok:
+                c.active = True
+                c.status = status
+                c.validation = f"retained_{validation}"
+                return c
+            # 404/410/451: removemos somente este canal; uma falha transitória
+            # de rede não deve apagar um canal que já funcionava.
+            if status in (404, 410, 451):
+                log.info("Canal removido por stream definitivamente indisponível: %s (%s)", c.name, status)
+                return None
+            c.active = True
+            c.status = status
+            c.validation = "retained_uncertain"
+            return c
+
+    return dedupe_channels(c for c in await asyncio.gather(*(one(c) for c in known)) if c)
+
+
 async def main() -> int:
     session = requests.Session()
     session.headers.update(HEADERS)
 
+    # 1) Sempre tenta descobrir TODOS os canais novamente.
     urls = discover_channel_pages_http(session)
     browser_urls = await discover_channel_pages_browser()
     urls = sorted(set(urls) | set(browser_urls), key=lambda x: int(channel_id(x) or 0))
     if not urls:
-        log.error("Nenhum canal descoberto; playlist anterior preservada.")
+        log.error("Nenhum canal descoberto nesta execução; mantendo canais conhecidos.")
+        known = await revalidate_known_channels(session, load_known_channels())
+        if known:
+            write_m3u(known)
+            write_json(known, 0)
+            write_diag(known, 0)
+            return 0
         return 2
 
     log.info("Total final de páginas de canais: %d", len(urls))
-    # Primeiro coleta os streams dinamicamente com um único navegador compartilhado.
-    # Isso captura XHR/fetch e evita abrir centenas de instâncias do Chromium.
+
+    # 2) Renderiza novamente todos os canais para tentar descobrir streams novos.
     dynamic = await collect_dynamic_channels(urls)
     log.info("Páginas renderizadas dinamicamente: %d", len(dynamic))
 
@@ -501,7 +571,6 @@ async def main() -> int:
                     return None
                 c = parse_channel_page(r.text, url)
 
-                # Junta candidatos do HTML inicial + HTML após JS + respostas XHR/fetch.
                 candidates: list[str] = []
                 if c.stream:
                     candidates.append(c.stream)
@@ -520,7 +589,8 @@ async def main() -> int:
                     if stream not in candidates:
                         candidates.append(stream)
 
-                # Valida todos os candidatos até encontrar um utilizável.
+                # Tenta todos os candidatos. Um candidato inválido não encerra
+                # a busca do canal.
                 for stream in candidates:
                     ok, status, validation = await asyncio.to_thread(check_stream, session, stream, url)
                     if ok:
@@ -532,45 +602,21 @@ async def main() -> int:
                 return None
 
     results = await asyncio.gather(*(one(u) for u in urls))
-    channels = dedupe_channels(c for c in results if c)
-    log.info("Canais descobertos: %d | streams utilizáveis: %d", len(urls), len(channels))
+    newly_found = dedupe_channels(c for c in results if c)
+    log.info("Canais descobertos: %d | streams novos utilizáveis: %d", len(urls), len(newly_found))
 
-    # Fallback de segurança: os oito canais abaixo foram previamente confirmados
-    # pela própria execução do projeto (HTTP 206). A extração dinâmica pode falhar
-    # temporariamente mesmo quando o stream continua publicado.
-    # Se a coleta atual trouxer poucos canais, mescla os canais ativos encontrados
-    # com os últimos canais conhecidos, sem deixar a playlist vazia.
-    if len(channels) < MIN_VALID_CHANNELS:
-        log.warning(
-            "Coleta atual retornou %d streams (mínimo=%d); aplicando fallback de canais previamente confirmados.",
-            len(channels), MIN_VALID_CHANNELS,
-        )
-        try:
-            seed_data = json.loads(SEED_JSON.read_text(encoding="utf-8"))
-            seeds = []
-            for item in seed_data.get("channels", []):
-                if not item.get("stream") or not item.get("id"):
-                    continue
-                seeds.append(Channel(
-                    id=str(item.get("id", "")),
-                    name=clean(item.get("name", "Canal")),
-                    category=norm_category(item.get("category", "VARIEDADES")),
-                    location=clean(item.get("location", "")),
-                    logo=absolute(item.get("logo", ""), BASE),
-                    stream=normalize_stream(item.get("stream", ""), BASE),
-                    page=absolute(item.get("page", f"channel.php?id={item.get('id', '')}"), BASE),
-                    active=True,
-                    status=item.get("status"),
-                    validation="fallback_previous_active",
-                ))
-            channels = dedupe_channels([*channels, *seeds])
-            log.warning("Após fallback: %d canais na playlist.", len(channels))
-        except Exception as exc:
-            log.error("Não foi possível carregar canais-seed.json: %s", exc)
+    # 3) NÃO substitui a playlist pelos resultados desta execução.
+    # Revalida os canais já conhecidos e acrescenta os novos.
+    known = load_known_channels()
+    retained = await revalidate_known_channels(session, known)
+    log.info("Canais conhecidos mantidos após revalidação: %d", len(retained))
+
+    # 4) Novo canal encontrado = acrescenta. Canal antigo sem stream nesta
+    # execução = continua na playlist se o stream conhecido ainda responder.
+    channels = dedupe_channels([*retained, *newly_found])
 
     if not channels:
-        log.error("Nenhum stream atual ou de fallback disponível; playlist anterior preservada.")
-        # Escreve diagnóstico mesmo quando não há canais, para facilitar análise.
+        log.error("Nenhum canal conhecido ou novo pôde ser mantido.")
         write_json([], len(urls))
         write_diag([], len(urls))
         return 3
@@ -578,7 +624,8 @@ async def main() -> int:
     write_m3u(channels)
     write_json(channels, len(urls))
     write_diag(channels, len(urls))
-    log.info("Gerado %s com %d canais", OUT_M3U, len(channels))
+    log.info("Gerado %s com %d canais (%d conhecidos + %d novos antes da deduplicação)",
+             OUT_M3U, len(channels), len(retained), len(newly_found))
     return 0
 
 

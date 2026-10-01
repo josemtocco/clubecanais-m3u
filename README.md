@@ -55,3 +55,19 @@ O projeto não tenta contornar login, CAPTCHA, paywall ou mecanismos de proteç�
 ### Fallback de segurança
 
 O arquivo `canais-seed.json` guarda os oito canais que já haviam sido confirmados pela coleta anterior com HTTP 206. Se uma execução encontrar poucos streams por falha temporária do player ou do navegador, o gerador combina os canais encontrados com esses últimos canais conhecidos e ainda publica a playlist. No `canais.json` e em `cxtv-discovery.json`, esses registros aparecem com `validation: fallback_previous_active`, indicando que são dados previamente confirmados e não uma confirmação de disponibilidade em tempo real. Remova ou atualize esse arquivo quando quiser substituir a lista de fallback.
+
+## Estratégia de atualização incremental (V5)
+
+A playlist não é reconstruída exclusivamente a partir dos canais encontrados na execução atual.
+O gerador:
+
+1. descobre novamente todos os canais do ClubeCanais;
+2. tenta extrair novos streams;
+3. carrega os canais já conhecidos em `canais.json` e `canais-seed.json`;
+4. revalida os streams já conhecidos;
+5. mantém canais conhecidos quando o servidor responde normalmente ou quando há bloqueio/erro transitório;
+6. remove um canal conhecido somente quando o stream retorna um erro HTTP definitivo (404, 410 ou 451);
+7. acrescenta os novos canais encontrados;
+8. grava a nova playlist sem perder os canais já válidos.
+
+Assim, uma falha temporária na extração do player não reduz a playlist aos poucos canais encontrados naquela execução.
