@@ -44,7 +44,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add clubecanais.m3u canais.json cxtv-discovery.json
+          git add clubecanais.m3u canais.json cxtv-discovery.json canais-seed.json
           if git diff --cached --quiet; then
             echo 'Nenhuma alteração na playlist.'
           else
