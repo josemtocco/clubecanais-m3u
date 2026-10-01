@@ -2,7 +2,6 @@ name: Atualizar playlist ClubeCanais
 
 on:
   schedule:
-    # GitHub Actions usa UTC. 00, 06, 12 e 18 UTC = 21, 03, 09 e 15 BRT.
     - cron: '0 */6 * * *'
   workflow_dispatch:
 
@@ -16,7 +15,7 @@ concurrency:
 jobs:
   gerar:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,14 +29,15 @@ jobs:
       - name: Dependências
         run: pip install -r requirements.txt
 
-      - name: Chromium para fallback de JavaScript
+      - name: Chromium
         run: python -m playwright install --with-deps chromium
 
       - name: Gerar M3U
         env:
           MIN_VALID_CHANNELS: '5'
-          MAX_CONCURRENCY: '10'
+          MAX_CONCURRENCY: '8'
           HTTP_TIMEOUT: '20'
+          BROWSER_WAIT_MS: '3000'
         run: python gerar_m3u.py
 
       - name: Publicar alterações
@@ -48,6 +48,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'Nenhuma alteração na playlist.'
           else
-            git commit -m "Atualiza playlist ClubeCanais"
+            git commit -m 'Atualiza playlist ClubeCanais'
             git push
           fi
