@@ -97,6 +97,7 @@ def looks_like_stream(url: str) -> bool:
     return (
         ".m3u8" in low or ".mpd" in low or ".m3u" in low or
         "/playlist" in low or "/chunklist" in low or "/manifest" in low or
+        ".ts" in low or
         "/hls" in low or "/live/" in low or "/stream" in low or
         ":1935/" in low or ":8080/" in low or ":8081/" in low
     )
@@ -273,67 +274,121 @@ async def discover_channel_pages_browser() -> list[str]:
     return sorted(urls, key=lambda x: int(channel_id(x) or 0))
 
 
-async def fetch_dynamic_channel(url: str) -> tuple[str, list[str]]:
-    """Renderiza a página e captura DOM, performance entries e respostas de mídia."""
+async def fetch_dynamic_channel(page, url: str) -> tuple[str, list[str]]:
+    """Renderiza a página e captura streams tanto das URLs quanto do conteúdo das respostas XHR/fetch."""
+    network: list[str] = []
+    response_bodies: list[str] = []
+
+    async def on_response(resp):
+        try:
+            u = resp.url
+            if looks_like_stream(u):
+                network.append(u)
+                return
+            # O player atual pode receber a URL do stream dentro de JSON/texto de uma API.
+            ctype = (resp.headers.get("content-type") or "").lower()
+            if any(x in ctype for x in ("json", "javascript", "text", "xml")):
+                if resp.request.resource_type in {"xhr", "fetch", "script", "document"}:
+                    try:
+                        body = await resp.text()
+                        if body and len(body) < 2_000_000:
+                            response_bodies.append(body)
+                    except Exception:
+                        pass
+        except Exception:
+            pass
+
+    page.on("response", on_response)
+    try:
+        await page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        await page.wait_for_timeout(BROWSER_WAIT_MS)
+
+        # O layout atual mostra os botões Iniciar/Recarregar quando o player ainda não iniciou.
+        for selector in [
+            "button:has-text('Iniciar')", "button:has-text('Recarregar')",
+            "text=Iniciar", "text=Recarregar",
+            "video", "[aria-label*='play' i]", "[title*='play' i]",
+        ]:
+            try:
+                loc = page.locator(selector)
+                n = await loc.count()
+                for i in range(min(n, 2)):
+                    try:
+                        await loc.nth(i).click(timeout=2000)
+                        await page.wait_for_timeout(1500)
+                    except Exception:
+                        pass
+            except Exception:
+                pass
+
+        # Aguarda mais um pouco para XHR/fetch do player.
+        await page.wait_for_timeout(1800)
+        html = await page.content()
+        dom_urls = await page.evaluate("""() => {
+            const out = [];
+            const attrs = ['src','href','data-src','data-url','data-stream','data-file','data-hls','data-hls-url','data-source','data-playlist','data-video'];
+            for (const el of document.querySelectorAll('*')) {
+                for (const a of attrs) {
+                    const v = el.getAttribute && el.getAttribute(a);
+                    if (v) out.push(v);
+                }
+            }
+            try { for (const e of performance.getEntriesByType('resource')) out.push(e.name); } catch(e) {}
+            try {
+                for (const s of document.scripts) if (s.textContent) out.push(s.textContent);
+            } catch(e) {}
+            return out;
+        }""")
+
+        streams: list[str] = []
+        blobs = [html, *response_bodies]
+        for blob in blobs:
+            for u in extract_streams_from_html(blob, url):
+                if u not in streams:
+                    streams.append(u)
+        for u in network + dom_urls:
+            if isinstance(u, str):
+                u = normalize_stream(u, url)
+                if looks_like_stream(u) and u not in streams:
+                    streams.append(u)
+        return html, streams
+    except Exception as exc:
+        log.debug("Browser channel %s: %s", url, exc)
+        return "", []
+    finally:
+        try:
+            page.remove_listener("response", on_response)
+        except Exception:
+            pass
+
+
+async def collect_dynamic_channels(urls: list[str]) -> dict[str, tuple[str, list[str]]]:
+    """Usa um único Chromium e várias abas, evitando abrir um navegador por canal."""
     try:
         from playwright.async_api import async_playwright
     except ImportError:
-        return "", []
+        return {}
+
+    results: dict[str, tuple[str, list[str]]] = {}
+    sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context(user_agent=HEADERS["User-Agent"], locale="pt-BR")
-        page = await context.new_page()
-        network: list[str] = []
 
-        def on_response(resp):
-            if looks_like_stream(resp.url):
-                network.append(resp.url)
-
-        page.on("response", on_response)
-        try:
-            await page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            await page.wait_for_timeout(BROWSER_WAIT_MS)
-
-            # Tenta todos os controles de reprodução conhecidos, sem assumir um único texto.
-            selectors = [
-                "button:has-text('Iniciar')", "text=Iniciar", "button:has-text('Recarregar')",
-                "video", "[aria-label*='play' i]", "[title*='play' i]",
-            ]
-            for selector in selectors:
+        async def one(url: str):
+            async with sem:
+                page = await context.new_page()
                 try:
-                    loc = page.locator(selector)
-                    if await loc.count():
-                        await loc.first.click(timeout=2500)
-                        await page.wait_for_timeout(1800)
-                except Exception:
-                    pass
+                    result = await fetch_dynamic_channel(page, url)
+                    results[url] = result
+                finally:
+                    await page.close()
 
-            html = await page.content()
-            dom_urls = await page.evaluate("""() => {
-                const out = [];
-                for (const el of document.querySelectorAll('video,source,iframe,audio,[src],[data-src],[data-url],[data-stream]')) {
-                    for (const a of ['src','data-src','data-url','data-stream','data-file','data-hls']) {
-                        if (el.getAttribute && el.getAttribute(a)) out.push(el.getAttribute(a));
-                    }
-                }
-                try { for (const e of performance.getEntriesByType('resource')) out.push(e.name); } catch(e) {}
-                return out;
-            }""")
-            streams = []
-            for u in network + dom_urls + extract_streams_from_html(html, url):
-                if isinstance(u, str):
-                    u = normalize_stream(u, url)
-                    if looks_like_stream(u) and u not in streams:
-                        streams.append(u)
-            return html, streams
-        except Exception as exc:
-            log.debug("Browser channel %s: %s", url, exc)
-            return "", []
-        finally:
-            await context.close()
-            await browser.close()
-
+        await asyncio.gather(*(one(u) for u in urls))
+        await context.close()
+        await browser.close()
+    return results
 
 def check_stream(session: requests.Session, stream: str, page_url: str) -> tuple[bool, int | None, str]:
     """Validação tolerante: rejeita erros definitivos, mas não elimina CDNs que bloqueiam HEAD/robôs."""
@@ -430,6 +485,11 @@ async def main() -> int:
         return 2
 
     log.info("Total final de páginas de canais: %d", len(urls))
+    # Primeiro coleta os streams dinamicamente com um único navegador compartilhado.
+    # Isso captura XHR/fetch e evita abrir centenas de instâncias do Chromium.
+    dynamic = await collect_dynamic_channels(urls)
+    log.info("Páginas renderizadas dinamicamente: %d", len(dynamic))
+
     sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
     async def one(url: str):
@@ -439,25 +499,33 @@ async def main() -> int:
                 if not r.ok:
                     return None
                 c = parse_channel_page(r.text, url)
-                if not c.stream:
-                    html, streams = await fetch_dynamic_channel(url)
-                    if html:
-                        parsed = parse_channel_page(html, url)
-                        if parsed.name and parsed.name != "Canal":
-                            c.name, c.category, c.location, c.logo = parsed.name, parsed.category, parsed.location, parsed.logo
-                    if streams:
-                        # Tenta cada fonte até achar uma que responda.
-                        for stream in streams:
-                            ok, status, validation = await asyncio.to_thread(check_stream, session, stream, url)
-                            if ok:
-                                c.stream, c.active, c.status, c.validation = stream, True, status, validation
-                                return c
-                        return None
-                if not c.stream:
-                    return None
-                ok, status, validation = await asyncio.to_thread(check_stream, session, c.stream, url)
-                c.active, c.status, c.validation = ok, status, validation
-                return c if ok else None
+
+                # Junta candidatos do HTML inicial + HTML após JS + respostas XHR/fetch.
+                candidates: list[str] = []
+                if c.stream:
+                    candidates.append(c.stream)
+                dyn_html, dyn_streams = dynamic.get(url, ("", []))
+                if dyn_html:
+                    parsed = parse_channel_page(dyn_html, url)
+                    if parsed.name and not parsed.name.lower().startswith("canal "):
+                        c.name = parsed.name
+                    if parsed.category != "VARIEDADES" or c.category == "VARIEDADES":
+                        c.category = parsed.category
+                    if parsed.location:
+                        c.location = parsed.location
+                    if parsed.logo:
+                        c.logo = parsed.logo
+                for stream in dyn_streams:
+                    if stream not in candidates:
+                        candidates.append(stream)
+
+                # Valida todos os candidatos até encontrar um utilizável.
+                for stream in candidates:
+                    ok, status, validation = await asyncio.to_thread(check_stream, session, stream, url)
+                    if ok:
+                        c.stream, c.active, c.status, c.validation = stream, True, status, validation
+                        return c
+                return None
             except Exception as exc:
                 log.debug("Canal %s falhou: %s", url, exc)
                 return None
