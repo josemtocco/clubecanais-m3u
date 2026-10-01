@@ -1,20 +1,3 @@
 #EXTM3U
 #PLAYLIST:ClubeCanais
-# Generated automatically from https://clubecanais.com.br/
-# ===== VARIEDADES =====
-#EXTINF:-1 tvg-name="CARIRI TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",CARIRI TV
-https://video05.logicahost.com.br/cariritv/cariritv/playlist.m3u8
-#EXTINF:-1 tvg-name="Creative TV Brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Creative TV Brasil
-https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
-#EXTINF:-1 tvg-name="MEGA ONE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",MEGA ONE TV
-https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8
-#EXTINF:-1 tvg-name="TV 100% CAIPIRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV 100% CAIPIRA
-https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Brasil Angola" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Brasil Angola
-https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8
-#EXTINF:-1 tvg-name="TV LIBERDADE BETEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV LIBERDADE BETEL
-https://stmv7.voxtvhd.com.br/liberdadebetel/liberdadebetel/playlist.m3u8
-#EXTINF:-1 tvg-name="TV NOTÍCIAS AGRÍCOLAS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV NOTÍCIAS AGRÍCOLAS
-https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8
-#EXTINF:-1 tvg-name="TV SERRANA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV SERRANA
-https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
+# A playlist será preenchida pela primeira execução do GitHub Actions.

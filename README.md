@@ -1,53 +1,52 @@
 # ClubeCanais → M3U para SS IPTV
 
-Projeto para gerar, na raiz do repositório, uma playlist `clubecanais.m3u` a partir das páginas públicas do [ClubeCanais](https://clubecanais.com.br/).
+Gerador automático de playlist M3U a partir das páginas públicas do ClubeCanais.
 
-## O que faz
+## Correção desta versão
 
-- descobre canais da página inicial e das páginas de categorias;
-- usa o nome apresentado pelo site;
-- preserva a categoria informada pelo ClubeCanais em `group-title`;
-- tenta obter logo quando a página disponibiliza uma imagem;
-- extrai o stream público da página do canal;
-- testa cada stream sem baixar a mídia inteira;
-- remove canais cujo stream não responde na atualização;
-- adiciona canais novos automaticamente;
-- ordena a playlist por categoria e nome;
-- gera `clubecanais.m3u` na raiz, compatível com importação no SS IPTV;
-- gera `canais.json` e `cxtv-discovery.json` para diagnóstico;
-- executa automaticamente a cada 6 horas pelo GitHub Actions;
-- se a fonte sofrer uma falha grande, não substitui a última playlist válida.
+A versão anterior descobria muitos canais, mas descartava a maioria antes de montar a playlist porque o stream podia estar:
 
-## Arquivos
+- criado somente depois que o player JavaScript era iniciado;
+- em `video`, `source`, `iframe` ou `performance` do navegador;
+- dentro de JSON/JavaScript;
+- escapado como `https:\/\/...`;
+- temporariamente bloqueado para o GitHub Actions por `401/403/429`, embora o endereço pudesse continuar utilizável no SS IPTV.
+
+Esta versão separa descoberta, extração e validação. O navegador também captura requisições de rede e URLs de recursos carregados pelo player.
+
+## Saídas na raiz
 
 ```text
-/
-├── .github/workflows/atualizar.yml
-├── gerar_m3u.py
-├── requirements.txt
-├── .gitignore
-├── README.md
-├── clubecanais.m3u       # gerado pelo workflow
-├── canais.json           # gerado pelo workflow
-└── cxtv-discovery.json   # diagnóstico gerado pelo workflow
+clubecanais.m3u
+canais.json
+cxtv-discovery.json
 ```
 
-O workflow do GitHub precisa ficar em `.github/workflows`; os arquivos gerados pelo projeto ficam na raiz.
+A M3U usa `tvg-name`, `tvg-logo` e `group-title`, mantendo a categoria encontrada no ClubeCanais.
 
-## Publicação
+## Atualização
 
-1. Crie um repositório no GitHub.
-2. Envie os arquivos deste projeto.
-3. Abra **Actions** e execute **Atualizar playlist ClubeCanais** manualmente uma vez.
-4. Depois disso, o workflow roda a cada 6 horas.
-5. No SS IPTV, use a URL `https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/clubecanais.m3u`.
+O GitHub Actions executa a cada 6 horas e também pode ser executado manualmente em **Actions**.
 
-## Segurança da atualização
+A playlist existente não é substituída se a coleta resultar em uma quantidade muito baixa de streams utilizáveis.
 
-O gerador só grava uma nova playlist quando encontra pelo menos 5 streams válidos (`MIN_VALID_CHANNELS=5`). Assim, uma indisponibilidade temporária do site não transforma a playlist em vazia.
+## Diagnóstico
 
-O scraper não tenta contornar login, CAPTCHA, paywall ou mecanismos de proteção. Ele trabalha com informações e streams que a página pública disponibiliza ao navegador.
+`canais.json` e `cxtv-discovery.json` registram:
 
-## Observação sobre streams
+- total de páginas descobertas;
+- canal e ID;
+- categoria;
+- URL do stream;
+- status HTTP;
+- resultado da validação.
 
-A disponibilidade de um stream é variável. Um HTTP 200/206 comprova apenas que o endereço respondeu ao teste naquele momento; não garante que o vídeo permanecerá disponível depois.
+`unknown_blocked` significa que o servidor respondeu com `401`, `403` ou `429`. Esse caso não é tratado automaticamente como canal morto, porque alguns servidores exigem cabeçalhos/contexto específicos.
+
+## GitHub
+
+A URL da playlist publicada será:
+
+`https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/clubecanais.m3u`
+
+O projeto não tenta contornar login, CAPTCHA, paywall ou mecanismos de proteção. Ele trabalha com os dados e streams que a página pública disponibiliza ao navegador.

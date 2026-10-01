@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
-"""Gera uma playlist M3U otimizada para SS IPTV a partir do ClubeCanais.
-
-Uso: python gerar_m3u.py
-Saída: clubecanais.m3u, cxtv-discovery.json (diagnóstico opcional), canais.json
-
-O scraper usa HTTP primeiro e Playwright como fallback quando o conteúdo é
-carregado dinamicamente. Não tenta contornar login, CAPTCHA, paywall ou
-qualquer proteção de acesso.
-"""
+"""Descobre os canais públicos do ClubeCanais e gera uma M3U para SS IPTV."""
 from __future__ import annotations
 
 import asyncio
+import base64
+import html as htmlmod
 import json
 import logging
 import os
@@ -20,7 +14,7 @@ import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import urljoin, urlparse
+from urllib.parse import unquote, urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -31,22 +25,20 @@ OUT_M3U = Path("clubecanais.m3u")
 OUT_JSON = Path("canais.json")
 OUT_DIAG = Path("cxtv-discovery.json")
 TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "20"))
-MAX_CONCURRENCY = int(os.getenv("MAX_CONCURRENCY", "12"))
+MAX_CONCURRENCY = int(os.getenv("MAX_CONCURRENCY", "8"))
 MIN_VALID_CHANNELS = int(os.getenv("MIN_VALID_CHANNELS", "5"))
+BROWSER_WAIT_MS = int(os.getenv("BROWSER_WAIT_MS", "2500"))
 
 HEADERS = {
     "User-Agent": os.getenv(
         "USER_AGENT",
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/140.0 Safari/537.36",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
     ),
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 }
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s | %(levelname)s | %(message)s",
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
 log = logging.getLogger("clubecanais")
 
 
@@ -61,21 +53,26 @@ class Channel:
     page: str = ""
     active: bool = False
     status: int | None = None
+    validation: str = ""
 
 
 def clean(value: str) -> str:
-    return re.sub(r"\s+", " ", value or "").strip(" \t\r\n-|•")
+    value = htmlmod.unescape(value or "")
+    value = value.replace("\\/", "/").replace("\\u002F", "/")
+    return re.sub(r"\s+", " ", value).strip(" \t\r\n-|•")
 
 
 def norm_category(value: str) -> str:
     value = clean(value)
     value = re.sub(r"^Canais\s*\|\s*", "", value, flags=re.I)
+    value = re.sub(r"^\d+\s*-\s*", "", value)
     return value or "VARIEDADES"
 
 
-def is_channel_url(url: str) -> bool:
-    p = urlparse(url)
-    return p.netloc.endswith("clubecanais.com.br") and p.path.endswith("/channel.php") and "id=" in p.query
+def absolute(url: str, base: str = BASE) -> str:
+    if not url:
+        return ""
+    return urljoin(base, htmlmod.unescape(url.strip()).replace("\\/", "/"))
 
 
 def channel_id(url: str) -> str:
@@ -83,84 +80,116 @@ def channel_id(url: str) -> str:
     return m.group(1) if m else ""
 
 
-def absolute(url: str, base: str = BASE) -> str:
-    if not url:
-        return ""
-    return urljoin(base, url.strip())
+def is_channel_url(url: str) -> bool:
+    p = urlparse(url)
+    return p.netloc.endswith("clubecanais.com.br") and p.path.endswith("/channel.php") and bool(channel_id(url))
 
 
 def looks_like_stream(url: str) -> bool:
     if not url or not re.match(r"^https?://", url, re.I):
         return False
-    low = url.lower()
-    bad = ("clubecanais.com.br/channel.php", "youtube.com/watch", "youtu.be/")
-    if any(x in low for x in bad):
+    u = unquote(htmlmod.unescape(url).replace("\\/", "/")).strip().strip('"\'')
+    low = u.lower()
+    if "clubecanais.com.br/channel.php" in low:
         return False
-    return any(x in low for x in (".m3u8", ".mpd", ".ts", "/live/", "/stream", "/playlist", ":80/", ":1935/"))
+    if any(x in low for x in ("youtube.com/watch", "youtu.be/", "facebook.com/", "instagram.com/")):
+        return False
+    return (
+        ".m3u8" in low or ".mpd" in low or ".m3u" in low or
+        "/playlist" in low or "/chunklist" in low or "/manifest" in low or
+        "/hls" in low or "/live/" in low or "/stream" in low or
+        ":1935/" in low or ":8080/" in low or ":8081/" in low
+    )
 
 
-def extract_streams_from_html(html: str, base_url: str) -> list[str]:
-    soup = BeautifulSoup(html, "html.parser")
+def normalize_stream(url: str, base: str) -> str:
+    u = absolute(url, base)
+    u = u.replace("\\/", "/")
+    u = htmlmod.unescape(u)
+    u = u.replace("\\u0026", "&").replace("\\x26", "&")
+    return u.strip().strip('"\'')
+
+
+def extract_streams_from_html(source: str, base_url: str) -> list[str]:
+    """Extrai URLs de stream de HTML, atributos, JSON, JS e strings codificadas."""
     candidates: list[str] = []
+    soup = BeautifulSoup(source, "html.parser")
 
-    # Atributos e tags comuns de players.
-    attrs = ("src", "data-src", "data-url", "data-stream", "data-file", "data-video", "href")
+    attrs = ("src", "data-src", "data-url", "data-stream", "data-file", "data-video",
+             "data-hls", "data-hls-url", "data-source", "data-playlist", "href")
     for tag in soup.find_all(True):
         for attr in attrs:
             val = tag.get(attr)
             if isinstance(val, str):
-                val = absolute(val, base_url)
+                val = normalize_stream(val, base_url)
                 if looks_like_stream(val):
                     candidates.append(val)
 
-    # Variáveis JavaScript e JSON embutido.
-    patterns = [
-        r"(?:file|source|src|stream|streamUrl|stream_url|videoUrl|video_url|hls|hlsUrl)\s*[:=]\s*[\"'](https?://[^\"']+)",
-        r"[\"'](https?://[^\"']+\.(?:m3u8|mpd)(?:\?[^\"']*)?)[\"']",
-        r"[\"'](https?://[^\"']+(?:/live/|/stream/|/playlist)[^\"']*)[\"']",
+    # Strings HTTP completas dentro de scripts/JSON.
+    url_patterns = [
+        r"https?://[^\"'<>\s\\]+",
+        r"https?:\\/\\/[^\"'<>\s]+",
     ]
-    for pattern in patterns:
-        for m in re.finditer(pattern, html, re.I):
-            val = m.group(1).replace("\\/", "/")
+    for pattern in url_patterns:
+        for m in re.findall(pattern, source, re.I):
+            val = normalize_stream(m, base_url)
             if looks_like_stream(val):
                 candidates.append(val)
 
-    # Iframes externos às vezes são o próprio player/stream.
+    # Pares chave/valor usados por players.
+    key_re = r"(?:file|source|src|stream|streamUrl|stream_url|videoUrl|video_url|hls|hlsUrl|url|playlist|manifest)"
+    for m in re.finditer(rf"{key_re}\s*[:=]\s*[\"']([^\"']+)[\"']", source, re.I):
+        val = normalize_stream(m.group(1), base_url)
+        if looks_like_stream(val):
+            candidates.append(val)
+
+    # Base64 em strings próximas de chaves de player.
+    for token in re.findall(r"[A-Za-z0-9+/]{40,}={0,2}", source):
+        try:
+            raw = base64.b64decode(token + "===", validate=False).decode("utf-8", "ignore")
+            for m in re.findall(r"https?://[^\"'<>\s]+", raw):
+                val = normalize_stream(m, base_url)
+                if looks_like_stream(val):
+                    candidates.append(val)
+        except Exception:
+            pass
+
+    # Iframes: o navegador pode revelar o stream ao carregar o player externo.
     for iframe in soup.find_all("iframe"):
         src = absolute(iframe.get("src", ""), base_url)
+        if src and not src.startswith(BASE) and ("player" in src.lower() or "stream" in src.lower()):
+            candidates.append(src)
         if looks_like_stream(src):
             candidates.append(src)
 
-    seen = set()
-    out = []
+    seen: set[str] = set()
+    out: list[str] = []
     for item in candidates:
-        item = item.replace("&amp;", "&")
-        if item not in seen:
+        item = normalize_stream(item, base_url)
+        if item and item not in seen:
             seen.add(item)
             out.append(item)
     return out
 
 
-def parse_channel_page(html: str, url: str) -> Channel:
-    soup = BeautifulSoup(html, "html.parser")
+def parse_channel_page(source: str, url: str) -> Channel:
+    soup = BeautifulSoup(source, "html.parser")
     title = clean(soup.find("h1").get_text(" ", strip=True) if soup.find("h1") else "")
     if not title:
         title = clean(soup.title.get_text(" ", strip=True) if soup.title else "Canal")
         title = re.sub(r"\s*[-|:]\s*Clube Canais.*$", "", title, flags=re.I)
 
     text = clean(soup.get_text(" ", strip=True))
-    category = "VARIEDADES"
-    location = ""
-    m = re.search(r"Categoria:\s*([^•]+?)(?:\s*•\s*(.*?))?(?:\s+Views:|$)", text, re.I)
+    category, location = "VARIEDADES", ""
+    m = re.search(r"Categoria:\s*(?:\d+\s*-\s*)?(.+?)\s*•\s*(.+?)(?:\s+Views:|$)", text, re.I)
     if m:
-        category = norm_category(m.group(1))
-        location = clean(m.group(2) or "")
+        category, location = norm_category(m.group(1)), clean(m.group(2))
     else:
-        # Novo layout pode apresentar categoria sem o rótulo "Categoria:".
-        m = re.search(r"\b(Canais\s*\|\s*[^•]+)\s*•\s*([^\s].*?)(?:\s+\d+\s+views|$)", text, re.I)
-        if m:
-            category = norm_category(m.group(1))
-            location = clean(m.group(2))
+        # Layout atual: "NOME CATEGORIA LOCALIZAÇÃO views".
+        for cat in re.findall(r"\b[A-ZÀ-Ú][A-ZÀ-Ú0-9 ()_,+\-&/.-]{2,}\b", text):
+            if cat.strip() in {"VARIEDADES", "MUSICA", "FILMES", "NOTÍCIAS", "ESPORTES", "KIDS", "INTERNACIONAL", "DESENHOS", "EVANGÉLICA", "CATOLICA"}:
+                category = norm_category(cat.strip())
+                break
 
     logo = ""
     for img in soup.find_all("img"):
@@ -169,149 +198,185 @@ def parse_channel_page(html: str, url: str) -> Channel:
             logo = src
             break
     if not logo:
-        first_img = soup.find("img")
-        if first_img and first_img.get("src"):
-            logo = absolute(first_img.get("src"), url)
+        img = soup.find("img")
+        if img and img.get("src"):
+            logo = absolute(img["src"], url)
 
-    streams = extract_streams_from_html(html, url)
-    return Channel(
-        id=channel_id(url), name=title or f"Canal {channel_id(url)}", category=category,
-        location=location, logo=logo, stream=streams[0] if streams else "", page=url,
-    )
+    streams = extract_streams_from_html(source, url)
+    return Channel(channel_id(url), title or f"Canal {channel_id(url)}", category, location, logo,
+                   streams[0] if streams else "", url)
 
 
 def discover_channel_pages_http(session: requests.Session) -> list[str]:
-    """Coleta links já presentes no HTML, incluindo páginas de categorias."""
     urls: set[str] = set()
-    pages = [INDEX]
-    # IDs das categorias visíveis no ClubeCanais; a busca também funciona caso algum ID mude.
-    for cat in range(1, 80):
-        pages.append(f"{INDEX}?category={cat}")
-
-    for page in pages:
+    pages = [INDEX] + [f"{INDEX}?category={i}" for i in range(1, 101)]
+    for page_url in pages:
         try:
-            r = session.get(page, headers=HEADERS, timeout=TIMEOUT)
-            if r.ok:
-                soup = BeautifulSoup(r.text, "html.parser")
-                for a in soup.find_all("a", href=True):
-                    u = absolute(a["href"], page)
-                    if is_channel_url(u):
-                        urls.add(u.split("&")[0])
+            r = session.get(page_url, headers=HEADERS, timeout=TIMEOUT)
+            if not r.ok:
+                continue
+            soup = BeautifulSoup(r.text, "html.parser")
+            for a in soup.find_all("a", href=True):
+                u = absolute(a["href"], page_url).split("&")[0]
+                if is_channel_url(u):
+                    urls.add(u)
         except requests.RequestException as exc:
-            log.debug("Falha ao consultar %s: %s", page, exc)
+            log.debug("HTTP descoberta %s: %s", page_url, exc)
     log.info("Descobertos %d links de canais por HTTP", len(urls))
     return sorted(urls, key=lambda x: int(channel_id(x) or 0))
 
 
 async def discover_channel_pages_browser() -> list[str]:
-    """Fallback para listas/paginação carregadas por JavaScript."""
     try:
         from playwright.async_api import async_playwright
     except ImportError:
-        log.warning("Playwright não instalado; fallback de navegador indisponível.")
         return []
-
     urls: set[str] = set()
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page(user_agent=HEADERS["User-Agent"], locale="pt-BR")
         try:
-            for url in (INDEX,):
-                await page.goto(url, wait_until="domcontentloaded", timeout=60000)
-                for _ in range(100):
+            await page.goto(INDEX, wait_until="domcontentloaded", timeout=60000)
+            previous = 0
+            for _ in range(300):
+                for a in await page.locator('a[href*="channel.php?id="]').all():
+                    href = await a.get_attribute("href")
+                    if href:
+                        u = absolute(href, INDEX).split("&")[0]
+                        if is_channel_url(u):
+                            urls.add(u)
+                count = len(urls)
+                if count == previous:
+                    # dá tempo para AJAX terminar antes de concluir que acabou
+                    await page.wait_for_timeout(900)
                     for a in await page.locator('a[href*="channel.php?id="]').all():
                         href = await a.get_attribute("href")
                         if href:
-                            u = absolute(href, url)
+                            u = absolute(href, INDEX).split("&")[0]
                             if is_channel_url(u):
-                                urls.add(u.split("&")[0])
-                    buttons = page.get_by_text(re.compile(r"mostrar mais", re.I))
-                    if await buttons.count() == 0:
+                                urls.add(u)
+                    if len(urls) == count:
                         break
-                    try:
-                        await buttons.last.click(timeout=3000)
-                        await page.wait_for_timeout(700)
-                    except Exception:
-                        break
+                previous = len(urls)
+                buttons = page.get_by_text(re.compile(r"mostrar mais", re.I))
+                if await buttons.count() == 0:
+                    break
+                try:
+                    await buttons.last.scroll_into_view_if_needed()
+                    await buttons.last.click(timeout=5000)
+                    await page.wait_for_timeout(900)
+                except Exception:
+                    break
         finally:
             await browser.close()
     log.info("Descobertos %d links de canais pelo navegador", len(urls))
     return sorted(urls, key=lambda x: int(channel_id(x) or 0))
 
 
-async def fetch_dynamic_channel(url: str) -> tuple[str, str]:
-    """Obtém HTML renderizado quando o stream é criado por JavaScript."""
+async def fetch_dynamic_channel(url: str) -> tuple[str, list[str]]:
+    """Renderiza a página e captura DOM, performance entries e respostas de mídia."""
     try:
         from playwright.async_api import async_playwright
     except ImportError:
-        return "", ""
+        return "", []
+
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
-        page = await browser.new_page(user_agent=HEADERS["User-Agent"], locale="pt-BR")
-        responses: list[str] = []
+        context = await browser.new_context(user_agent=HEADERS["User-Agent"], locale="pt-BR")
+        page = await context.new_page()
+        network: list[str] = []
+
         def on_response(resp):
-            u = resp.url
-            if looks_like_stream(u):
-                responses.append(u)
+            if looks_like_stream(resp.url):
+                network.append(resp.url)
+
         page.on("response", on_response)
         try:
             await page.goto(url, wait_until="domcontentloaded", timeout=60000)
-            await page.wait_for_timeout(3000)
-            html = await page.content()
-            for selector in ("text=Iniciar", "button:has-text('Iniciar')"):
+            await page.wait_for_timeout(BROWSER_WAIT_MS)
+
+            # Tenta todos os controles de reprodução conhecidos, sem assumir um único texto.
+            selectors = [
+                "button:has-text('Iniciar')", "text=Iniciar", "button:has-text('Recarregar')",
+                "video", "[aria-label*='play' i]", "[title*='play' i]",
+            ]
+            for selector in selectors:
                 try:
                     loc = page.locator(selector)
                     if await loc.count():
-                        await loc.first.click(timeout=2000)
-                        await page.wait_for_timeout(4000)
-                        break
+                        await loc.first.click(timeout=2500)
+                        await page.wait_for_timeout(1800)
                 except Exception:
                     pass
+
             html = await page.content()
-            return html, next(iter(dict.fromkeys(responses)), "")
+            dom_urls = await page.evaluate("""() => {
+                const out = [];
+                for (const el of document.querySelectorAll('video,source,iframe,audio,[src],[data-src],[data-url],[data-stream]')) {
+                    for (const a of ['src','data-src','data-url','data-stream','data-file','data-hls']) {
+                        if (el.getAttribute && el.getAttribute(a)) out.push(el.getAttribute(a));
+                    }
+                }
+                try { for (const e of performance.getEntriesByType('resource')) out.push(e.name); } catch(e) {}
+                return out;
+            }""")
+            streams = []
+            for u in network + dom_urls + extract_streams_from_html(html, url):
+                if isinstance(u, str):
+                    u = normalize_stream(u, url)
+                    if looks_like_stream(u) and u not in streams:
+                        streams.append(u)
+            return html, streams
         except Exception as exc:
             log.debug("Browser channel %s: %s", url, exc)
-            return "", ""
+            return "", []
         finally:
+            await context.close()
             await browser.close()
 
 
-def check_stream(session: requests.Session, stream: str) -> tuple[bool, int | None]:
-    """Teste leve: HEAD e depois GET parcial. Não baixa a mídia inteira."""
-    try:
-        r = session.get(
-            stream,
-            headers={**HEADERS, "Range": "bytes=0-2047", "Accept": "*/*"},
-            timeout=TIMEOUT,
-            allow_redirects=True,
-            stream=True,
-        )
-        ok = r.status_code in (200, 206, 301, 302, 303, 307, 308)
-        code = r.status_code
-        r.close()
-        return ok, code
-    except requests.RequestException:
-        return False, None
+def check_stream(session: requests.Session, stream: str, page_url: str) -> tuple[bool, int | None, str]:
+    """Validação tolerante: rejeita erros definitivos, mas não elimina CDNs que bloqueiam HEAD/robôs."""
+    variants = [
+        {"Range": "bytes=0-4095", "Accept": "*/*", "Referer": page_url, "Origin": "https://clubecanais.com.br"},
+        {"Range": "bytes=0-4095", "Accept": "application/vnd.apple.mpegurl,*/*", "Referer": page_url},
+        {"Accept": "*/*"},
+    ]
+    last_status = None
+    saw_soft_block = False
+    for extra in variants:
+        try:
+            r = session.get(stream, headers={**HEADERS, **extra}, timeout=TIMEOUT, allow_redirects=True, stream=True)
+            last_status = r.status_code
+            r.close()
+            if r.status_code in (200, 206, 301, 302, 303, 307, 308):
+                return True, r.status_code, "ok"
+            if r.status_code in (401, 403, 429):
+                saw_soft_block = True
+                continue
+            if r.status_code in (404, 410, 451):
+                return False, r.status_code, "inactive_http"
+        except requests.RequestException:
+            continue
+    if saw_soft_block:
+        # O endereço existe, mas o servidor exige contexto/cabeçalhos que o runner pode não ter.
+        return True, last_status, "unknown_blocked"
+    return False, last_status, "unreachable"
 
 
 def dedupe_channels(channels: Iterable[Channel]) -> list[Channel]:
     by_id: dict[str, Channel] = {}
-    by_stream: set[str] = set()
     for c in channels:
-        if not c.id:
+        if not c.id or not c.stream:
             continue
-        # Um ID é a identidade principal; se aparecer novamente, conserva a versão mais completa.
         old = by_id.get(c.id)
-        if old is None or (not old.stream and c.stream):
+        if old is None or (old.validation != "ok" and c.validation == "ok"):
             by_id[c.id] = c
-    result = []
+    by_stream: dict[str, Channel] = {}
     for c in by_id.values():
-        if c.stream and c.stream in by_stream:
-            continue
-        if c.stream:
-            by_stream.add(c.stream)
-        result.append(c)
-    return sorted(result, key=lambda x: (x.category.casefold(), x.name.casefold()))
+        if c.stream not in by_stream:
+            by_stream[c.stream] = c
+    return sorted(by_stream.values(), key=lambda x: (x.category.casefold(), x.name.casefold()))
 
 
 def m3u_escape(value: str) -> str:
@@ -319,15 +384,10 @@ def m3u_escape(value: str) -> str:
 
 
 def write_m3u(channels: list[Channel]) -> None:
-    # Sintaxe simples e amplamente compatível com SS IPTV.
-    lines = [
-        '#EXTM3U',
-        '#PLAYLIST:ClubeCanais',
-        '# Generated automatically from https://clubecanais.com.br/',
-    ]
+    lines = ["#EXTM3U", "#PLAYLIST:ClubeCanais", "# Generated automatically from https://clubecanais.com.br/"]
     last_group = None
     for c in channels:
-        group = f"{c.category}"
+        group = c.category or "VARIEDADES"
         if group != last_group:
             lines.append(f"# ===== {group} =====")
             last_group = group
@@ -335,67 +395,68 @@ def write_m3u(channels: list[Channel]) -> None:
         if c.logo:
             attrs.append(f'tvg-logo="{m3u_escape(c.logo)}"')
         attrs.append(f'group-title="{m3u_escape(group)}"')
-        display = c.name
-        lines.append(f"#EXTINF:-1 {' '.join(attrs)},{display}")
+        lines.append(f"#EXTINF:-1 {' '.join(attrs)},{m3u_escape(c.name)}")
         lines.append(c.stream)
     OUT_M3U.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def write_json(channels: list[Channel], discovered: int) -> None:
-    payload = {
+    OUT_JSON.write_text(json.dumps({
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "source": INDEX,
-        "discovered": discovered,
-        "active": len(channels),
+        "source": INDEX, "discovered": discovered, "active": len(channels),
         "channels": [asdict(c) for c in channels],
-    }
-    OUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 def write_diag(channels: list[Channel], discovered: int) -> None:
-    # Nome mantido por compatibilidade com projetos anteriores; é apenas diagnóstico.
-    payload = {
+    OUT_DIAG.write_text(json.dumps({
         "source": INDEX,
         "generated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
-        "discovered_channels": discovered,
-        "active_channels": len(channels),
-        "channels": [{"id": c.id, "name": c.name, "category": c.category, "stream": c.stream, "active": c.active} for c in channels],
-    }
-    OUT_DIAG.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        "discovered_channels": discovered, "active_channels": len(channels),
+        "channels": [{"id": c.id, "name": c.name, "category": c.category, "stream": c.stream,
+                      "active": c.active, "status": c.status, "validation": c.validation} for c in channels],
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 async def main() -> int:
     session = requests.Session()
     session.headers.update(HEADERS)
-    urls = discover_channel_pages_http(session)
-    if len(urls) < MIN_VALID_CHANNELS:
-        urls = sorted(set(urls) | set(await discover_channel_pages_browser()), key=lambda x: int(channel_id(x) or 0))
 
+    urls = discover_channel_pages_http(session)
+    browser_urls = await discover_channel_pages_browser()
+    urls = sorted(set(urls) | set(browser_urls), key=lambda x: int(channel_id(x) or 0))
     if not urls:
-        log.error("Nenhum canal foi descoberto; não vou substituir uma playlist existente.")
+        log.error("Nenhum canal descoberto; playlist anterior preservada.")
         return 2
 
-    channels: list[Channel] = []
-    # HTTP assíncrono via asyncio.to_thread evita adicionar outra dependência.
+    log.info("Total final de páginas de canais: %d", len(urls))
     sem = asyncio.Semaphore(MAX_CONCURRENCY)
 
     async def one(url: str):
         async with sem:
             try:
-                r = await asyncio.to_thread(session.get, url, timeout=TIMEOUT)
+                r = await asyncio.to_thread(session.get, url, headers=HEADERS, timeout=TIMEOUT)
                 if not r.ok:
                     return None
                 c = parse_channel_page(r.text, url)
                 if not c.stream:
-                    html, browser_stream = await fetch_dynamic_channel(url)
+                    html, streams = await fetch_dynamic_channel(url)
                     if html:
-                        c = parse_channel_page(html, url)
-                    if browser_stream:
-                        c.stream = browser_stream
+                        parsed = parse_channel_page(html, url)
+                        if parsed.name and parsed.name != "Canal":
+                            c.name, c.category, c.location, c.logo = parsed.name, parsed.category, parsed.location, parsed.logo
+                    if streams:
+                        # Tenta cada fonte até achar uma que responda.
+                        for stream in streams:
+                            ok, status, validation = await asyncio.to_thread(check_stream, session, stream, url)
+                            if ok:
+                                c.stream, c.active, c.status, c.validation = stream, True, status, validation
+                                return c
+                        return None
                 if not c.stream:
                     return None
-                ok, status = await asyncio.to_thread(check_stream, session, c.stream)
-                c.active, c.status = ok, status
+                ok, status, validation = await asyncio.to_thread(check_stream, session, c.stream, url)
+                c.active, c.status, c.validation = ok, status, validation
                 return c if ok else None
             except Exception as exc:
                 log.debug("Canal %s falhou: %s", url, exc)
@@ -403,10 +464,10 @@ async def main() -> int:
 
     results = await asyncio.gather(*(one(u) for u in urls))
     channels = dedupe_channels(c for c in results if c)
+    log.info("Canais descobertos: %d | streams utilizáveis: %d", len(urls), len(channels))
 
-    log.info("Canais descobertos: %d | streams ativos: %d", len(urls), len(channels))
     if len(channels) < MIN_VALID_CHANNELS:
-        log.error("Apenas %d streams ativos; limite de segurança=%d. Playlist anterior preservada.", len(channels), MIN_VALID_CHANNELS)
+        log.error("Somente %d streams utilizáveis; limite=%d. Playlist anterior preservada.", len(channels), MIN_VALID_CHANNELS)
         return 3
 
     write_m3u(channels)
