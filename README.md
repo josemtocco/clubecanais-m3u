@@ -50,3 +50,8 @@ A URL da playlist publicada será:
 `https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/clubecanais.m3u`
 
 O projeto não tenta contornar login, CAPTCHA, paywall ou mecanismos de proteção. Ele trabalha com os dados e streams que a página pública disponibiliza ao navegador.
+
+
+### Fallback de segurança
+
+O arquivo `canais-seed.json` guarda os oito canais que já haviam sido confirmados pela coleta anterior com HTTP 206. Se uma execução encontrar poucos streams por falha temporária do player ou do navegador, o gerador combina os canais encontrados com esses últimos canais conhecidos e ainda publica a playlist. No `canais.json` e em `cxtv-discovery.json`, esses registros aparecem com `validation: fallback_previous_active`, indicando que são dados previamente confirmados e não uma confirmação de disponibilidade em tempo real. Remova ou atualize esse arquivo quando quiser substituir a lista de fallback.

@@ -24,6 +24,7 @@ INDEX = urljoin(BASE, "index.php")
 OUT_M3U = Path("clubecanais.m3u")
 OUT_JSON = Path("canais.json")
 OUT_DIAG = Path("cxtv-discovery.json")
+SEED_JSON = Path("canais-seed.json")
 TIMEOUT = int(os.getenv("HTTP_TIMEOUT", "20"))
 MAX_CONCURRENCY = int(os.getenv("MAX_CONCURRENCY", "8"))
 MIN_VALID_CHANNELS = int(os.getenv("MIN_VALID_CHANNELS", "5"))
@@ -534,8 +535,44 @@ async def main() -> int:
     channels = dedupe_channels(c for c in results if c)
     log.info("Canais descobertos: %d | streams utilizáveis: %d", len(urls), len(channels))
 
+    # Fallback de segurança: os oito canais abaixo foram previamente confirmados
+    # pela própria execução do projeto (HTTP 206). A extração dinâmica pode falhar
+    # temporariamente mesmo quando o stream continua publicado.
+    # Se a coleta atual trouxer poucos canais, mescla os canais ativos encontrados
+    # com os últimos canais conhecidos, sem deixar a playlist vazia.
     if len(channels) < MIN_VALID_CHANNELS:
-        log.error("Somente %d streams utilizáveis; limite=%d. Playlist anterior preservada.", len(channels), MIN_VALID_CHANNELS)
+        log.warning(
+            "Coleta atual retornou %d streams (mínimo=%d); aplicando fallback de canais previamente confirmados.",
+            len(channels), MIN_VALID_CHANNELS,
+        )
+        try:
+            seed_data = json.loads(SEED_JSON.read_text(encoding="utf-8"))
+            seeds = []
+            for item in seed_data.get("channels", []):
+                if not item.get("stream") or not item.get("id"):
+                    continue
+                seeds.append(Channel(
+                    id=str(item.get("id", "")),
+                    name=clean(item.get("name", "Canal")),
+                    category=norm_category(item.get("category", "VARIEDADES")),
+                    location=clean(item.get("location", "")),
+                    logo=absolute(item.get("logo", ""), BASE),
+                    stream=normalize_stream(item.get("stream", ""), BASE),
+                    page=absolute(item.get("page", f"channel.php?id={item.get('id', '')}"), BASE),
+                    active=True,
+                    status=item.get("status"),
+                    validation="fallback_previous_active",
+                ))
+            channels = dedupe_channels([*channels, *seeds])
+            log.warning("Após fallback: %d canais na playlist.", len(channels))
+        except Exception as exc:
+            log.error("Não foi possível carregar canais-seed.json: %s", exc)
+
+    if not channels:
+        log.error("Nenhum stream atual ou de fallback disponível; playlist anterior preservada.")
+        # Escreve diagnóstico mesmo quando não há canais, para facilitar análise.
+        write_json([], len(urls))
+        write_diag([], len(urls))
         return 3
 
     write_m3u(channels)
