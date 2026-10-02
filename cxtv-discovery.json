@@ -1,8 +1,8 @@
 {
   "source": "https://clubecanais.com.br/index.php",
-  "generated_at": "2026-10-01T22:44:10Z",
-  "discovered_channels": 366,
-  "active_channels": 8,
+  "generated_at": "2026-10-02T04:50:45Z",
+  "discovered_channels": 365,
+  "active_channels": 6,
   "channels": [
     {
       "id": "11",
@@ -26,10 +26,10 @@
       "id": "4",
       "name": "MEGA ONE TV",
       "category": "VARIEDADES",
-      "stream": "https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8",
+      "stream": "https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "24",
@@ -39,24 +39,6 @@
       "active": true,
       "status": 206,
       "validation": "retained_ok"
-    },
-    {
-      "id": "33",
-      "name": "TV Brasil Angola",
-      "category": "VARIEDADES",
-      "stream": "https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8",
-      "active": true,
-      "status": 206,
-      "validation": "retained_ok"
-    },
-    {
-      "id": "3",
-      "name": "TV LIBERDADE BETEL",
-      "category": "VARIEDADES",
-      "stream": "https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js",
-      "active": true,
-      "status": 206,
-      "validation": "ok"
     },
     {
       "id": "20",

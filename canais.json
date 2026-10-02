@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T22:44:10Z",
+  "generated_at": "2026-10-02T04:50:45Z",
   "source": "https://clubecanais.com.br/index.php",
-  "discovered": 366,
-  "active": 8,
+  "discovered": 365,
+  "active": 6,
   "channels": [
     {
       "id": "11",
@@ -34,11 +34,11 @@
       "category": "VARIEDADES",
       "location": "",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
-      "stream": "https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8",
+      "stream": "https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js",
       "page": "https://clubecanais.com.br/channel.php?id=4",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "24",
@@ -51,30 +51,6 @@
       "active": true,
       "status": 206,
       "validation": "retained_ok"
-    },
-    {
-      "id": "33",
-      "name": "TV Brasil Angola",
-      "category": "VARIEDADES",
-      "location": "",
-      "logo": "https://clubecanais.com.br/img/logo.jpg",
-      "stream": "https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8",
-      "page": "https://clubecanais.com.br/channel.php?id=33",
-      "active": true,
-      "status": 206,
-      "validation": "retained_ok"
-    },
-    {
-      "id": "3",
-      "name": "TV LIBERDADE BETEL",
-      "category": "VARIEDADES",
-      "location": "",
-      "logo": "https://clubecanais.com.br/img/logo.jpg",
-      "stream": "https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js",
-      "page": "https://clubecanais.com.br/channel.php?id=3",
-      "active": true,
-      "status": 206,
-      "validation": "ok"
     },
     {
       "id": "20",
