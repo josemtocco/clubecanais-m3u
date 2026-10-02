@@ -10,6 +10,8 @@ https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
 https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js
 #EXTINF:-1 tvg-name="TV 100% CAIPIRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV 100% CAIPIRA
 https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Brasil Angola" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Brasil Angola
+https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NOTÍCIAS AGRÍCOLAS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV NOTÍCIAS AGRÍCOLAS
 https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRANA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV SERRANA

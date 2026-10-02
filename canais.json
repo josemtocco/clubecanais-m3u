@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T04:50:45Z",
+  "generated_at": "2026-10-02T12:16:11Z",
   "source": "https://clubecanais.com.br/index.php",
-  "discovered": 365,
-  "active": 6,
+  "discovered": 366,
+  "active": 7,
   "channels": [
     {
       "id": "11",
@@ -38,7 +38,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=4",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "24",
@@ -48,6 +48,18 @@
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=24",
+      "active": true,
+      "status": 206,
+      "validation": "retained_ok"
+    },
+    {
+      "id": "33",
+      "name": "TV Brasil Angola",
+      "category": "VARIEDADES",
+      "location": "",
+      "logo": "https://clubecanais.com.br/img/logo.jpg",
+      "stream": "https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8",
+      "page": "https://clubecanais.com.br/channel.php?id=33",
       "active": true,
       "status": 206,
       "validation": "retained_ok"
