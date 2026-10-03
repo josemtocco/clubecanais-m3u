@@ -1,8 +1,8 @@
 {
   "source": "https://clubecanais.com.br/index.php",
-  "generated_at": "2026-10-03T11:27:39Z",
+  "generated_at": "2026-10-03T16:06:40Z",
   "discovered_channels": 367,
-  "active_channels": 7,
+  "active_channels": 8,
   "channels": [
     {
       "id": "11",
@@ -29,7 +29,7 @@
       "stream": "https://cdn.jsdelivr.net/npm/hls.js@1.1.5/dist/hls.min.js",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "24",
@@ -37,14 +37,23 @@
       "category": "VARIEDADES",
       "stream": "https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8",
       "active": true,
-      "status": 206,
-      "validation": "retained_ok"
+      "status": null,
+      "validation": "retained_uncertain"
     },
     {
       "id": "33",
       "name": "TV Brasil Angola",
       "category": "VARIEDADES",
       "stream": "https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8",
+      "active": true,
+      "status": null,
+      "validation": "retained_uncertain"
+    },
+    {
+      "id": "3",
+      "name": "TV LIBERDADE BETEL",
+      "category": "VARIEDADES",
+      "stream": "https://stmv7.voxtvhd.com.br/liberdadebetel/liberdadebetel/playlist.m3u8",
       "active": true,
       "status": 206,
       "validation": "retained_ok"
@@ -64,8 +73,8 @@
       "category": "VARIEDADES",
       "stream": "https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8",
       "active": true,
-      "status": 206,
-      "validation": "retained_ok"
+      "status": null,
+      "validation": "retained_uncertain"
     }
   ]
 }

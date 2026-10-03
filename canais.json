@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T11:27:39Z",
+  "generated_at": "2026-10-03T16:06:40Z",
   "source": "https://clubecanais.com.br/index.php",
   "discovered": 367,
-  "active": 7,
+  "active": 8,
   "channels": [
     {
       "id": "11",
@@ -38,7 +38,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=4",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "24",
@@ -49,8 +49,8 @@
       "stream": "https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=24",
       "active": true,
-      "status": 206,
-      "validation": "retained_ok"
+      "status": null,
+      "validation": "retained_uncertain"
     },
     {
       "id": "33",
@@ -60,6 +60,18 @@
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video10.logicahost.com.br/tvbrasilangola/tvbrasilangola/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=33",
+      "active": true,
+      "status": null,
+      "validation": "retained_uncertain"
+    },
+    {
+      "id": "3",
+      "name": "TV LIBERDADE BETEL",
+      "category": "VARIEDADES",
+      "location": "",
+      "logo": "https://clubecanais.com.br/img/logo.jpg",
+      "stream": "https://stmv7.voxtvhd.com.br/liberdadebetel/liberdadebetel/playlist.m3u8",
+      "page": "https://clubecanais.com.br/channel.php?id=3",
       "active": true,
       "status": 206,
       "validation": "retained_ok"
@@ -85,8 +97,8 @@
       "stream": "https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=34",
       "active": true,
-      "status": 206,
-      "validation": "retained_ok"
+      "status": null,
+      "validation": "retained_uncertain"
     }
   ]
 }
