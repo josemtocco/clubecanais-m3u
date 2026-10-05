@@ -71,3 +71,12 @@ O gerador:
 8. grava a nova playlist sem perder os canais já válidos.
 
 Assim, uma falha temporária na extração do player não reduz a playlist aos poucos canais encontrados naquela execução.
+
+
+## Testes locais
+
+Antes de publicar, execute `python -m unittest discover -s tests -v`. Os testes verificam deduplicação, metadados M3U e a presença dos oito canais de segurança. Eles não simulam nem garantem a disponibilidade dos streams externos.
+
+## Limite importante
+
+O projeto tenta descobrir os canais e extrair os streams acessíveis publicamente. Um canal listado no site não implica que exista uma URL direta de stream acessível ao GitHub Actions. Bloqueios, players proprietários e streams que exigem sessão podem impedir a extração. Os canais conhecidos são mesclados com os novos; falhas transitórias não devem zerar a playlist.
