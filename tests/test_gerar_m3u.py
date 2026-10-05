@@ -1,35 +1,21 @@
-import json
-import tempfile
 import unittest
-from pathlib import Path
-from unittest.mock import patch
+from gerar_m3u import parse_sidebar_categories, parse_category_page, extract_streams, dedupe, Channel
 
-import gerar_m3u as app
-
-class PlaylistTests(unittest.TestCase):
-    def test_dedupe_keeps_channels_and_prefers_validated(self):
-        a = app.Channel('1', 'Canal A', 'NOTÍCIAS', stream='https://x/a.m3u8', validation='seed')
-        b = app.Channel('1', 'Canal A', 'NOTÍCIAS', stream='https://x/a.m3u8', validation='ok')
-        c = app.Channel('2', 'Canal B', 'ESPORTES', stream='https://x/b.m3u8', validation='ok')
-        got = app.dedupe_channels([a, b, c])
-        self.assertEqual({x.id for x in got}, {'1', '2'})
-        self.assertEqual(next(x for x in got if x.id == '1').validation, 'ok')
-
-    def test_m3u_contains_names_and_categories(self):
-        ch = app.Channel('7', 'TV Teste', 'CULTURA', logo='https://x/logo.png', stream='https://x/live.m3u8')
-        with tempfile.TemporaryDirectory() as d:
-            target = Path(d) / 'out.m3u'
-            with patch.object(app, 'OUT_M3U', target):
-                app.write_m3u([ch])
-            text = target.read_text(encoding='utf-8')
-            self.assertIn('tvg-name="TV Teste"', text)
-            self.assertIn('group-title="CULTURA"', text)
-            self.assertIn('https://x/live.m3u8', text)
-
-    def test_seed_has_eight_known_channels(self):
-        data = json.loads(Path('canais-seed.json').read_text(encoding='utf-8'))
-        self.assertEqual(len(data['channels']), 8)
-        self.assertTrue(all(x.get('id') and x.get('stream') for x in data['channels']))
-
-if __name__ == '__main__':
-    unittest.main(verbosity=2)
+INDEX='https://clubecanais.com.br/index.php'
+class TestDiscovery(unittest.TestCase):
+    def test_sidebar_categories(self):
+        html='''<a href="index.php?category=40">EVANGÉLICA</a><a href="index.php?category=51">VARIEDADES</a>'''
+        cats=parse_sidebar_categories(html)
+        self.assertEqual([c.name for c in cats],['EVANGÉLICA','VARIEDADES'])
+    def test_category_channels(self):
+        html='''<a href="channel.php?id=123">Canal A EVANGÉLICA Brasil</a><a href="channel.php?id=124">Canal B EVANGÉLICA Brasil</a>'''
+        d=parse_category_page(html,type('C',(),{'name':'EVANGÉLICA','url':INDEX})())
+        self.assertEqual(set(d),{'123','124'}); self.assertEqual(d['123'].category,'EVANGÉLICA')
+    def test_stream_extraction(self):
+        html='''<script>const source="https://cdn.example.com/live/test/playlist.m3u8";</script>'''
+        self.assertEqual(extract_streams(html,INDEX),['https://cdn.example.com/live/test/playlist.m3u8'])
+    def test_dedupe(self):
+        a=Channel('1','A','X',stream='https://a/playlist.m3u8',validation='retained_ok')
+        b=Channel('1','A','X',stream='https://a/playlist.m3u8',validation='ok')
+        self.assertEqual(len(dedupe([a,b])),1); self.assertEqual(dedupe([a,b])[0].validation,'ok')
+if __name__=='__main__': unittest.main()
