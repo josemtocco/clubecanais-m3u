@@ -29,6 +29,9 @@ jobs:
       - name: Dependências
         run: pip install -r requirements.txt
 
+      - name: Testes locais
+        run: python -m unittest discover -s tests -v
+
       - name: Chromium
         run: python -m playwright install --with-deps chromium
 
