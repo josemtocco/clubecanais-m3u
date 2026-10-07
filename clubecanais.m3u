@@ -1,6 +1,9 @@
 #EXTM3U
 #PLAYLIST:ClubeCanais
 # Generated automatically from https://clubecanais.com.br/
+# ===== AGRONEGÓCIO =====
+#EXTINF:-1 tvg-name="TV Folha do Campo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",TV Folha do Campo
+https://stmv1.transmissaodigital.com/folha-do-campo/folha-do-campo/playlist.m3u8
 # ===== ALTA DEFINIÇÃO ( HD,FHD ) =====
 #EXTINF:-1 tvg-name="BR GLOBAL STATION" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",BR GLOBAL STATION
 https://brglobalstation.duckdns.org:3334/hls/brglobalstation.m3u8
@@ -42,8 +45,6 @@ https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/c
 https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TV Ponto de encontro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Ponto de encontro
 https://stmv4.voxtvhd.com.br/tvpontodeencontro/tvpontodeencontro/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Singular" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Tv Singular
-https://stmv3.srvsh.com.br/danielsantos1659/danielsantos1659/chunklist_w463242397.m3u8
 #EXTINF:-1 tvg-name="TV TVR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV TVR
 https://stmv1.voxtvhd.com.br/4430/4430/playlist.m3u8
 #EXTINF:-1 tvg-name="Wording de Televisao" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Wording de Televisao
@@ -51,6 +52,8 @@ https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Xtreme tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Xtreme tv
 https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
 # ===== CARRO =====
+#EXTINF:-1 tvg-name="DRIVE CHANNEL TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CARRO",DRIVE CHANNEL TV
+https://stmv1.voxplayer.com.br/drivechannel/drivechannel/chunklist_w94313803.m3u8
 #EXTINF:-1 tvg-name="TV CAR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CARRO",TV CAR
 https://video11.logicahost.com.br/tvcar/tvcar/playlist.m3u8
 #EXTINF:-1 tvg-name="TV DO CARRO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CARRO",TV DO CARRO
@@ -87,7 +90,15 @@ https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 https://stmv1.srvif.com/anime/anime/playlist.m3u8
 #EXTINF:-1 tvg-name="SBC Kids" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",SBC Kids
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
+https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
+#EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
+https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
+#EXTINF:-1 tvg-name="QTAL Channel" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",QTAL Channel
+https://stmv1.transmissaodigital.com/qtalchannel/qtalchannel/playlist.m3u8
 #EXTINF:-1 tvg-name="RS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",RS TV
 https://video07.logicahost.com.br/rstv1/rstv1/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NND" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV NND
@@ -321,6 +332,8 @@ https://stmv7.samcast.com.br/lapoenseplay/lapoenseplay/playlist.m3u8
 https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 #EXTINF:-1 tvg-name="Rádio e TV Livre Brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Rádio e TV Livre Brasil
 https://video03.logicahost.com.br/tvlivrebrasil/tvlivrebrasil/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Atitudenew" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV Atitudenew
+https://stmv1.transmissaodigital.com/tvatitudenew/tvatitudenew/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Dia" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV Dia
 https://stmv2.srvif.com/tvdia/tvdia/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NOTÍCIAS AGRÍCOLAS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV NOTÍCIAS AGRÍCOLAS
