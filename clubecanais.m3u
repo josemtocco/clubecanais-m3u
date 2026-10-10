@@ -221,8 +221,12 @@ https://video01.logicahost.com.br/topmixtvfilmes/topmixtvfilmes/playlist.m3u8
 https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Clássicos do Cinema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tv Clássicos do Cinema
 https://srv3.zcast.com.br/classicosdocinema/classicosdocinema/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Conexão" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Conexão
+https://stmv2.painelvideocast.com.br/3217/3217/playlist.m3u8
 #EXTINF:-1 tvg-name="TV DIFUSÃO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV DIFUSÃO
 https://tvdsite.redesuatv.com.br/tvdsite/tvdsite.stream/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Estrela do Mar" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Estrela do Mar
+https://video01.brascast.com/c2436014/c2436014/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Explosãofm" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tv Explosãofm
 https://stmv1.liveplushd.com.br/tvexplosaofm/tvexplosaofm/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv ktv brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tv ktv brasil
@@ -419,6 +423,8 @@ https://stmv.webtvninjas.com.br/nacionalplus2/nacionalplus2/playlist.m3u8
 https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8
 #EXTINF:-1 tvg-name="Noronha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Noronha TV
 https://stmv1.voxtvhd.com.br/noronhatv/noronhatv/playlist.m3u8
+#EXTINF:-1 tvg-name="ORTV WEB Filmes e variedades culturais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",ORTV WEB Filmes e variedades culturais
+https://tv.ortv.com.br/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Play Votu TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Play Votu TV
 https://stmv5.samcast.com.br/ronaldopaszko6809/ronaldopaszko6809/playlist.m3u8
 #EXTINF:-1 tvg-name="Prodígio Web Rádio TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Prodígio Web Rádio TV
