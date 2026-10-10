@@ -63,8 +63,6 @@ https://stmv5.voxtvhd.com.br/atriostv/atriostv/playlist.m3u8
 https://video09.logicahost.com.br/radioolinda/radioolinda/playlist.m3u8
 #EXTINF:-1 tvg-name="TV PAI ETERNO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CATOLICA",TV PAI ETERNO
 https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1170674421.m3u8
-#EXTINF:-1 tvg-name="TV Rabelo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CATOLICA",TV Rabelo
-https://stv2.ipstm.net:3030/stream/play.m3u8
 # ===== CULINÁRIA =====
 #EXTINF:-1 tvg-name="Canal Bem Melhor" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULINÁRIA",Canal Bem Melhor
 https://video01.logicahost.com.br/bemmelhor/bemmelhor/playlist.m3u8
@@ -90,8 +88,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="Iblizz" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",Iblizz
 https://srv1.zcast.com.br/grupo6027/grupo6027/playlist.m3u8
@@ -340,6 +336,9 @@ https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playli
 https://stmv8.samcast.com.br/rogerio9960/rogerio9960/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRANA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV SERRANA
 https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
+# ===== NOVELA =====
+#EXTINF:-1 tvg-name="Tela Retrô" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOVELA",Tela Retrô
+https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8
 # ===== POSIÇÃO PREMIUM =====
 #EXTINF:-1 tvg-name="BS TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",BS TV Online
 https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w840059412.m3u8
