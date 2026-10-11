@@ -138,8 +138,6 @@ https://stmv5.voxtvhd.com.br/benedito2556/benedito2556/playlist.m3u8
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Rede rádio e tv Estação Gospel Diadema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede rádio e tv Estação Gospel Diadema
 https://stmv1.voxtvhd.com.br/gospel/gospel/playlist.m3u8
-#EXTINF:-1 tvg-name="RÁDIO PENIEL WEB E TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RÁDIO PENIEL WEB E TV
-https://stmv4.voxtvhd.com.br/radioetvpenielweb/radioetvpenielweb/playlist.m3u8
 #EXTINF:-1 tvg-name="Top Gospel FM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Top Gospel FM
 https://a.cdni.live/topgospelfm/topgospelfm/playlist.m3u8
 #EXTINF:-1 tvg-name="TOP MIX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TOP MIX TV
@@ -350,8 +348,6 @@ https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8
 https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w840059412.m3u8
 #EXTINF:-1 tvg-name="MEGA ONE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",MEGA ONE TV
 https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8
-#EXTINF:-1 tvg-name="NBX TV PIPOCA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",NBX TV PIPOCA
-https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8
 #EXTINF:-1 tvg-name="TV A Crítica" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",TV A Crítica
 https://cdn.live.br1.jmvstream.com/w/LVW-20715/LVW20715_50E3x2MCm2/playlist.m3u8
 #EXTINF:-1 tvg-name="TV CIDADE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",TV CIDADE
@@ -383,10 +379,6 @@ https://stmv7.voxtvhd.com.br/marcelo9899/marcelo9899/playlist.m3u8
 # ===== REDE NBX TV =====
 #EXTINF:-1 tvg-name="NBX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="REDE NBX TV",NBX TV
 https://stmv7.voxtvhd.com.br/nbxtv/nbxtv/playlist.m3u8
-#EXTINF:-1 tvg-name="NBX TV KIDS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="REDE NBX TV",NBX TV KIDS
-https://stmv4.voxtvhd.com.br/bnxkids/bnxkids/playlist.m3u8
-#EXTINF:-1 tvg-name="NBX TV PIPOCA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="REDE NBX TV",NBX TV PIPOCA
-https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8
 # ===== SERIADOS =====
 #EXTINF:-1 tvg-name="AWTV STREAMING AO VIVO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="SERIADOS",AWTV STREAMING AO VIVO
 https://awtv.nuvemplay.live/hls/stream.m3u8
