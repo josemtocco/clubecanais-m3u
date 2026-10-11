@@ -245,8 +245,6 @@ https://stmv5.samcast.com.br/volmir9123/volmir9123/playlist.m3u8
 https://stmv6.voxtvhd.com.br/tvnafilmes/tvnafilmes/playlist.m3u8
 #EXTINF:-1 tvg-name="Vicapró Tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Vicapró Tv
 https://stmv2.srvif.com/vicaprotv/vicaprotv/playlist.m3u8
-#EXTINF:-1 tvg-name="VRTCHANNEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",VRTCHANNEL
-https://sistemavrt2023.vrtchannel.tv.br:3626/stream/play.m3u8
 # ===== GAMES TV =====
 #EXTINF:-1 tvg-name="CANAL START" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",CANAL START
 https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
