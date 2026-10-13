@@ -41,10 +41,12 @@ https://video01.logicahost.com.br/lithoralnews/lithoralnews/playlist.m3u8
 https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TV Ponto de encontro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Ponto de encontro
 https://stmv4.voxtvhd.com.br/tvpontodeencontro/tvpontodeencontro/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Singular" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Tv Singular
+https://stmv3.srvsh.com.br/danielsantos1659/danielsantos1659/chunklist_w463242397.m3u8
 #EXTINF:-1 tvg-name="TV TVR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV TVR
 https://stmv1.voxtvhd.com.br/4430/4430/playlist.m3u8
 #EXTINF:-1 tvg-name="Wording de Televisao" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Wording de Televisao
-https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w1554376536.m3u8
+https://tv02.zas.media:1936/wordingtv/wordingtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Xtreme tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Xtreme tv
 https://video11.logicahost.com.br/xtremetv/xtremetv/playlist.m3u8
 # ===== CARRO =====
@@ -346,6 +348,9 @@ https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playli
 https://stmv8.samcast.com.br/rogerio9960/rogerio9960/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRANA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV SERRANA
 https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
+# ===== NOVELA =====
+#EXTINF:-1 tvg-name="Tela Retrô" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOVELA",Tela Retrô
+https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8
 # ===== POSIÇÃO PREMIUM =====
 #EXTINF:-1 tvg-name="BS TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",BS TV Online
 https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w840059412.m3u8
@@ -410,6 +415,8 @@ https://stmv3.voxtvhd.com.br/tves14edson/tves14edson/playlist.m3u8
 https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="JXS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",JXS TV
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
+#EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
+https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
 #EXTINF:-1 tvg-name="LATINOS TV NY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LATINOS TV NY
 https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Mundo On" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Mundo On
@@ -430,6 +437,8 @@ https://stmv4.voxtvhd.com.br/tvprodigiowebradio/tvprodigiowebradio/playlist.m3u8
 https://5790d294af2dc.streamlock.net/pulsovision/pulsovision/playlist.m3u8
 #EXTINF:-1 tvg-name="RBTI+TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",RBTI+TV
 https://tv.rbti.tv.br/rbti1/index.m3u8
+#EXTINF:-1 tvg-name="Rede Classic" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Rede Classic
+https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ESTAÇÃO AMPARO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",REDE ESTAÇÃO AMPARO
 https://stmv7.samcast.com.br/paulo8649/paulo8649/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE MARANHÃO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",REDE MARANHÃO
