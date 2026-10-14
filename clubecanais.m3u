@@ -260,7 +260,7 @@ https://braziliantimes.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Canal Parlament" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",Canal Parlament
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/bitrate_1.m3u8
 #EXTINF:-1 tvg-name="MELODIE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",MELODIE TV
-https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/playlist.m3u8
+https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/l_24465530_581220179_145303.ts
 #EXTINF:-1 tvg-name="Muzangala TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",Muzangala TV
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
 #EXTINF:-1 tvg-name="ON FM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",ON FM
@@ -409,6 +409,8 @@ https://stmv7.voxtvhd.com.br/crntv/crntv/playlist.m3u8
 https://stmv3.voxtvhd.com.br/tves14edson/tves14edson/playlist.m3u8
 #EXTINF:-1 tvg-name="FAROVISION" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",FAROVISION
 https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="geovane tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",geovane tv
+https://lbgo.bozztv.com/ssh101/ssh101/geovanetv1/playlist.m3u8
 #EXTINF:-1 tvg-name="JXS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",JXS TV
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
 #EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
@@ -497,7 +499,5 @@ https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
 https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCOM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCOM
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
-#EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
-https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
 https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8
