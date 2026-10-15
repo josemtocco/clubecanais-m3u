@@ -90,6 +90,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="Iblizz" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",Iblizz
 https://srv1.zcast.com.br/grupo6027/grupo6027/playlist.m3u8
@@ -203,6 +205,8 @@ https://video05.logicahost.com.br/cinecatastrofe/cinecatastrofe/playlist.m3u8
 https://video11.logicahost.com.br/comedyclub/comedyclub/playlist.m3u8
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
+#EXTINF:-1 tvg-name="Mega Cine TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Mega Cine TV
+https://mlb.essastream.com:8081/megacinetv/index.m3u8
 #EXTINF:-1 tvg-name="MIAMI VICE E CONVIDADOS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",MIAMI VICE E CONVIDADOS
 https://video05.logicahost.com.br/miamivice/miamivice/playlist.m3u8
 #EXTINF:-1 tvg-name="OS DETETIVES" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",OS DETETIVES
@@ -219,6 +223,8 @@ https://video01.logicahost.com.br/topmixtvfilmes/topmixtvfilmes/playlist.m3u8
 https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Clássicos do Cinema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tv Clássicos do Cinema
 https://srv3.zcast.com.br/classicosdocinema/classicosdocinema/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Conexão" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Conexão
+https://stmv2.painelvideocast.com.br/3217/3217/playlist.m3u8
 #EXTINF:-1 tvg-name="TV DIFUSÃO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV DIFUSÃO
 https://tvdsite.redesuatv.com.br/tvdsite/tvdsite.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Estrela do Mar" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Estrela do Mar
@@ -260,7 +266,7 @@ https://braziliantimes.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Canal Parlament" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",Canal Parlament
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/bitrate_1.m3u8
 #EXTINF:-1 tvg-name="MELODIE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",MELODIE TV
-https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/l_24465530_581220179_145303.ts
+https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/playlist.m3u8
 #EXTINF:-1 tvg-name="Muzangala TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",Muzangala TV
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
 #EXTINF:-1 tvg-name="ON FM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",ON FM
