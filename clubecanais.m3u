@@ -505,5 +505,7 @@ https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
 https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCOM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCOM
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
+#EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
+https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
 https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8
