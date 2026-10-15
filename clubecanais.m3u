@@ -290,6 +290,8 @@ https://live.wayone.cloud/waytv/waytv1/playlist.m3u8
 # ===== KIDS =====
 #EXTINF:-1 tvg-name="CANAL INFANTIL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",CANAL INFANTIL
 https://stmv1.voxtvhd.com.br/canalinfantil/canalinfantil/playlist.m3u8
+#EXTINF:-1 tvg-name="KANUCA TV BRASIL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",KANUCA TV BRASIL
+https://video08.logicahost.com.br/kanucatv/kanucatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Ministério Infantil TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",Ministério Infantil TV
 https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 #EXTINF:-1 tvg-name="TV itapetinga kids" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV itapetinga kids
@@ -333,7 +335,7 @@ https://stmv7.voxtvhd.com.br/celso6243/celso6243/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE LAPOENSE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",REDE LAPOENSE TV
 https://stmv7.samcast.com.br/lapoenseplay/lapoenseplay/playlist.m3u8
 #EXTINF:-1 tvg-name="RS NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",RS NEWS
-https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
+https://video07.logicahost.com.br/rsnews01/rsnews01/chunklist_w141754089.m3u8
 #EXTINF:-1 tvg-name="Rádio e TV Livre Brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Rádio e TV Livre Brasil
 https://video03.logicahost.com.br/tvlivrebrasil/tvlivrebrasil/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Alpha" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Tv Alpha
