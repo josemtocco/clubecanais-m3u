@@ -23,6 +23,8 @@ https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 https://utvsite.acessaradios.com.br/utvsite/utvsite.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="SBC" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",SBC
 https://video01.brascast.com/rede1250/rede1250/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Brasil Hits" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Brasil Hits
+https://video04.logicahost.com.br/brasilhits/brasilhits/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Clube" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Clube
 https://isaocorp.cloudecast.com/recon/index.m3u8
 #EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV CONQUISTA (Record)
@@ -138,6 +140,8 @@ https://stmv5.voxtvhd.com.br/benedito2556/benedito2556/playlist.m3u8
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Rede rádio e tv Estação Gospel Diadema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede rádio e tv Estação Gospel Diadema
 https://stmv1.voxtvhd.com.br/gospel/gospel/playlist.m3u8
+#EXTINF:-1 tvg-name="RIT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RIT TV
+https://stream.ecast.com.br/rit-tv/index.m3u8
 #EXTINF:-1 tvg-name="RÁDIO PENIEL WEB E TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RÁDIO PENIEL WEB E TV
 https://stmv4.voxtvhd.com.br/radioetvpenielweb/radioetvpenielweb/playlist.m3u8
 #EXTINF:-1 tvg-name="Spnt TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Spnt TV
@@ -351,8 +355,8 @@ https://stmv8.samcast.com.br/rogerio9960/rogerio9960/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRANA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV SERRANA
 https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
 # ===== NOVELA =====
-#EXTINF:-1 tvg-name="Tela Retrô" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOVELA",Tela Retrô
-https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Novelas" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOVELA",Tv Novelas
+https://stmv8.samcast.com.br/lucas7869/lucas7869/playlist.m3u8
 # ===== POSIÇÃO PREMIUM =====
 #EXTINF:-1 tvg-name="BS TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",BS TV Online
 https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w840059412.m3u8

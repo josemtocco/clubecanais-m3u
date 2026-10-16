@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:09:28Z",
+  "generated_at": "2026-10-16T16:25:30Z",
   "source": "https://clubecanais.com.br/index.php",
   "categories": {
     "POSIÇÃO PREMIUM": "https://clubecanais.com.br/index.php?category=56",
@@ -31,8 +31,8 @@
     "FILMES": "https://clubecanais.com.br/index.php?category=42",
     "NOTÍCIAS": "https://clubecanais.com.br/index.php?category=46"
   },
-  "discovered": 257,
-  "active": 241,
+  "discovered": 258,
+  "active": 243,
   "channels": [
     {
       "id": "213",
@@ -44,7 +44,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=213&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "191",
@@ -56,7 +56,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=191&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "95",
@@ -68,7 +68,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=95&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "383",
@@ -92,7 +92,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=96&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "576",
@@ -140,7 +140,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=216&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "85",
@@ -152,6 +152,18 @@
       "page": "https://clubecanais.com.br/channel.php?id=85&v=20260930-2",
       "active": true,
       "status": 200,
+      "validation": "retained_ok"
+    },
+    {
+      "id": "303",
+      "name": "TV Brasil Hits",
+      "category": "ALTA DEFINIÇÃO ( HD,FHD )",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Brasil Hits Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV LatinaSat ALTA DEFINIÇÃO ( HD,FHD ) Wording de Televisao ALTA DEFINIÇÃO ( HD,FHD ) Clouding TV ALTA DEFINIÇÃO ( HD,FHD ) SBC ALTA DEFINIÇÃO ( HD,FHD ) TV LITORAL RN ALTA DEFINIÇÃO ( HD,FHD ) Tv Singular ALTA DEFINIÇÃO ( HD,FHD ) cidade tv ALTA DEFINIÇÃO ( HD,FHD ) Rede Ortega ALTA DEFINIÇÃO ( HD,FHD ) Somos TV HD ALTA DEFINIÇÃO ( HD,FHD ) Xtreme tv ALTA DEFINIÇÃO ( HD,FHD ) TV Clube ALTA DEFINIÇÃO ( HD,FHD ) TV Futuro ALTA DEFINIÇÃO ( HD,FHD ) Sobre o canal Assista TV Brasil Hits ao vivo pelo Clube Canais. TV Brasil Hits ALTA DEFINIÇÃO ( HD,FHD ) Brasil",
+      "logo": "https://clubecanais.com.br/img/logo.jpg",
+      "stream": "https://video04.logicahost.com.br/brasilhits/brasilhits/playlist.m3u8",
+      "page": "https://clubecanais.com.br/channel.php?id=303&v=20260930-2",
+      "active": true,
+      "status": 206,
       "validation": "ok"
     },
     {
@@ -176,7 +188,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=190&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "206",
@@ -188,7 +200,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=206&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "89",
@@ -200,7 +212,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=89&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "205",
@@ -212,7 +224,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=205&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "378",
@@ -230,7 +242,7 @@
       "id": "282",
       "name": "TV Lithoral News",
       "category": "ALTA DEFINIÇÃO ( HD,FHD )",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Lithoral News Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV LatinaSat ALTA DEFINIÇÃO ( HD,FHD ) Wording de Televisao ALTA DEFINIÇÃO ( HD,FHD ) Clouding TV ALTA DEFINIÇÃO ( HD,FHD ) SBC ALTA DEFINIÇÃO ( HD,FHD ) TV LITORAL RN ALTA DEFINIÇÃO ( HD,FHD ) Tv Singular ALTA DEFINIÇÃO ( HD,FHD ) cidade tv ALTA DEFINIÇÃO ( HD,FHD ) Rede Ortega ALTA DEFINIÇÃO ( HD,FHD ) Somos TV HD ALTA DEFINIÇÃO ( HD,FHD ) Xtreme tv ALTA DEFINIÇÃO ( HD,FHD ) TV Clube ALTA DEFINIÇÃO ( HD,FHD ) TV Futuro ALTA DEFINIÇÃO ( HD,FHD ) Sobre o canal A TV Lithoral News já nasceu grande e com representatividade em Santa Catarina, como parte do Portal Lithoral News (www.lithoralnews.com.br) que atualmente soma mais de 17 anos de atuação na área de mídia e comunicação. Baixe nosso app Lithoral News e assista nossa programação na palma da sua mão. Siga nossas redes sociais: @lithoralnews e @simonemacedobc E nosso canal no YouTube: https://www.youtube.com/@LITHORALNEWStveportal TV Lithoral News ALTA DEFINIÇÃO ( HD,FHD ) Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Lithoral News Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV LatinaSat ALTA DEFINIÇÃO ( HD,FHD ) Wording de Televisao ALTA DEFINIÇÃO ( HD,FHD ) Clouding TV ALTA DEFINIÇÃO ( HD,FHD ) SBC ALTA DEFINIÇÃO ( HD,FHD ) TV LITORAL RN ALTA DEFINIÇÃO ( HD,FHD ) Tv Singular ALTA DEFINIÇÃO ( HD,FHD ) cidade tv ALTA DEFINIÇÃO ( HD,FHD ) Rede Ortega ALTA DEFINIÇÃO ( HD,FHD ) Somos TV HD ALTA DEFINIÇÃO ( HD,FHD ) Xtreme tv ALTA DEFINIÇÃO ( HD,FHD ) TV Clube ALTA DEFINIÇÃO ( HD,FHD ) TV Futuro ALTA DEFINIÇÃO ( HD,FHD ) Sobre o canal A TV Lithoral News já nasceu grande e com representatividade em Santa Catarina, como parte do Portal Lithoral News (www.lithoralnews.com.br) que atualmente soma mais de 17 anos de atuação na área de mídia e comunicação. Baixe nosso app Lithoral News e assista nossa programação na palma da sua mão. Siga nossas redes sociais: @lithoralnews e @simonemacedobc E nosso canal no YouTube: https://www.youtube.com/@LITHORALNEWStveportal TV Lithoral News ALTA DEFINIÇÃO ( HD,FHD ) Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video01.logicahost.com.br/lithoralnews/lithoralnews/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=282&v=20260930-2",
@@ -260,7 +272,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=505&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "399",
@@ -308,7 +320,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=83&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "570",
@@ -350,13 +362,13 @@
       "id": "127",
       "name": "TV DO CARRO",
       "category": "CARRO",
-      "location": "Clube Canais Início Entrar Categorias Todas as Categorias - POSIÇÃO PREMIUM REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV DO CARRO Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar DRIVE CHANNEL TV CARRO TV CAR CARRO Sobre o canal A TV do Carro é um canal de ofertas de veículos novos e seminovos, em um formato dinâmico e com detalhes do carro. Um classificado na TV de forma confortável para escolher um novo carro assistindo televisão. TV DO CARRO CARRO Brasil",
+      "location": "Clube Canais Início Entrar Categorias Todas as Categorias - POSIÇÃO PREMIUM REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV DO CARRO Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar DRIVE CHANNEL TV CARRO TV CAR CARRO Sobre o canal A TV do Carro é um canal de ofertas de veículos novos e seminovos, em um formato dinâmico e com detalhes do carro. Um classificado na TV de forma confortável para escolher um novo carro assistindo televisão. TV DO CARRO CARRO Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://tv03.zas.media:1936/tvdocarro/tvdocarro/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=127&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "591",
@@ -500,7 +512,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=116&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "100",
@@ -512,7 +524,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=100&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "210",
@@ -536,7 +548,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=150&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "393",
@@ -572,7 +584,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=202&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "183",
@@ -596,7 +608,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=76&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "268",
@@ -632,7 +644,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=178&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "179",
@@ -644,7 +656,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=179&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "180",
@@ -656,7 +668,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=180&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "181",
@@ -668,7 +680,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=181&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "182",
@@ -679,8 +691,8 @@
       "stream": "https://video07.logicahost.com.br/rssports05/rssports05/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=182&v=20260930-2",
       "active": true,
-      "status": 200,
-      "validation": "ok"
+      "status": 206,
+      "validation": "retained_ok"
     },
     {
       "id": "64",
@@ -698,7 +710,7 @@
       "id": "594",
       "name": "Despertar TV",
       "category": "EVANGÉLICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Despertar TV Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 3 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal A **Despertar TV** é um canal cristão com programação 24 horas, levando **fé, esperança, música, informação e conteúdos que edificam**. Com uma programação diversificada e voltada para toda a família, buscamos transmitir mensagens que inspiram, aproximam pessoas e fortalecem a fé. **Despertar TV — conteúdo que inspira, fé que transforma.** Despertar TV EVANGÉLICA Brasil - PR",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Despertar TV Iniciar Recarregar Voltar Site do canal Curtir 3 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal A **Despertar TV** é um canal cristão com programação 24 horas, levando **fé, esperança, música, informação e conteúdos que edificam**. Com uma programação diversificada e voltada para toda a família, buscamos transmitir mensagens que inspiram, aproximam pessoas e fortalecem a fé. **Despertar TV — conteúdo que inspira, fé que transforma.** Despertar TV EVANGÉLICA Brasil - PR",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=594&v=20260930-2",
@@ -758,7 +770,7 @@
       "id": "593",
       "name": "Rede Bençao Minha TV",
       "category": "EVANGÉLICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Rede Bençao Minha TV Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal programação evangelica, filmes , documentarios e desenhos gospel Rede Bençao Minha TV EVANGÉLICA Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Rede Bençao Minha TV Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal programação evangelica, filmes , documentarios e desenhos gospel Rede Bençao Minha TV EVANGÉLICA Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv5.voxtvhd.com.br/benedito2556/benedito2556/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=593&v=20260930-2",
@@ -789,6 +801,18 @@
       "active": true,
       "status": 403,
       "validation": "retained_soft_block"
+    },
+    {
+      "id": "607",
+      "name": "RIT TV",
+      "category": "EVANGÉLICA",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos RIT TV Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal Há 25 anos fazendo a diferença. RIT TV EVANGÉLICA São Paulo",
+      "logo": "https://clubecanais.com.br/img/logo.jpg",
+      "stream": "https://stream.ecast.com.br/rit-tv/index.m3u8",
+      "page": "https://clubecanais.com.br/channel.php?id=607&v=20260930-2",
+      "active": true,
+      "status": 206,
+      "validation": "ok"
     },
     {
       "id": "425",
@@ -842,7 +866,7 @@
       "id": "194",
       "name": "TOP MIX TV",
       "category": "EVANGÉLICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TOP MIX TV Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal A Top Mix TV é a primeira emissora digital do mundo com mais de 5 canais grátis, levando música, entretenimento, cultura e informação para milhares de pessoas diariamente 24 horas por dia. Somos uma TV com mais de 6 canais digitais disponíveis em seu controle remoto direto do seu celular! https://topmixtv.com.br/ https://www.instagram.com/topmixtvsp/ PABX- (11) 4210-4303 Disk o Ramal desejado. (11) 0800 042 1958 / (11) 9 5093-5830 WhatsApp TOP MIX TV EVANGÉLICA Brasil/São Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TOP MIX TV Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV Casa Do Pai EVANGÉLICA Sobre o canal A Top Mix TV é a primeira emissora digital do mundo com mais de 5 canais grátis, levando música, entretenimento, cultura e informação para milhares de pessoas diariamente 24 horas por dia. Somos uma TV com mais de 6 canais digitais disponíveis em seu controle remoto direto do seu celular! https://topmixtv.com.br/ https://www.instagram.com/topmixtvsp/ PABX- (11) 4210-4303 Disk o Ramal desejado. (11) 0800 042 1958 / (11) 9 5093-5830 WhatsApp TOP MIX TV EVANGÉLICA Brasil/São Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video01.logicahost.com.br/topmixtvgospel01/topmixtvgospel01/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=194&v=20260930-2",
@@ -908,7 +932,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=513&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "33",
@@ -926,7 +950,7 @@
       "id": "400",
       "name": "TV Casa Do Pai",
       "category": "EVANGÉLICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Casa Do Pai Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA Top Gospel FM EVANGÉLICA TV MIL ALELUIA EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV super gospel EVANGÉLICA Sobre o canal Bem-vindo ao canal Rádio Casa do Pai — um espaço criado para levar a presença de Deus até você, onde quer que esteja. Aqui você encontrará louvores inspiradores, mensagens edificantes, momentos de oração e palavras de fé que fortalecem o coração e renovam a esperança. Nosso propósito é ser um canal de bênção, levando paz, amor e a Palavra de Deus para todos que desejam se aproximar mais do Pai. Sintonize sua alma, aumente sua fé e faça da sua casa também a Casa do Pai. 🔔 Inscreva-se no canal TV Casa Do Pai EVANGÉLICA Erechim RS",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Casa Do Pai Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA Viva Vida TV EVANGÉLICA Top Gospel FM EVANGÉLICA TV MIL ALELUIA EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA JS-HDTV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV APOCALIPSE EVANGÉLICA TV super gospel EVANGÉLICA Sobre o canal Bem-vindo ao canal Rádio Casa do Pai — um espaço criado para levar a presença de Deus até você, onde quer que esteja. Aqui você encontrará louvores inspiradores, mensagens edificantes, momentos de oração e palavras de fé que fortalecem o coração e renovam a esperança. Nosso propósito é ser um canal de bênção, levando paz, amor e a Palavra de Deus para todos que desejam se aproximar mais do Pai. Sintonize sua alma, aumente sua fé e faça da sua casa também a Casa do Pai. 🔔 Inscreva-se no canal TV Casa Do Pai EVANGÉLICA Erechim RS",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv6.voxtvhd.com.br/j1casa/j1casa/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=400&v=20260930-2",
@@ -968,7 +992,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=79&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "450",
@@ -1004,7 +1028,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=199&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "541",
@@ -1040,7 +1064,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=91&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "104",
@@ -1052,7 +1076,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=104&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "444",
@@ -1088,7 +1112,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=514&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "428",
@@ -1124,7 +1148,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=503&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "115",
@@ -1136,19 +1160,19 @@
       "page": "https://clubecanais.com.br/channel.php?id=115&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "131",
       "name": "CANAL SÉRIES CLASSIC",
       "category": "FILMES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos CANAL SÉRIES CLASSIC Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal Canal especializado em séries western e policiais dos anos 70 e 80 CANAL SÉRIES CLASSIC FILMES Brasil/Riu Grande do Sul",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos CANAL SÉRIES CLASSIC Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal Canal especializado em séries western e policiais dos anos 70 e 80 CANAL SÉRIES CLASSIC FILMES Brasil/Riu Grande do Sul",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video10.logicahost.com.br/serieclassic/serieclassic/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=131&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "310",
@@ -1196,7 +1220,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=136&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "309",
@@ -1244,7 +1268,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=133&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "87",
@@ -1256,19 +1280,19 @@
       "page": "https://clubecanais.com.br/channel.php?id=87&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "196",
       "name": "TOP MIX TV",
       "category": "FILMES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TOP MIX TV Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal A Top Mix TV é a primeira emissora digital do mundo com mais de 5 canais grátis, levando música, entretenimento, cultura e informação para milhares de pessoas diariamente 24 horas por dia. Somos uma TV com mais de 6 canais digitais disponíveis em seu controle remoto direto do seu celular! https://topmixtv.com.br/ https://www.instagram.com/topmixtvsp/ PABX- (11) 4210-4303 Disk o Ramal desejado. (11) 0800 042 1958 / (11) 9 5093-5830 WhatsApp TOP MIX TV FILMES Brasil/São Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TOP MIX TV Erro de mídia. Tentando recuperar o player. Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal A Top Mix TV é a primeira emissora digital do mundo com mais de 5 canais grátis, levando música, entretenimento, cultura e informação para milhares de pessoas diariamente 24 horas por dia. Somos uma TV com mais de 6 canais digitais disponíveis em seu controle remoto direto do seu celular! https://topmixtv.com.br/ https://www.instagram.com/topmixtvsp/ PABX- (11) 4210-4303 Disk o Ramal desejado. (11) 0800 042 1958 / (11) 9 5093-5830 WhatsApp TOP MIX TV FILMES Brasil/São Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video01.logicahost.com.br/topmixtvfilmes/topmixtvfilmes/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=196&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "269",
@@ -1316,7 +1340,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=218&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "599",
@@ -1334,7 +1358,7 @@
       "id": "226",
       "name": "Tv Explosãofm",
       "category": "FILMES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Explosãofm Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal Variedade de Filmes 24horas Tv Explosãofm FILMES São Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Explosãofm Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal Variedade de Filmes 24horas Tv Explosãofm FILMES São Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv1.liveplushd.com.br/tvexplosaofm/tvexplosaofm/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=226&v=20260930-2",
@@ -1382,13 +1406,13 @@
       "id": "211",
       "name": "TV Sonata",
       "category": "FILMES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Sonata Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES tv cidade brasil FILMES Sobre o canal Nós somos a TV Sonata! Uma TV brasileira criada em 2011, com uma proposta clara: oferecer conteúdo que informa, emociona e inspira. Com programação 24 horas por dia, o canal reúne filmes, séries, entrevistas, programas culturais e produções especiais que valorizam a diversidade, a criatividade, nostalgia e cultura pop. TV SONATA | A TV QUE INSPIRA! TV Sonata FILMES Brasil/São Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Sonata Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES tv cidade brasil FILMES Sobre o canal Nós somos a TV Sonata! Uma TV brasileira criada em 2011, com uma proposta clara: oferecer conteúdo que informa, emociona e inspira. Com programação 24 horas por dia, o canal reúne filmes, séries, entrevistas, programas culturais e produções especiais que valorizam a diversidade, a criatividade, nostalgia e cultura pop. TV SONATA | A TV QUE INSPIRA! TV Sonata FILMES Brasil/São Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=211&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "298",
@@ -1399,8 +1423,8 @@
       "stream": "https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=298&v=20260930-2",
       "active": true,
-      "status": 206,
-      "validation": "ok"
+      "status": 403,
+      "validation": "retained_soft_block"
     },
     {
       "id": "250",
@@ -1430,7 +1454,7 @@
       "id": "589",
       "name": "Vicapró Tv",
       "category": "FILMES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Vicapró Tv Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal A Vicapró Tv é uma Web Tv Voltada Curtas Metragens e Desenho ocm programação 24 horas assista Nossa Programação 24 horas Vicapró Tv Sua Web Tv Favorita Vicapró Tv FILMES São Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Vicapró Tv Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES VRTCHANNEL FILMES SBC Studios FILMES Tv ktv brasil FILMES Sobre o canal A Vicapró Tv é uma Web Tv Voltada Curtas Metragens e Desenho ocm programação 24 horas assista Nossa Programação 24 horas Vicapró Tv Sua Web Tv Favorita Vicapró Tv FILMES São Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv2.srvif.com/vicaprotv/vicaprotv/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=589&v=20260930-2",
@@ -1442,7 +1466,7 @@
       "id": "319",
       "name": "VRTCHANNEL",
       "category": "FILMES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos VRTCHANNEL Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES SBC Studios FILMES Tv ktv brasil FILMES tv cidade brasil FILMES Sobre o canal O VRT Channel é um canal dedicado ao entretenimento, informação e variedade. Sua programação é cuidadosamente elaborada para oferecer conteúdo de qualidade e diversidade, sempre promovendo leveza e bem-estar. VRTCHANNEL FILMES Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos VRTCHANNEL Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tvcei FILMES TV+NEWS FILMES Tv Clássicos do Cinema FILMES Tv Miura FILMES Rede ISTV FILMES GLN TV FILMES TV Sonata FILMES CINE CATÁSTROFE FILMES OS DETETIVES FILMES SBC Studios FILMES Tv ktv brasil FILMES tv cidade brasil FILMES Sobre o canal O VRT Channel é um canal dedicado ao entretenimento, informação e variedade. Sua programação é cuidadosamente elaborada para oferecer conteúdo de qualidade e diversidade, sempre promovendo leveza e bem-estar. VRTCHANNEL FILMES Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://sistemavrt2023.vrtchannel.tv.br:3626/stream/play.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=319&v=20260930-2",
@@ -1592,7 +1616,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=105&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "352",
@@ -1634,7 +1658,7 @@
       "id": "534",
       "name": "VALLE NUEVO",
       "category": "INTERNACIONAL",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos VALLE NUEVO Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar VINTAGE TV INTERNACIONAL PITUFO TV INTERNACIONAL RFPTV INTERNACIONAL TV MONTANHA INTERNACIONAL ON FM INTERNACIONAL FAMA TV INTERNACIONAL Muzangala TV INTERNACIONAL RÁDIO SINES INTERNACIONAL MELODIE TV INTERNACIONAL ADBTV INTERNACIONAL Canal Parlament INTERNACIONAL WAY INTERNACIONAL Sobre o canal Valle Nuevo TV Constanza, es un canal de televisión innovador en La Vega, República Dominicana. Ofrece una programación moderna y diversa, destacándose por presentar contenidos que conectan y representan a la comunidad local de Constanza. VALLE NUEVO INTERNACIONAL Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos VALLE NUEVO Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar VINTAGE TV INTERNACIONAL PITUFO TV INTERNACIONAL RFPTV INTERNACIONAL TV MONTANHA INTERNACIONAL ON FM INTERNACIONAL FAMA TV INTERNACIONAL Muzangala TV INTERNACIONAL RÁDIO SINES INTERNACIONAL MELODIE TV INTERNACIONAL ADBTV INTERNACIONAL Canal Parlament INTERNACIONAL WAY INTERNACIONAL Sobre o canal Valle Nuevo TV Constanza, es un canal de televisión innovador en La Vega, República Dominicana. Ofrece una programación moderna y diversa, destacándose por presentar contenidos que conectan y representan a la comunidad local de Constanza. VALLE NUEVO INTERNACIONAL Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://vtm1.msinteractiva.com/vallenuevotv/vallenuevotv/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=534&v=20260930-2",
@@ -1688,7 +1712,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=135&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "152",
@@ -1700,7 +1724,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=152&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "417",
@@ -1724,7 +1748,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=84&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "365",
@@ -1772,7 +1796,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=197&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "193",
@@ -1784,7 +1808,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=193&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "24",
@@ -1802,7 +1826,7 @@
       "id": "590",
       "name": "TV Antena Centro",
       "category": "MUSICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Antena Centro Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA Lamore Rock Show WebTV MUSICA TOCA TUDO TV MUSICA TV Planalto MUSICA Radio Liberal MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV 100% CAIPIRA MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Web Rádio Lairton Teclas MUSICA Sobre o canal Rádio Antena Centro FM, de Quixeramobim/CE TV Antena Centro MUSICA Ceará/Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Antena Centro Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA Lamore Rock Show WebTV MUSICA TOCA TUDO TV MUSICA TV Planalto MUSICA Radio Liberal MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV 100% CAIPIRA MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Web Rádio Lairton Teclas MUSICA Sobre o canal Rádio Antena Centro FM, de Quixeramobim/CE TV Antena Centro MUSICA Ceará/Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://srv1.zcast.com.br/flavio8394/flavio8394/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=590&v=20260930-2",
@@ -1820,7 +1844,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=77&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "554",
@@ -1838,7 +1862,7 @@
       "id": "477",
       "name": "TV Planalto",
       "category": "MUSICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Planalto Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA Lamore Rock Show WebTV MUSICA TOCA TUDO TV MUSICA Radio Liberal MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV Antena Centro MUSICA TV 100% CAIPIRA MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Web Rádio Lairton Teclas MUSICA Sobre o canal TV Planalto | Nenenadia, Quixeramobim/CE TV Planalto MUSICA Ceará/Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Planalto Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA Lamore Rock Show WebTV MUSICA TOCA TUDO TV MUSICA Radio Liberal MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV Antena Centro MUSICA TV 100% CAIPIRA MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Web Rádio Lairton Teclas MUSICA Sobre o canal TV Planalto | Nenenadia, Quixeramobim/CE TV Planalto MUSICA Ceará/Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://srv3.zcast.com.br/amilton8548/amilton8548/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=477&v=20260930-2",
@@ -1850,7 +1874,7 @@
       "id": "561",
       "name": "Web Rádio Lairton Teclas",
       "category": "MUSICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Web Rádio Lairton Teclas Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA Lamore Rock Show WebTV MUSICA TOCA TUDO TV MUSICA TV Planalto MUSICA Radio Liberal MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV Antena Centro MUSICA TV 100% CAIPIRA MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Sobre o canal Músicas 100% autorais, 24 horas online! Web Rádio Lairton Teclas MUSICA Brasil/Bahia",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Web Rádio Lairton Teclas Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA Lamore Rock Show WebTV MUSICA TOCA TUDO TV MUSICA TV Planalto MUSICA Radio Liberal MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV Antena Centro MUSICA TV 100% CAIPIRA MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Sobre o canal Músicas 100% autorais, 24 horas online! Web Rádio Lairton Teclas MUSICA Brasil/Bahia",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://lbgo.bozztv.com/ssh101/ssh101/ltrecords/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=561&v=20260930-2",
@@ -1886,7 +1910,7 @@
       "id": "9",
       "name": "Creative TV Brasil",
       "category": "NOTÍCIAS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Creative TV Brasil Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS AgroSul TV NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Sobre o canal A Creative TV Brasil é um canal de comunicação multiplataforma com mais de 11 anos de atuação, produzido no interior da Paraíba, com foco em jornalismo regional, podcasts, entretenimento, entrevistas, cultura e prestação de serviço. Com uma linguagem acessível e conteúdos relevantes, a Creative TV Brasil se consolidou como referência em informação local com alcance regional, conectando cidades da Paraíba e do Piauí por meio do audiovisual. Creative TV Brasil NOTÍCIAS Brasil/Paraíba",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Creative TV Brasil Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS AgroSul TV NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Sobre o canal A Creative TV Brasil é um canal de comunicação multiplataforma com mais de 11 anos de atuação, produzido no interior da Paraíba, com foco em jornalismo regional, podcasts, entretenimento, entrevistas, cultura e prestação de serviço. Com uma linguagem acessível e conteúdos relevantes, a Creative TV Brasil se consolidou como referência em informação local com alcance regional, conectando cidades da Paraíba e do Piauí por meio do audiovisual. Creative TV Brasil NOTÍCIAS Brasil/Paraíba",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=9&v=20260930-2",
@@ -1939,8 +1963,8 @@
       "stream": "https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=184&v=20260930-2",
       "active": true,
-      "status": 200,
-      "validation": "ok"
+      "status": 206,
+      "validation": "retained_ok"
     },
     {
       "id": "149",
@@ -1970,13 +1994,13 @@
       "id": "201",
       "name": "TV Atitudenew",
       "category": "NOTÍCIAS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Atitudenew Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS AgroSul TV NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS Sobre o canal Assista TV Atitudenew ao vivo pelo Clube Canais. TV Atitudenew NOTÍCIAS",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Atitudenew Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS AgroSul TV NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS Sobre o canal Assista TV Atitudenew ao vivo pelo Clube Canais. TV Atitudenew NOTÍCIAS",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv1.transmissaodigital.com/tvatitudenew/tvatitudenew/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=201&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "299",
@@ -2006,7 +2030,7 @@
       "id": "338",
       "name": "Tv Notícias Minas",
       "category": "NOTÍCIAS",
-      "location": "Minas - Clube Canais Início Entrar Categorias Todas as Categorias - POSIÇÃO PREMIUM REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Notícias Minas Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS Tv Alpha NOTÍCIAS CARIRI TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS AgroSul TV NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Sobre o canal Notícias de Minas Tudo que você precisa saber de Minas é Região Tv Notícias Minas NOTÍCIAS Brasil",
+      "location": "Minas - Clube Canais Início Entrar Categorias Todas as Categorias - POSIÇÃO PREMIUM REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Notícias Minas Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS Tv Alpha NOTÍCIAS CARIRI TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS AgroSul TV NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Sobre o canal Notícias de Minas Tudo que você precisa saber de Minas é Região Tv Notícias Minas NOTÍCIAS Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv8.samcast.com.br/rogerio9960/rogerio9960/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=338&v=20260930-2",
@@ -2028,11 +2052,11 @@
     },
     {
       "id": "597",
-      "name": "Tela Retrô",
+      "name": "Tv Novelas",
       "category": "NOVELA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tela Retrô Iniciar Recarregar Voltar Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar DRIVE CHANNEL TV CARRO TV LatinaSat ALTA DEFINIÇÃO ( HD,FHD ) MEGA ONE TV - POSIÇÃO PREMIUM Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES Wording de Televisao ALTA DEFINIÇÃO ( HD,FHD ) Clouding TV ALTA DEFINIÇÃO ( HD,FHD ) MVERSO TV VARIEDADES tvportalweb VARIEDADES SBC ALTA DEFINIÇÃO ( HD,FHD ) ORTV WEB Filmes e variedades culturais VARIEDADES Sobre o canal Chegou a sua Nova opção de entretenimento para sua família não perca nada Tela Retrô NOVELA Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Novelas Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar DRIVE CHANNEL TV CARRO TV LatinaSat ALTA DEFINIÇÃO ( HD,FHD ) MEGA ONE TV - POSIÇÃO PREMIUM Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES Wording de Televisao ALTA DEFINIÇÃO ( HD,FHD ) Clouding TV ALTA DEFINIÇÃO ( HD,FHD ) MVERSO TV VARIEDADES tvportalweb VARIEDADES SBC ALTA DEFINIÇÃO ( HD,FHD ) ORTV WEB Filmes e variedades culturais VARIEDADES Sobre o canal Chegou a sua Nova opção de entretenimento para sua família não perca nada Tv Novelas NOVELA Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
-      "stream": "https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8",
+      "stream": "https://stmv8.samcast.com.br/lucas7869/lucas7869/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=597&v=20260930-2",
       "active": true,
       "status": 206,
@@ -2066,7 +2090,7 @@
       "id": "498",
       "name": "NBX TV PIPOCA",
       "category": "POSIÇÃO PREMIUM",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos NBX TV PIPOCA Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar MEGA ONE TV - POSIÇÃO PREMIUM BS TV Online - POSIÇÃO PREMIUM tv conquista - RECORD TV - POSIÇÃO PREMIUM TV A Crítica - POSIÇÃO PREMIUM Tv Clássicos do Cinema - POSIÇÃO PREMIUM TV CIDADE - POSIÇÃO PREMIUM TV NOVA NORDESTE - POSIÇÃO PREMIUM Sobre o canal A NBX TV Pipoca é o cinema em casa! 🎬 Aqui, você encontrará os melhores filmes, séries e produções de entretenimento para toda a família. De comédias a dramas, ação a aventura, a NBX TV Pipoca é o lugar certo para relaxar e se divertir! NBX TV PIPOCA - POSIÇÃO PREMIUM Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos NBX TV PIPOCA Iniciar Recarregar Voltar Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar MEGA ONE TV - POSIÇÃO PREMIUM BS TV Online - POSIÇÃO PREMIUM tv conquista - RECORD TV - POSIÇÃO PREMIUM TV A Crítica - POSIÇÃO PREMIUM Tv Clássicos do Cinema - POSIÇÃO PREMIUM TV CIDADE - POSIÇÃO PREMIUM TV NOVA NORDESTE - POSIÇÃO PREMIUM Sobre o canal A NBX TV Pipoca é o cinema em casa! 🎬 Aqui, você encontrará os melhores filmes, séries e produções de entretenimento para toda a família. De comédias a dramas, ação a aventura, a NBX TV Pipoca é o lugar certo para relaxar e se divertir! NBX TV PIPOCA - POSIÇÃO PREMIUM Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=498&v=20260930-2",
@@ -2168,7 +2192,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=208&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "274",
@@ -2210,7 +2234,7 @@
       "id": "387",
       "name": "TV PAPAGAIO",
       "category": "PUBLICOS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV PAPAGAIO Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV VAGALUME PUBLICOS Boa Esperana WebTV PUBLICOS Tv dunas PUBLICOS TV BRASIL NEWS PUBLICOS TV ALAGOINHA PUBLICOS TV METROPOLE CARIRI PUBLICOS RBATV PUBLICOS TV ENCANTO GOSPEL PUBLICOS BS TV PUBLICOS RBSAT TV PUBLICOS Sobre o canal Assista TV PAPAGAIO ao vivo pelo Clube Canais. TV PAPAGAIO PUBLICOS Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV PAPAGAIO Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV VAGALUME PUBLICOS Boa Esperana WebTV PUBLICOS Tv dunas PUBLICOS TV BRASIL NEWS PUBLICOS TV ALAGOINHA PUBLICOS TV METROPOLE CARIRI PUBLICOS RBATV PUBLICOS TV ENCANTO GOSPEL PUBLICOS BS TV PUBLICOS RBSAT TV PUBLICOS Sobre o canal Assista TV PAPAGAIO ao vivo pelo Clube Canais. TV PAPAGAIO PUBLICOS Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv.jnbhost.com.br/tvpapagaio/tvpapagaio/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=387&v=20260930-2",
@@ -2246,7 +2270,7 @@
       "id": "361",
       "name": "NBX TV",
       "category": "REDE NBX TV",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos NBX TV Iniciar Recarregar Voltar Curtir 3 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar NBX TV PIPOCA REDE NBX TV NBX TV KIDS REDE NBX TV Sobre o canal A NBX TV é o seu destino de entretenimento! 🌟 Aqui, você encontrará uma programação diversificada com notícias, esportes, filmes, séries e muito mais. Do melhor do entretenimento para toda a família, a NBX TV é o lugar certo para se divertir e se informar! NBX TV REDE NBX TV Brasil/Sao Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos NBX TV Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 3 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar NBX TV PIPOCA REDE NBX TV NBX TV KIDS REDE NBX TV Sobre o canal A NBX TV é o seu destino de entretenimento! 🌟 Aqui, você encontrará uma programação diversificada com notícias, esportes, filmes, séries e muito mais. Do melhor do entretenimento para toda a família, a NBX TV é o lugar certo para se divertir e se informar! NBX TV REDE NBX TV Brasil/Sao Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv7.voxtvhd.com.br/nbxtv/nbxtv/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=361&v=20260930-2",
@@ -2270,7 +2294,7 @@
       "id": "360",
       "name": "NBX TV PIPOCA",
       "category": "REDE NBX TV",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos NBX TV PIPOCA Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar NBX TV KIDS REDE NBX TV NBX TV REDE NBX TV Sobre o canal A NBX TV Pipoca é o cinema em casa! 🎬 Aqui, você encontrará os melhores filmes, séries e produções de entretenimento para toda a família. De comédias a dramas, ação a aventura, a NBX TV Pipoca é o lugar certo para relaxar e se divertir! NBX TV PIPOCA REDE NBX TV Brasil/Sao Paulo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos NBX TV PIPOCA Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar NBX TV KIDS REDE NBX TV NBX TV REDE NBX TV Sobre o canal A NBX TV Pipoca é o cinema em casa! 🎬 Aqui, você encontrará os melhores filmes, séries e produções de entretenimento para toda a família. De comédias a dramas, ação a aventura, a NBX TV Pipoca é o lugar certo para relaxar e se divertir! NBX TV PIPOCA REDE NBX TV Brasil/Sao Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=360&v=20260930-2",
@@ -2294,7 +2318,7 @@
       "id": "562",
       "name": "Nois Paulistas",
       "category": "SERIADOS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Nois Paulistas Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Reviva TV SERIADOS TV Channel Network SERIADOS AWTV STREAMING AO VIVO SERIADOS Sobre o canal NOIS PAULISTAS DO \"GRUPO RTV ANTENA PAULISTA DE COMUNICAÇÕES & CONGLOMERADOS DE MÍDIAS-ME” Nois Paulistas SERIADOS Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Nois Paulistas Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Reviva TV SERIADOS TV Channel Network SERIADOS AWTV STREAMING AO VIVO SERIADOS Sobre o canal NOIS PAULISTAS DO \"GRUPO RTV ANTENA PAULISTA DE COMUNICAÇÕES & CONGLOMERADOS DE MÍDIAS-ME” Nois Paulistas SERIADOS Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv3.voxtvhd.com.br/tvrtv/tvrtv/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=562&v=20260930-2",
@@ -2312,7 +2336,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=125&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "121",
@@ -2324,7 +2348,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=121&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "retained_ok"
+      "validation": "ok"
     },
     {
       "id": "545",
@@ -2342,7 +2366,7 @@
       "id": "596",
       "name": "Brks TV",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Brks TV Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A Brks TV é um canal de entretenimento para toda familia trazendo filmes, séries, desenhos, animes e tokustsu com uma variedades de programas pra o brasil inteiro Brks TV VARIEDADES Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Brks TV Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A Brks TV é um canal de entretenimento para toda familia trazendo filmes, séries, desenhos, animes e tokustsu com uma variedades de programas pra o brasil inteiro Brks TV VARIEDADES Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv8.samcast.com.br/alvaro9088/alvaro9088/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=596&v=20260930-2",
@@ -2360,7 +2384,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=516&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "485",
@@ -2420,7 +2444,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=523&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "447",
@@ -2456,7 +2480,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=522&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "445",
@@ -2522,7 +2546,7 @@
       "id": "603",
       "name": "Rede Classic",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Rede Classic Iniciar Recarregar Voltar Curtir 4 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A Rede Classic é uma emissora dedicada a filmes, séries e entretenimento, buscando inovar sua programação e conquistar cada vez mais telespectadores. Rede Classic VARIEDADES Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Rede Classic Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 4 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A Rede Classic é uma emissora dedicada a filmes, séries e entretenimento, buscando inovar sua programação e conquistar cada vez mais telespectadores. Rede Classic VARIEDADES Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=603&v=20260930-2",
@@ -2552,13 +2576,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=521&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "584",
       "name": "Rede TV Manchete Oficial",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Rede TV Manchete Oficial Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal \"GRUPO REDE TV MANCHETE DE COMUNICAÇÕES & CONGLOMERADOS DE MÍDIAS-ME” Rede TV Manchete Oficial VARIEDADES Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Rede TV Manchete Oficial Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal \"GRUPO REDE TV MANCHETE DE COMUNICAÇÕES & CONGLOMERADOS DE MÍDIAS-ME” Rede TV Manchete Oficial VARIEDADES Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv3.voxtvhd.com.br/tvrtv/tvrtv/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=584&v=20260930-2",
@@ -2588,7 +2612,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=512&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "527",
@@ -2666,7 +2690,7 @@
       "id": "426",
       "name": "TV CACIQUE",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV CACIQUE Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A TV Cacique, leva informação, entretenimento e prestação de serviço com uma programação diversificada e voltada à comunidade. São produzidos conteúdos como entrevistas, notícias locais e regionais, transmissões de fé, reportagens, utilidade pública, cobertura de eventos, divulgação do comércio local e regional, além de conteúdos exclusivos para aproximar ainda mais a população dos acontecimentos da região TV CACIQUE VARIEDADES BRASIL",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV CACIQUE Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A TV Cacique, leva informação, entretenimento e prestação de serviço com uma programação diversificada e voltada à comunidade. São produzidos conteúdos como entrevistas, notícias locais e regionais, transmissões de fé, reportagens, utilidade pública, cobertura de eventos, divulgação do comércio local e regional, além de conteúdos exclusivos para aproximar ainda mais a população dos acontecimentos da região TV CACIQUE VARIEDADES BRASIL",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv8.samcast.com.br/pedro9687/pedro9687/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=426&v=20260930-2",
@@ -2720,13 +2744,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=517&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "539",
       "name": "TV Guriri",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Guriri Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal TV Guriri A TV Guriri é um canal de comunicação de São Mateus, no norte do Espírito Santo, transmitido pela Operadora Supernet, que tem como propósito valorizar e divulgar as belezas, as histórias e as riquezas do Espírito Santo. Com um olhar voltado para o que o Estado tem de melhor, a TV Guriri busca apresentar ao público as diversas possibilidades do turismo capixaba. A TV Guriri é afiliada da COM BRASIL, a maior TV Comunitária do país. TV Guriri VARIEDADES Espírito Santo",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Guriri Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal TV Guriri A TV Guriri é um canal de comunicação de São Mateus, no norte do Espírito Santo, transmitido pela Operadora Supernet, que tem como propósito valorizar e divulgar as belezas, as histórias e as riquezas do Espírito Santo. Com um olhar voltado para o que o Estado tem de melhor, a TV Guriri busca apresentar ao público as diversas possibilidades do turismo capixaba. A TV Guriri é afiliada da COM BRASIL, a maior TV Comunitária do país. TV Guriri VARIEDADES Espírito Santo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://cdn.live.br1.jmvstream.com/webtv/AVJ-13293/playlist/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=539&v=20260930-2",
@@ -2774,7 +2798,7 @@
       "id": "490",
       "name": "TV METROPOLITANA RIO",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV METROPOLITANA RIO Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal Canal comunitário da baixada fluminense RJ que leva o sinal para tv de todo o Brasil ,conteúdo variado . TV METROPOLITANA RIO VARIEDADES",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV METROPOLITANA RIO Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal Canal comunitário da baixada fluminense RJ que leva o sinal para tv de todo o Brasil ,conteúdo variado . TV METROPOLITANA RIO VARIEDADES",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=490&v=20260930-2",
@@ -2816,7 +2840,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=509&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "442",
@@ -2834,7 +2858,7 @@
       "id": "466",
       "name": "TV São Gabriel",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV São Gabriel Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A TV da nossa terra TV São Gabriel VARIEDADES Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV São Gabriel Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A TV da nossa terra TV São Gabriel VARIEDADES Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video11.logicahost.com.br/tvsaogabriel/tvsaogabriel/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=466&v=20260930-2",
@@ -2870,7 +2894,7 @@
       "id": "436",
       "name": "TV VIVE",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV VIVE Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A TV VIVE é uma emissora de Rádio e TV da Cidade de Teresina no Piauí. Em nossa programação você assiste vários clipes e shows, series, filmes e programações locais com entrevistas e informação de nossa Região. TV VIVE VARIEDADES",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV VIVE Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal A TV VIVE é uma emissora de Rádio e TV da Cidade de Teresina no Piauí. Em nossa programação você assiste vários clipes e shows, series, filmes e programações locais com entrevistas e informação de nossa Região. TV VIVE VARIEDADES",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=436&v=20260930-2",
@@ -2888,7 +2912,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=502&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "515",
@@ -2900,7 +2924,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=515&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "501",
@@ -2912,13 +2936,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=501&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "601",
       "name": "XTV",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos XTV Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal XTV, a diversão está garantida para toda a família! Tenha acesso a muito entretenimento, com conteúdos variados para todos os gostos e idades. Reúna quem você ama e aproveite momentos especiais, com alegria, conforto e diversão sem limites! XTV VARIEDADES brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos XTV Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 2 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES tvportalweb VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES AG TV VARIEDADES TV MAISCHETI VARIEDADES Sobre o canal XTV, a diversão está garantida para toda a família! Tenha acesso a muito entretenimento, com conteúdos variados para todos os gostos e idades. Reúna quem você ama e aproveite momentos especiais, com alegria, conforto e diversão sem limites! XTV VARIEDADES brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=601&v=20260930-2",
