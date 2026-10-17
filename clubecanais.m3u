@@ -321,6 +321,8 @@ https://stmv1.voxtvhd.com.br/tvaracati/tvaracati/playlist.m3u8
 https://Stmv1.samcast.com.br/leandroantonio7386/leandroantonio7386/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Planalto" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Planalto
 https://srv3.zcast.com.br/amilton8548/amilton8548/playlist.m3u8
+#EXTINF:-1 tvg-name="Web Rádio Lairton Teclas" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Web Rádio Lairton Teclas
+https://lbgo.bozztv.com/ssh101/ssh101/ltrecords/playlist.m3u8
 # ===== NOTÍCIAS =====
 #EXTINF:-1 tvg-name="Canal 312" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Canal 312
 https://stmv4.voxtvhd.com.br/maikel4996/maikel4996/playlist.m3u8
@@ -332,6 +334,8 @@ https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
 https://srv3.zcast.com.br/comunicacao7839/comunicacao7839/playlist.m3u8
 #EXTINF:-1 tvg-name="ONDA 1 TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",ONDA 1 TV
 https://stmv7.voxtvhd.com.br/celso6243/celso6243/playlist.m3u8
+#EXTINF:-1 tvg-name="RECORD NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",RECORD NEWS
+https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 #EXTINF:-1 tvg-name="REDE LAPOENSE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",REDE LAPOENSE TV
 https://stmv7.samcast.com.br/lapoenseplay/lapoenseplay/playlist.m3u8
 #EXTINF:-1 tvg-name="RS NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",RS NEWS
@@ -417,6 +421,8 @@ https://stmv7.voxtvhd.com.br/crntv/crntv/playlist.m3u8
 https://stmv3.voxtvhd.com.br/tves14edson/tves14edson/playlist.m3u8
 #EXTINF:-1 tvg-name="FAROVISION" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",FAROVISION
 https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
+#EXTINF:-1 tvg-name="geovane tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",geovane tv
+https://lbgo.bozztv.com/ssh101/ssh101/geovanetv1/playlist.m3u8
 #EXTINF:-1 tvg-name="JXS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",JXS TV
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
 #EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
@@ -447,6 +453,8 @@ https://stmv7.samcast.com.br/paulo8649/paulo8649/playlist.m3u8
 https://stmv6.voxtvhd.com.br/tvmaischeti/tvmaischeti/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede TV Manchete Oficial" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Rede TV Manchete Oficial
 https://stmv3.voxtvhd.com.br/tvrtv/tvrtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Redes digitais MR News" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Redes digitais MR News
+https://stmv2.srvif.com/mrnews/mrnews/playlist.m3u8
 #EXTINF:-1 tvg-name="SucuriNet" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",SucuriNet
 https://Stmv1.samcast.com.br/sucurinet/sucurinet/playlist.m3u8
 #EXTINF:-1 tvg-name="SULFUROSA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",SULFUROSA TV
@@ -503,5 +511,7 @@ https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
 https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCOM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCOM
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
+#EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
+https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
 https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8
