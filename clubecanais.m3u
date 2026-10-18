@@ -39,8 +39,6 @@ https://stmv4.voxtvhd.com.br/tvinforbahia/tvinforbahia/playlist.m3u8
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
 #EXTINF:-1 tvg-name="TV LITORAL RN" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV LITORAL RN
 https://5ad482a77183d.streamlock.net/tvnordesteegmail.com/tvnordesteegmail.com/chunklist_w1631723483.m3u8
-#EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV NOVA NORDESTE
-https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TV Ponto de encontro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Ponto de encontro
 https://stmv4.voxtvhd.com.br/tvpontodeencontro/tvpontodeencontro/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Singular" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Tv Singular
@@ -90,8 +88,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="Iblizz" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",Iblizz
 https://srv1.zcast.com.br/grupo6027/grupo6027/playlist.m3u8
@@ -372,8 +368,6 @@ https://cdn.live.br1.jmvstream.com/webtv/ifulrbjz/playlist/chunklist.m3u8
 https://srv3.zcast.com.br/classicosdocinema/classicosdocinema/playlist.m3u8
 #EXTINF:-1 tvg-name="tv conquista - RECORD TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",tv conquista - RECORD TV
 https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
-#EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",TV NOVA NORDESTE
-https://stream.ecast.com.br/nova-tv/tracks-v1a1/mono.m3u8
 # ===== PUBLICOS =====
 #EXTINF:-1 tvg-name="RBATV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",RBATV
 https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
