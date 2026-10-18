@@ -491,8 +491,6 @@ https://stmv2.srvif.com/tvomindare/tvomindare/playlist.m3u8
 https://stmv7.voxtvhd.com.br/tvradiobhs1430/tvradiobhs1430/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV SERRA
 https://stmv7.samcast.com.br/nidio8102/nidio8102/playlist.m3u8
-#EXTINF:-1 tvg-name="TV SJK" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV SJK
-https://pop.uniquetv.com.br/tvsjk/video.m3u8
 #EXTINF:-1 tvg-name="TV São Gabriel" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV São Gabriel
 https://video11.logicahost.com.br/tvsaogabriel/tvsaogabriel/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv São Raimundo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv São Raimundo
@@ -505,6 +503,8 @@ https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
 https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCOM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCOM
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
+#EXTINF:-1 tvg-name="UNIQUE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",UNIQUE TV
+https://pop.uniquetv.com.br/hls/uniquetv.m3u8
 #EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
 https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
