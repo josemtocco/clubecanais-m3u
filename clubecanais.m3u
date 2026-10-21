@@ -118,7 +118,7 @@ https://video07.logicahost.com.br/rssports02/rssports02/playlist.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 3" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 3
 https://video07.logicahost.com.br/rssports03/rssports03/playlist.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 4" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 4
-https://video07.logicahost.com.br/rssports04/rssports04/playlist.m3u8
+https://video07.logicahost.com.br/rssports04/rssports04/chunklist_w1046661859.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 5" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 5
 https://video07.logicahost.com.br/rssports05/rssports05/playlist.m3u8
 # ===== EVANGÉLICA =====
@@ -205,6 +205,8 @@ https://stmv1.srvif.com/vivavida/vivavida/playlist.m3u8
 https://video10.logicahost.com.br/serieclassic/serieclassic/playlist.m3u8
 #EXTINF:-1 tvg-name="CINE CATÁSTROFE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",CINE CATÁSTROFE
 https://video05.logicahost.com.br/cinecatastrofe/cinecatastrofe/playlist.m3u8
+#EXTINF:-1 tvg-name="COMEDY CLUB" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",COMEDY CLUB
+https://video11.logicahost.com.br/comedyclub/comedyclub/playlist.m3u8
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
 #EXTINF:-1 tvg-name="Mega Cine TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Mega Cine TV
@@ -501,7 +503,5 @@ https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
 #EXTINF:-1 tvg-name="UNIQUE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",UNIQUE TV
 https://pop.uniquetv.com.br/hls/uniquetv.m3u8
-#EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
-https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
 https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8
