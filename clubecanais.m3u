@@ -118,7 +118,7 @@ https://video07.logicahost.com.br/rssports02/rssports02/playlist.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 3" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 3
 https://video07.logicahost.com.br/rssports03/rssports03/playlist.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 4" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 4
-https://video07.logicahost.com.br/rssports04/rssports04/chunklist_w1046661859.m3u8
+https://video07.logicahost.com.br/rssports04/rssports04/playlist.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 5" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 5
 https://video07.logicahost.com.br/rssports05/rssports05/playlist.m3u8
 # ===== EVANGÉLICA =====
@@ -411,6 +411,8 @@ https://tvchannel.tvr.ovh/video28392/video28392/playlist.m3u8
 https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Brks TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Brks TV
 https://stmv8.samcast.com.br/alvaro9088/alvaro9088/playlist.m3u8
+#EXTINF:-1 tvg-name="Coletiva.TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Coletiva.TV
+https://video02.logicahost.com.br/coletivatv/coletivatv/playlist.m3u8
 #EXTINF:-1 tvg-name="CRN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",CRN TV
 https://stmv7.voxtvhd.com.br/crntv/crntv/playlist.m3u8
 #EXTINF:-1 tvg-name="ESTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",ESTV
@@ -503,5 +505,7 @@ https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
 #EXTINF:-1 tvg-name="UNIQUE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",UNIQUE TV
 https://pop.uniquetv.com.br/hls/uniquetv.m3u8
+#EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
+https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
 https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8
