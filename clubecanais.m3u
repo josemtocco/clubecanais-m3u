@@ -415,10 +415,10 @@ https://stmv7.samcast.com.br/elias9801/elias9801/playlist.m3u8
 https://stmv8.samcast.com.br/pedro9687/pedro9687/playlist.m3u8
 #EXTINF:-1 tvg-name="TV DO POVO ERECHIM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV DO POVO ERECHIM
 https://stmv1.voxtvhd.com.br/tvdopovo/tvdopovo/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Metropole 16" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv Metropole 16
-https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Omindaré" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Omindaré
 https://stmv2.srvif.com/tvomindare/tvomindare/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Online
+https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Online
 https://video05.logicahost.com.br/ararunatv/ararunatv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Online
