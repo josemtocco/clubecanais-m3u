@@ -90,6 +90,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
+https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV Online
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -319,7 +321,7 @@ https://stmv1.voxtvhd.com.br/tvaracati/tvaracati/playlist.m3u8
 https://Stmv1.samcast.com.br/leandroantonio7386/leandroantonio7386/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Online
 https://lbgo.bozztv.com/ssh101/ssh101/ltrecords/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Planalto" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Planalto
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Online
 https://srv3.zcast.com.br/amilton8548/amilton8548/playlist.m3u8
 # ===== NOTÍCIAS =====
 #EXTINF:-1 tvg-name="REDE LAPOENSE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",REDE LAPOENSE TV
