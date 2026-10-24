@@ -90,8 +90,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV Online
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -102,7 +100,7 @@ https://stmv1.transmissaodigital.com/qtalchannel/qtalchannel/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV Online
 https://stmv2.voxtvhd.com.br/tvnnd/tvnnd/playlist.m3u8
 # ===== EDUCATIVOS =====
-#EXTINF:-1 tvg-name="REDEHTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EDUCATIVOS",REDEHTV
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EDUCATIVOS",TV Online
 https://s1.tvr.ovh/video83070/video83070/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Profissão" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EDUCATIVOS",TV Profissão
 https://tv03.zas.media:1936/tvprofissao/tvprofissao/playlist.m3u8
@@ -199,10 +197,10 @@ https://stmv1.srvif.com/vivavida/vivavida/playlist.m3u8
 # ===== FILMES =====
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
-#EXTINF:-1 tvg-name="tv cidade brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",tv cidade brasil
-https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv ktv brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tv ktv brasil
 https://stmv1.samcast.com.br/paulohenrique5216/paulohenrique5216/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Online
+https://stmv2.samcast.com.br/tvcidadebrasil/tvcidadebrasil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Online
 https://srv3.zcast.com.br/classicosdocinema/classicosdocinema/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Online
