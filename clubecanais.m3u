@@ -30,8 +30,6 @@ https://video04.logicahost.com.br/brasilhits/brasilhits/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
 https://isaocorp.cloudecast.com/recon/index.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
-https://video01.brascast.com/david7639/david7639/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
 https://tvgrandenatalhdtv.duckdns.org:3334/hls/live.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
 https://stmv4.voxtvhd.com.br/tvinforbahia/tvinforbahia/playlist.m3u8
@@ -83,13 +81,13 @@ https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 https://Stmv1.samcast.com.br/stefany3846/stefany3846/playlist.m3u8
 # ===== DESENHOS =====
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
-https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://stmv1.srvif.com/anime/anime/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
+https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV Online
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -290,8 +288,6 @@ https://video01.brascast.com/rogerio7271/rogerio7271/playlist.m3u8
 https://stmv1.voxtvhd.com.br/canalinfantil/canalinfantil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV Online
 https://video08.logicahost.com.br/kanucatv/kanucatv/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV Online
-https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV Online
 https://stmv4.voxtvhd.com.br/eroaldo/eroaldo/playlist.m3u8
 # ===== MUSICA =====
