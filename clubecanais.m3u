@@ -88,8 +88,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV Online
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
