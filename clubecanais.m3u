@@ -194,6 +194,8 @@ https://srv1.zcast.com.br/oseas3701/oseas3701/playlist.m3u8
 https://stmv7.voxtvhd.com.br/vitoriaplenatv/vitoriaplenatv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TV Online
 https://stmv1.srvif.com/vivavida/vivavida/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TV Online
+https://a.cdni.live/topgospelfm/topgospelfm/playlist.m3u8
 # ===== FILMES =====
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
@@ -377,6 +379,8 @@ https://stmv.jnbhost.com.br/tvbrasilnews/tvbrasilnews/playlist.m3u8
 https://stmv.jnbhost.com.br/tvencanto/tvencanto/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV Online
 https://stmv.jnbhost.com.br/tvpapagaio/tvpapagaio/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV Online
+https://stmv.jnbhost.com.br/tvmetropolecariri/tvmetropolecariri/playlist.m3u8
 #EXTINF:-1 tvg-name="TV VAGALUME" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV VAGALUME
 https://stmv2.voxtvhd.com.br/tvteste/tvteste/playlist.m3u8
 # ===== RADIO - LIVE =====
