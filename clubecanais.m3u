@@ -281,8 +281,6 @@ https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4211
 #EXTINF:-1 tvg-name="REDE SDP TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",REDE SDP TV
 https://video01.brascast.com/rede8652/rede8652/playlist.m3u8
-#EXTINF:-1 tvg-name="RFPTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",RFPTV
-https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 #EXTINF:-1 tvg-name="RÁDIO SINES" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",RÁDIO SINES
 https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MONTANHA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",TV MONTANHA
