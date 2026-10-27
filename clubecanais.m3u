@@ -92,6 +92,8 @@ https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
 https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Online
+https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",TV Online
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -296,6 +298,8 @@ https://stmv1.voxtvhd.com.br/canalinfantil/canalinfantil/playlist.m3u8
 https://video08.logicahost.com.br/kanucatv/kanucatv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV Online
 https://stmv4.voxtvhd.com.br/eroaldo/eroaldo/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV Online
+https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 # ===== MUSICA =====
 #EXTINF:-1 tvg-name="Rádio Tv Fragata" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Rádio Tv Fragata
 https://stmv7.voxtvhd.com.br/joao8063/joao8063/playlist.m3u8?1782067891
