@@ -11,6 +11,8 @@ https://brglobalstation.duckdns.org:3334/hls/brglobalstation.m3u8
 https://video05.logicahost.com.br/gbsstudio/gbsstudio/playlist.m3u8
 #EXTINF:-1 tvg-name="cidade tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",cidade tv
 https://stmv7.voxtvhd.com.br/cidadetv/cidadetv/playlist.m3u8
+#EXTINF:-1 tvg-name="Clouding TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Clouding TV
+https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Ldnews TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Ldnews TV
 https://stmv3.voxtvhd.com.br/leandroenzo/leandroenzo/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Ortega" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Rede Ortega
@@ -37,8 +39,6 @@ https://www.latinasat.com.br/hls/live/stream/index.m3u8
 https://video01.logicahost.com.br/lithoralnews/lithoralnews/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV NOVA NORDESTE
 https://stream.ecast.com.br/nova-tv/index.m3u8
-#EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
-https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
 https://video01.brascast.com/rede1250/rede1250/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Online
@@ -495,8 +495,6 @@ https://stmv7.voxtvhd.com.br/tvradiobhs1430/tvradiobhs1430/playlist.m3u8
 https://stmv7.samcast.com.br/nidio8102/nidio8102/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv São Raimundo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv São Raimundo
 https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Urucuri" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Urucuri
-https://stmv4.voxtvhd.com.br/joseorlando9027/joseorlando9027/playlist.m3u8
 #EXTINF:-1 tvg-name="TV VIVE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV VIVE
 https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCB TV CAMPOS BELOS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCB TV CAMPOS BELOS
