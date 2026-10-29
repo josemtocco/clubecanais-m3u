@@ -94,8 +94,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -262,8 +260,6 @@ https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
 https://stmv2.srvsh.com.br/deivisondaconceicao4233/deivisondaconceicao4233/playlist.m3u8
 #EXTINF:-1 tvg-name="YEEAAH" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",YEEAAH
 https://srv5.zcast.com.br/yeeaah/yeeaah/playlist.m3u8
-#EXTINF:-1 tvg-name="YEEAAH 2" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",YEEAAH 2
-https://srv5.zcast.com.br/yeeaahradio/yeeaahradio/playlist.m3u8
 # ===== INTERNACIONAL =====
 #EXTINF:-1 tvg-name="ADBTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",ADBTV
 https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
@@ -334,8 +330,6 @@ https://stmv4.voxtvhd.com.br/maikel4996/maikel4996/playlist.m3u8
 https://video05.logicahost.com.br/cariritv/cariritv/playlist.m3u8
 #EXTINF:-1 tvg-name="Creative TV Brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Creative TV Brasil
 https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
-#EXTINF:-1 tvg-name="O Sertão é Notícia" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",O Sertão é Notícia
-https://srv3.zcast.com.br/comunicacao7839/comunicacao7839/playlist.m3u8
 #EXTINF:-1 tvg-name="ONDA 1 TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",ONDA 1 TV
 https://stmv7.voxtvhd.com.br/celso6243/celso6243/playlist.m3u8
 #EXTINF:-1 tvg-name="RECORD NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",RECORD NEWS
@@ -473,6 +467,8 @@ https://stmv4.voxtvhd.com.br/tvconectados/tvconectados/playlist.m3u8
 https://cdn.live.br1.jmvstream.com/w/LVW-8855/LVW8855_u7a7C4Oa4F/chunklist.m3u8
 #EXTINF:-1 tvg-name="TV DO POVO ERECHIM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV DO POVO ERECHIM
 https://stmv1.voxtvhd.com.br/tvdopovo/tvdopovo/playlist.m3u8
+#EXTINF:-1 tvg-name="TV GALINHA CHOCA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV GALINHA CHOCA
+https://stmv4.voxtvhd.com.br/tvgalinhachoca/tvgalinhachoca/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Guriri" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Guriri
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-13293/playlist/playlist.m3u8
 #EXTINF:-1 tvg-name="TV LAGO AZUL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV LAGO AZUL
@@ -495,6 +491,8 @@ https://stmv7.voxtvhd.com.br/tvradiobhs1430/tvradiobhs1430/playlist.m3u8
 https://stmv7.samcast.com.br/nidio8102/nidio8102/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv São Raimundo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv São Raimundo
 https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Urucuri" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Urucuri
+https://stmv4.voxtvhd.com.br/joseorlando9027/joseorlando9027/playlist.m3u8
 #EXTINF:-1 tvg-name="TV VIVE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV VIVE
 https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCB TV CAMPOS BELOS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCB TV CAMPOS BELOS
