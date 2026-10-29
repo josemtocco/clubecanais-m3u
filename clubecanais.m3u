@@ -2,6 +2,8 @@
 #PLAYLIST:ClubeCanais
 # Generated automatically from https://clubecanais.com.br/
 # ===== AGRONEGÓCIO =====
+#EXTINF:-1 tvg-name="REDE VIVAX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",REDE VIVAX TV
+https://video11.logicahost.com.br/redevivaxtv/redevivaxtv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Folha do Campo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",TV Folha do Campo
 https://stmv1.transmissaodigital.com/folha-do-campo/folha-do-campo/playlist.m3u8
 # ===== ALTA DEFINIÇÃO ( HD,FHD ) =====
@@ -79,8 +81,6 @@ https://video04.logicahost.com.br/schamlztv/schamlztv/playlist.m3u8
 https://stmv5.voxtvhd.com.br/orlando8704/orlando8704/playlist.m3u8
 #EXTINF:-1 tvg-name="TNJ TV NOVA JUAREZ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TNJ TV NOVA JUAREZ
 https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
-#EXTINF:-1 tvg-name="TV CNU" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TV CNU
-https://br5093.streamingdevideo.com.br/wbgpymgwys/wbgpymgwys/playlist.m3u8
 #EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TVBE Itajaí
 https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 #EXTINF:-1 tvg-name="TVBE Joinville" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TVBE Joinville
@@ -94,6 +94,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -138,8 +140,6 @@ https://stmv5.voxtvhd.com.br/benedito2556/benedito2556/playlist.m3u8
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Rede rádio e tv Estação Gospel Diadema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede rádio e tv Estação Gospel Diadema
 https://stmv1.voxtvhd.com.br/gospel/gospel/playlist.m3u8
-#EXTINF:-1 tvg-name="RIT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RIT TV
-https://stream.ecast.com.br/rit-tv/index.m3u8
 #EXTINF:-1 tvg-name="RÁDIO PENIEL WEB E TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RÁDIO PENIEL WEB E TV
 https://stmv4.voxtvhd.com.br/radioetvpenielweb/radioetvpenielweb/playlist.m3u8
 #EXTINF:-1 tvg-name="Spnt TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Spnt TV
