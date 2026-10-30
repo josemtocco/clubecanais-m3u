@@ -264,8 +264,6 @@ https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
 https://stmv2.srvsh.com.br/deivisondaconceicao4233/deivisondaconceicao4233/playlist.m3u8
 #EXTINF:-1 tvg-name="YEEAAH" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",YEEAAH
 https://srv5.zcast.com.br/yeeaah/yeeaah/playlist.m3u8
-#EXTINF:-1 tvg-name="YEEAAH 2" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",YEEAAH 2
-https://srv5.zcast.com.br/yeeaahradio/yeeaahradio/playlist.m3u8
 # ===== INTERNACIONAL =====
 #EXTINF:-1 tvg-name="ADBTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",ADBTV
 https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
@@ -404,6 +402,8 @@ https://stmv4.voxtvhd.com.br/nbxpipoca/nbxpipoca/playlist.m3u8
 # ===== SERIADOS =====
 #EXTINF:-1 tvg-name="AWTV STREAMING AO VIVO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="SERIADOS",AWTV STREAMING AO VIVO
 https://awtv.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Mr. Bean Live Action Ao Vivo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="SERIADOS",Mr. Bean Live Action Ao Vivo
+https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/720p-vtt/index.m3u8
 #EXTINF:-1 tvg-name="Nois Paulistas" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="SERIADOS",Nois Paulistas
 https://stmv3.voxtvhd.com.br/tvrtv/tvrtv/playlist.m3u8
 #EXTINF:-1 tvg-name="Reviva TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="SERIADOS",Reviva TV
@@ -429,8 +429,6 @@ https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 https://stmv8.samcast.com.br/suelen5027/suelen5027/playlist.m3u8
 #EXTINF:-1 tvg-name="Nacional Plus" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Nacional Plus
 https://stmv.webtvninjas.com.br/nacionalplus2/nacionalplus2/playlist.m3u8
-#EXTINF:-1 tvg-name="NEXXO TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",NEXXO TV
-https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8
 #EXTINF:-1 tvg-name="Noronha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Noronha TV
 https://stmv1.voxtvhd.com.br/noronhatv/noronhatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Play Votu TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Play Votu TV
