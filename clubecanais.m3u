@@ -47,8 +47,6 @@ https://video01.logicahost.com.br/lithoralnews/lithoralnews/playlist.m3u8
 https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TV Ponto de encontro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Ponto de encontro
 https://stmv4.voxtvhd.com.br/tvpontodeencontro/tvpontodeencontro/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Pop Music" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Pop Music
-https://stmv2.liveplushd.com.br/tvpopmusic/tvpopmusic/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Singular" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Tv Singular
 https://stmv3.srvsh.com.br/danielsantos1659/danielsantos1659/chunklist_w463242397.m3u8
 #EXTINF:-1 tvg-name="TV TVR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV TVR
@@ -211,6 +209,8 @@ https://video05.logicahost.com.br/cinecatastrofe/cinecatastrofe/playlist.m3u8
 https://video11.logicahost.com.br/comedyclub/comedyclub/playlist.m3u8
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
+#EXTINF:-1 tvg-name="Mega Cine TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Mega Cine TV
+https://mlb.essastream.com:8081/megacinetv/index.m3u8
 #EXTINF:-1 tvg-name="MEGA ONE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",MEGA ONE TV
 https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8
 #EXTINF:-1 tvg-name="MIAMI VICE E CONVIDADOS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",MIAMI VICE E CONVIDADOS
@@ -279,6 +279,8 @@ https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4211
 #EXTINF:-1 tvg-name="REDE SDP TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",REDE SDP TV
 https://video01.brascast.com/rede8652/rede8652/playlist.m3u8
+#EXTINF:-1 tvg-name="RFPTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",RFPTV
+https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 #EXTINF:-1 tvg-name="RÁDIO SINES" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",RÁDIO SINES
 https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MONTANHA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",TV MONTANHA
