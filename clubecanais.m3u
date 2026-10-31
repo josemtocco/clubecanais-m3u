@@ -251,8 +251,6 @@ https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
 https://stmv5.samcast.com.br/volmir9123/volmir9123/playlist.m3u8
 #EXTINF:-1 tvg-name="TVNA filmes" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TVNA filmes
 https://stmv6.voxtvhd.com.br/tvnafilmes/tvnafilmes/playlist.m3u8
-#EXTINF:-1 tvg-name="Vicapró Tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Vicapró Tv
-https://stmv2.srvif.com/vicaprotv/vicaprotv/playlist.m3u8
 #EXTINF:-1 tvg-name="VRTCHANNEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",VRTCHANNEL
 https://sistemavrt2023.vrtchannel.tv.br:3626/stream/play.m3u8
 # ===== GAMES TV =====
@@ -352,8 +350,6 @@ https://video03.logicahost.com.br/tvlivrebrasil/tvlivrebrasil/playlist.m3u8
 https://pop.uniquetv.com.br/reisenclubetv/video.m3u8
 #EXTINF:-1 tvg-name="TV Atitudenew" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV Atitudenew
 https://stmv1.transmissaodigital.com/tvatitudenew/tvatitudenew/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Dia" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV Dia
-https://stmv2.srvif.com/tvdia/tvdia/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NOTÍCIAS AGRÍCOLAS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV NOTÍCIAS AGRÍCOLAS
 https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Notícias Minas" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Tv Notícias Minas
@@ -453,8 +449,6 @@ https://stmv7.samcast.com.br/paulo8649/paulo8649/playlist.m3u8
 https://stmv6.voxtvhd.com.br/tvmaischeti/tvmaischeti/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede TV Manchete Oficial" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Rede TV Manchete Oficial
 https://stmv3.voxtvhd.com.br/tvrtv/tvrtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Redes digitais MR News" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Redes digitais MR News
-https://stmv2.srvif.com/mrnews/mrnews/playlist.m3u8
 #EXTINF:-1 tvg-name="SucuriNet" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",SucuriNet
 https://Stmv1.samcast.com.br/sucurinet/sucurinet/playlist.m3u8
 #EXTINF:-1 tvg-name="SULFUROSA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",SULFUROSA TV
@@ -489,8 +483,6 @@ https://stmv6.voxtvhd.com.br/tvmaischeti/tvmaischeti/playlist.m3u8
 https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8
 #EXTINF:-1 tvg-name="TV METROPOLITANA RIO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV METROPOLITANA RIO
 https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Omindaré" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Omindaré
-https://stmv2.srvif.com/tvomindare/tvomindare/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Online
 https://stmv3.voxtvhd.com.br/tves14edson/tves14edson/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Online
