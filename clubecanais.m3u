@@ -138,8 +138,6 @@ https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 https://stmv5.voxtvhd.com.br/benedito2556/benedito2556/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE GOSPEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE GOSPEL
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Rede rádio e tv Estação Gospel Diadema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede rádio e tv Estação Gospel Diadema
-https://stmv1.voxtvhd.com.br/gospel/gospel/playlist.m3u8
 #EXTINF:-1 tvg-name="RIT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RIT TV
 https://stream.ecast.com.br/rit-tv/index.m3u8
 #EXTINF:-1 tvg-name="RÁDIO PENIEL WEB E TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RÁDIO PENIEL WEB E TV
