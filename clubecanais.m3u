@@ -132,6 +132,8 @@ https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Radio Super Gospel Irati" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Radio Super Gospel Irati
+https://stmv8.samcast.com.br/radiomelodiawebtv/radiomelodiawebtv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ALFA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE ALFA TV
 https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Bençao Minha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede Bençao Minha TV
@@ -253,6 +255,8 @@ https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
 https://stmv5.samcast.com.br/volmir9123/volmir9123/playlist.m3u8
 #EXTINF:-1 tvg-name="TVNA filmes" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TVNA filmes
 https://stmv6.voxtvhd.com.br/tvnafilmes/tvnafilmes/playlist.m3u8
+#EXTINF:-1 tvg-name="VRTCHANNEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",VRTCHANNEL
+https://sistemavrt2023.vrtchannel.tv.br:3626/stream/play.m3u8
 # ===== GAMES TV =====
 #EXTINF:-1 tvg-name="CANAL START" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",CANAL START
 https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
@@ -317,6 +321,8 @@ https://video01.logicahost.com.br/topmixtvpopantigo5/topmixtvpopantigo5/playlist
 https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Antena Centro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Antena Centro
 https://srv1.zcast.com.br/flavio8394/flavio8394/playlist.m3u8
+#EXTINF:-1 tvg-name="TV CAJUÍ WEB" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV CAJUÍ WEB
+https://cdn.live.br1.jmvstream.com/webtv/tvcajui/playlist/playlist.m3u8
 #EXTINF:-1 tvg-name="TV LITORAL LESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV LITORAL LESTE
 https://stmv1.voxtvhd.com.br/tvaracati/tvaracati/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Mix Play" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Mix Play
