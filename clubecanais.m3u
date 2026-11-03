@@ -27,8 +27,6 @@ https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 https://utvsite.acessaradios.com.br/utvsite/utvsite.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="SBC" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",SBC
 https://video01.brascast.com/rede1250/rede1250/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Brasil Hits" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Brasil Hits
-https://video04.logicahost.com.br/brasilhits/brasilhits/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Clube" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Clube
 https://isaocorp.cloudecast.com/recon/index.m3u8
 #EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV CONQUISTA (Record)
@@ -132,6 +130,8 @@ https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Radio Super Gospel Irati" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Radio Super Gospel Irati
+https://stmv8.samcast.com.br/radiomelodiawebtv/radiomelodiawebtv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ALFA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE ALFA TV
 https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Bençao Minha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede Bençao Minha TV
@@ -246,7 +246,7 @@ https://live20.bozztv.com/giatvplayout7/giatv-209397/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MZ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV MZ
 https://stmv4.voxtvhd.com.br/tvmz/tvmz/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Sonata" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Sonata
-https://video04.logicahost.com.br/isonata/isonata/playlist.m3u8
+https://play.tvsonata.com.br/LiveApp/streams/tvsonata.m3u8
 #EXTINF:-1 tvg-name="TV+NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV+NEWS
 https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
 #EXTINF:-1 tvg-name="Tvcei" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tvcei
@@ -425,6 +425,8 @@ https://stmv7.voxtvhd.com.br/crntv/crntv/playlist.m3u8
 https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="JXS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",JXS TV
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
+#EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
+https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
 #EXTINF:-1 tvg-name="LATINOS TV NY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LATINOS TV NY
 https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Mundo On" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Mundo On
