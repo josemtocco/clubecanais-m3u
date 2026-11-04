@@ -65,8 +65,6 @@ https://tv03.zas.media:1936/tvdocarro/tvdocarro/playlist.m3u8
 https://stmv5.voxtvhd.com.br/atriostv/atriostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Rádio Olinda FM 105.3" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CATOLICA",Rádio Olinda FM 105.3
 https://video09.logicahost.com.br/radioolinda/radioolinda/playlist.m3u8
-#EXTINF:-1 tvg-name="TV PAI ETERNO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CATOLICA",TV PAI ETERNO
-https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1170674421.m3u8
 # ===== CULINÁRIA =====
 #EXTINF:-1 tvg-name="Canal Bem Melhor" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULINÁRIA",Canal Bem Melhor
 https://video01.logicahost.com.br/bemmelhor/bemmelhor/playlist.m3u8
@@ -437,8 +435,6 @@ https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8
 https://stmv1.voxtvhd.com.br/noronhatv/noronhatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Play Votu TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Play Votu TV
 https://stmv5.samcast.com.br/ronaldopaszko6809/ronaldopaszko6809/playlist.m3u8
-#EXTINF:-1 tvg-name="Prodígio Web Rádio TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Prodígio Web Rádio TV
-https://stmv4.voxtvhd.com.br/tvprodigiowebradio/tvprodigiowebradio/playlist.m3u8
 #EXTINF:-1 tvg-name="PULSO VISION" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",PULSO VISION
 https://5790d294af2dc.streamlock.net/pulsovision/pulsovision/playlist.m3u8
 #EXTINF:-1 tvg-name="RBTI+TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",RBTI+TV
@@ -451,6 +447,8 @@ https://stmv7.samcast.com.br/paulo8649/paulo8649/playlist.m3u8
 https://stmv6.voxtvhd.com.br/tvmaischeti/tvmaischeti/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede TV Manchete Oficial" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Rede TV Manchete Oficial
 https://stmv3.voxtvhd.com.br/tvrtv/tvrtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Redes digitais MR News" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Redes digitais MR News
+https://stmv2.srvif.com/mrnews/mrnews/playlist.m3u8
 #EXTINF:-1 tvg-name="SucuriNet" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",SucuriNet
 https://Stmv1.samcast.com.br/sucurinet/sucurinet/playlist.m3u8
 #EXTINF:-1 tvg-name="SULFUROSA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",SULFUROSA TV
