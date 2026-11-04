@@ -94,8 +94,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -130,8 +128,6 @@ https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Super Gospel Irati" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Radio Super Gospel Irati
-https://stmv8.samcast.com.br/radiomelodiawebtv/radiomelodiawebtv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ALFA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE ALFA TV
 https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Bençao Minha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede Bençao Minha TV
