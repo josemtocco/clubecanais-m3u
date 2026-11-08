@@ -1,6 +1,23 @@
 #EXTM3U
 #PLAYLIST:ClubeCanais
 # Generated automatically from https://clubecanais.com.br/
+# ===== a) TV ABERTA - REGIOES =====
+#EXTINF:-1 tvg-name="RBATV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RBATV
+https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
+#EXTINF:-1 tvg-name="RECORD NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RECORD NEWS
+https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
+#EXTINF:-1 tvg-name="REDE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",REDE TV
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
+#EXTINF:-1 tvg-name="RIT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RIT TV
+https://stream.ecast.com.br/rit-tv/index.m3u8
+#EXTINF:-1 tvg-name="TH+ SBT Interior" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TH+ SBT Interior
+https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
+#EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV CONQUISTA (Record)
+https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+#EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV NOVA NORDESTE
+https://stream.ecast.com.br/nova-tv/index.m3u8
+#EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TVBE Itajaí
+https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 # ===== AGRONEGÓCIO =====
 #EXTINF:-1 tvg-name="REDE VIVAX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",REDE VIVAX TV
 https://video11.logicahost.com.br/redevivaxtv/redevivaxtv/playlist.m3u8
@@ -21,6 +38,8 @@ https://video04.logicahost.com.br/cloudingtv/cloudingtv/playlist.m3u8
 https://stmv3.voxtvhd.com.br/leandroenzo/leandroenzo/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Ortega" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Rede Ortega
 https://stmv8.samcast.com.br/guilhermehenrique2856/guilhermehenrique2856/playlist.m3u8
+#EXTINF:-1 tvg-name="Rede Rádio/TV Rock Classic" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Rede Rádio/TV Rock Classic
+https://stmv5.voxtvhd.com.br/tvrockclassic/tvrockclassic/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE SPTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",REDE SPTV
 https://video01.logicahost.com.br/websptv/websptv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE UTV BRASIL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",REDE UTV BRASIL
@@ -29,8 +48,6 @@ https://utvsite.acessaradios.com.br/utvsite/utvsite.stream/playlist.m3u8
 https://video01.brascast.com/rede1250/rede1250/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Clube" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Clube
 https://isaocorp.cloudecast.com/recon/index.m3u8
-#EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV CONQUISTA (Record)
-https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 #EXTINF:-1 tvg-name="TV GOITACÁ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV GOITACÁ
 https://video01.brascast.com/david7639/david7639/playlist.m3u8
 #EXTINF:-1 tvg-name="TV GRANDE NATAL HDTV BRASIL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV GRANDE NATAL HDTV BRASIL
@@ -41,8 +58,6 @@ https://stmv4.voxtvhd.com.br/tvinforbahia/tvinforbahia/playlist.m3u8
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
 #EXTINF:-1 tvg-name="TV Lithoral News" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Lithoral News
 https://video01.logicahost.com.br/lithoralnews/lithoralnews/playlist.m3u8
-#EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV NOVA NORDESTE
-https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TV Ponto de encontro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Ponto de encontro
 https://stmv4.voxtvhd.com.br/tvpontodeencontro/tvpontodeencontro/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Singular" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",Tv Singular
@@ -83,8 +98,6 @@ https://stmv5.voxtvhd.com.br/orlando8704/orlando8704/playlist.m3u8
 https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
 #EXTINF:-1 tvg-name="TV CNU" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TV CNU
 https://br5093.streamingdevideo.com.br/wbgpymgwys/wbgpymgwys/playlist.m3u8
-#EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TVBE Itajaí
-https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 #EXTINF:-1 tvg-name="TVBE Joinville" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TVBE Joinville
 https://Stmv1.samcast.com.br/stefany3846/stefany3846/playlist.m3u8
 # ===== DESENHOS =====
@@ -96,8 +109,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -126,6 +137,8 @@ https://video07.logicahost.com.br/rssports05/rssports05/playlist.m3u8
 # ===== EVANGÉLICA =====
 #EXTINF:-1 tvg-name="ALMA GOSPEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",ALMA GOSPEL
 https://almagospel.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-name="Despertar TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Despertar TV
+https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 #EXTINF:-1 tvg-name="IGREJA MUNDIAL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",IGREJA MUNDIAL
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
@@ -136,8 +149,6 @@ https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 https://stmv5.voxtvhd.com.br/benedito2556/benedito2556/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE GOSPEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE GOSPEL
 https://redegospel-aovivo.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="RIT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RIT TV
-https://stream.ecast.com.br/rit-tv/index.m3u8
 #EXTINF:-1 tvg-name="RÁDIO PENIEL WEB E TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",RÁDIO PENIEL WEB E TV
 https://stmv4.voxtvhd.com.br/radioetvpenielweb/radioetvpenielweb/playlist.m3u8
 #EXTINF:-1 tvg-name="Spnt TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Spnt TV
@@ -317,6 +328,8 @@ https://video01.logicahost.com.br/topmixtvsertanejooficial/topmixtvsertanejoofic
 https://video01.logicahost.com.br/topmixtvpopantigo5/topmixtvpopantigo5/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 100% CAIPIRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV 100% CAIPIRA
 https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Antena Centro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Antena Centro
+https://srv1.zcast.com.br/flavio8394/flavio8394/playlist.m3u8
 #EXTINF:-1 tvg-name="TV CAJUÍ WEB" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV CAJUÍ WEB
 https://cdn.live.br1.jmvstream.com/webtv/tvcajui/playlist/playlist.m3u8
 #EXTINF:-1 tvg-name="TV LITORAL LESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV LITORAL LESTE
@@ -340,8 +353,6 @@ https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8
 https://srv3.zcast.com.br/comunicacao7839/comunicacao7839/playlist.m3u8
 #EXTINF:-1 tvg-name="ONDA 1 TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",ONDA 1 TV
 https://stmv7.voxtvhd.com.br/celso6243/celso6243/playlist.m3u8
-#EXTINF:-1 tvg-name="RECORD NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",RECORD NEWS
-https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 #EXTINF:-1 tvg-name="REDE LAPOENSE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",REDE LAPOENSE TV
 https://stmv7.samcast.com.br/lapoenseplay/lapoenseplay/playlist.m3u8
 #EXTINF:-1 tvg-name="RS NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",RS NEWS
@@ -371,8 +382,6 @@ https://cdn.live.br1.jmvstream.com/webtv/ifulrbjz/playlist/chunklist.m3u8
 #EXTINF:-1 tvg-name="Tv Clássicos do Cinema" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",Tv Clássicos do Cinema
 https://srv3.zcast.com.br/classicosdocinema/classicosdocinema/playlist.m3u8
 # ===== PUBLICOS =====
-#EXTINF:-1 tvg-name="RBATV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",RBATV
-https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
 #EXTINF:-1 tvg-name="RBSAT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",RBSAT TV
 https://stmv.jnbhost.com.br/rbsattv/rbsattv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV ALAGOINHA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV ALAGOINHA
@@ -385,6 +394,8 @@ https://stmv.jnbhost.com.br/tvbrasilnews/tvbrasilnews/playlist.m3u8
 https://stmv2.samcast.com.br/wallace4828/wallace4828/playlist.m3u8
 #EXTINF:-1 tvg-name="TV ENCANTO GOSPEL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV ENCANTO GOSPEL
 https://stmv.jnbhost.com.br/tvencanto/tvencanto/playlist.m3u8
+#EXTINF:-1 tvg-name="TV GAMA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV GAMA
+https://ssh101.com/live/tvgama2000/
 #EXTINF:-1 tvg-name="TV METROPOLE CARIRI" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV METROPOLE CARIRI
 https://stmv.jnbhost.com.br/tvmetropolecariri/tvmetropolecariri/playlist.m3u8
 #EXTINF:-1 tvg-name="TV PAPAGAIO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV PAPAGAIO
