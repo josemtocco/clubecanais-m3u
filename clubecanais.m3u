@@ -2,6 +2,8 @@
 #PLAYLIST:ClubeCanais
 # Generated automatically from https://clubecanais.com.br/
 # ===== a) TV ABERTA - REGIOES =====
+#EXTINF:-1 tvg-name="IETV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",IETV
+https://stmv2.painelvideocast.com.br/7976/7976/playlist.m3u8
 #EXTINF:-1 tvg-name="RBATV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RBATV
 https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
 #EXTINF:-1 tvg-name="RECORD NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RECORD NEWS
@@ -48,8 +50,6 @@ https://utvsite.acessaradios.com.br/utvsite/utvsite.stream/playlist.m3u8
 https://video01.brascast.com/rede1250/rede1250/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Clube" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV Clube
 https://isaocorp.cloudecast.com/recon/index.m3u8
-#EXTINF:-1 tvg-name="TV GOITACÁ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV GOITACÁ
-https://video01.brascast.com/david7639/david7639/playlist.m3u8
 #EXTINF:-1 tvg-name="TV GRANDE NATAL HDTV BRASIL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV GRANDE NATAL HDTV BRASIL
 https://tvgrandenatalhdtv.duckdns.org:3334/hls/live.m3u8
 #EXTINF:-1 tvg-name="TV INFORBAHIA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ALTA DEFINIÇÃO ( HD,FHD )",TV INFORBAHIA
@@ -328,8 +328,6 @@ https://video01.logicahost.com.br/topmixtvsertanejooficial/topmixtvsertanejoofic
 https://video01.logicahost.com.br/topmixtvpopantigo5/topmixtvpopantigo5/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 100% CAIPIRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV 100% CAIPIRA
 https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Antena Centro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Antena Centro
-https://srv1.zcast.com.br/flavio8394/flavio8394/playlist.m3u8
 #EXTINF:-1 tvg-name="TV CAJUÍ WEB" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV CAJUÍ WEB
 https://cdn.live.br1.jmvstream.com/webtv/tvcajui/playlist/playlist.m3u8
 #EXTINF:-1 tvg-name="TV LITORAL LESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV LITORAL LESTE
@@ -444,6 +442,8 @@ https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 https://stmv8.samcast.com.br/suelen5027/suelen5027/playlist.m3u8
 #EXTINF:-1 tvg-name="Nacional Plus" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Nacional Plus
 https://stmv.webtvninjas.com.br/nacionalplus2/nacionalplus2/playlist.m3u8
+#EXTINF:-1 tvg-name="NEXXO TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",NEXXO TV
+https://5790d294af2dc.streamlock.net/Nexxo/Nexxo/playlist.m3u8
 #EXTINF:-1 tvg-name="Noronha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Noronha TV
 https://stmv1.voxtvhd.com.br/noronhatv/noronhatv/playlist.m3u8
 #EXTINF:-1 tvg-name="Play Votu TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Play Votu TV
