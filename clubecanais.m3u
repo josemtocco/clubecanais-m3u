@@ -254,6 +254,8 @@ https://stmv1.samcast.com.br/paulohenrique5216/paulohenrique5216/playlist.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-209397/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MZ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV MZ
 https://stmv4.voxtvhd.com.br/tvmz/tvmz/playlist.m3u8
+#EXTINF:-1 tvg-name="TV Sonata" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV Sonata
+https://play.tvsonata.com.br/LiveApp/streams/tvsonata.m3u8
 #EXTINF:-1 tvg-name="TV+NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",TV+NEWS
 https://stmv2.samcast.com.br/adao6116/adao6116/playlist.m3u8
 #EXTINF:-1 tvg-name="Tvcei" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Tvcei
@@ -381,6 +383,8 @@ https://srv3.zcast.com.br/classicosdocinema/classicosdocinema/playlist.m3u8
 https://stmv.jnbhost.com.br/rbsattv/rbsattv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV ALAGOINHA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV ALAGOINHA
 https://stmv.jnbhost.com.br/tvalagoinha/tvalagoinha/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv antena 10" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",Tv antena 10
+https://srt01.logicahost.com.br/a10mais/index.m3u8
 #EXTINF:-1 tvg-name="TV BRASIL NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV BRASIL NEWS
 https://stmv.jnbhost.com.br/tvbrasilnews/tvbrasilnews/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv dunas" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",Tv dunas
