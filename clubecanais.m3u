@@ -16,8 +16,6 @@ https://stream.ecast.com.br/rit-tv/index.m3u8
 https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
 #EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV CONQUISTA (Record)
 https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
-#EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV NOVA NORDESTE
-https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TVBE Itajaí
 https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 # ===== AGRONEGÓCIO =====
@@ -143,8 +141,6 @@ https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Super Gospel Irati" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Radio Super Gospel Irati
-https://stmv8.samcast.com.br/radiomelodiawebtv/radiomelodiawebtv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ALFA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE ALFA TV
 https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Bençao Minha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede Bençao Minha TV
