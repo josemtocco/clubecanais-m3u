@@ -16,6 +16,8 @@ https://stream.ecast.com.br/rit-tv/index.m3u8
 https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
 #EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV CONQUISTA (Record)
 https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
+#EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV NOVA NORDESTE
+https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TVBE Itajaí
 https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 # ===== AGRONEGÓCIO =====
@@ -106,7 +108,7 @@ https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://lbgo.bozztv.com/ssh101/ssh101/tvnilcera/playlist.m3u8
+https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -294,8 +296,6 @@ https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MONTANHA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",TV MONTANHA
 https://stmv1.srvif.com/tvmontana/tvmontana/playlist.m3u8
-#EXTINF:-1 tvg-name="VALLE NUEVO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",VALLE NUEVO
-https://vtm1.msinteractiva.com/vallenuevotv/vallenuevotv/playlist.m3u8
 #EXTINF:-1 tvg-name="VINTAGE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",VINTAGE TV
 https://video01.brascast.com/rogerio7271/rogerio7271/playlist.m3u8
 #EXTINF:-1 tvg-name="WAY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",WAY
@@ -367,6 +367,9 @@ https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playli
 https://stmv8.samcast.com.br/rogerio9960/rogerio9960/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRANA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV SERRANA
 https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8
+# ===== NOVELA =====
+#EXTINF:-1 tvg-name="Rede Novelas De Televisão" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOVELA",Rede Novelas De Televisão
+https://stmv7.voxtvhd.com.br/lucas3274/lucas3274/playlist.m3u8
 # ===== POSIÇÃO PREMIUM =====
 #EXTINF:-1 tvg-name="BS TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="POSIÇÃO PREMIUM",BS TV Online
 https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w840059412.m3u8
@@ -497,6 +500,8 @@ https://stmv5.samcast.com.br/claudio8701/claudio8701/playlist.m3u8
 https://stmv3.voxtvhd.com.br/tves14edson/tves14edson/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Online" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV Online
 https://stmv3.voxtvhd.com.br/tves14edson/tves14edson/playlist.m3u8
+#EXTINF:-1 tvg-name="TV POÇO FUNDO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV POÇO FUNDO
+https://ssh101.com/live/tvpocofundo2/
 #EXTINF:-1 tvg-name="tv radio bhs 1430" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",tv radio bhs 1430
 https://stmv7.voxtvhd.com.br/tvradiobhs1430/tvradiobhs1430/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SERRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV SERRA
@@ -515,8 +520,8 @@ https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
 #EXTINF:-1 tvg-name="UNIQUE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",UNIQUE TV
 https://pop.uniquetv.com.br/hls/uniquetv.m3u8
-#EXTINF:-1 tvg-name="Viva Web Tv" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Viva Web Tv
-https://stmv7.voxtvhd.com.br/lucas3274/lucas3274/playlist.m3u8
+#EXTINF:-1 tvg-name="Web TV Acauã Tropical" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Web TV Acauã Tropical
+https://v01.taaqui.org/acauatropical/acauatropical/playlist.m3u8
 #EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
 https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
