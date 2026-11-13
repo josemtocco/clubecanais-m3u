@@ -318,10 +318,6 @@ https://stmv1.srvif.com/tvliberal/tvliberal/playlist.m3u8
 https://stmv7.voxtvhd.com.br/joao8063/joao8063/playlist.m3u8?1782067891
 #EXTINF:-1 tvg-name="TOCA TUDO TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TOCA TUDO TV
 https://tocatudotv.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-name="TOP MIX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TOP MIX TV
-https://video01.logicahost.com.br/topmixtvsertanejooficial/topmixtvsertanejooficial/playlist.m3u8
-#EXTINF:-1 tvg-name="TOP MIX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TOP MIX TV
-https://video01.logicahost.com.br/topmixtvpopantigo5/topmixtvpopantigo5/playlist.m3u8
 #EXTINF:-1 tvg-name="TV 100% CAIPIRA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV 100% CAIPIRA
 https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Antena Centro" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",TV Antena Centro
@@ -448,8 +444,6 @@ https://stmv5.samcast.com.br/ronaldopaszko6809/ronaldopaszko6809/playlist.m3u8
 https://5790d294af2dc.streamlock.net/pulsovision/pulsovision/playlist.m3u8
 #EXTINF:-1 tvg-name="RBTI+TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",RBTI+TV
 https://tv.rbti.tv.br/rbti1/index.m3u8
-#EXTINF:-1 tvg-name="Rede Classic" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Rede Classic
-https://srv2.zcast.com.br/redenovelas/redenovelas/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ESTAÇÃO AMPARO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",REDE ESTAÇÃO AMPARO
 https://stmv7.samcast.com.br/paulo8649/paulo8649/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE MARANHÃO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",REDE MARANHÃO
@@ -486,8 +480,6 @@ https://stmv4.voxtvhd.com.br/tvgalinhachoca/tvgalinhachoca/playlist.m3u8
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-13293/playlist/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv JS-HD" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv JS-HD
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
-#EXTINF:-1 tvg-name="TV LAGO AZUL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV LAGO AZUL
-https://video01.logicahost.com.br/tvlagoazul/tvlagoazul/chunklist_w1434261340.m3u8
 #EXTINF:-1 tvg-name="TV MAISCHETI" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV MAISCHETI
 https://stmv6.voxtvhd.com.br/tvmaischeti/tvmaischeti/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Metropole 16" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv Metropole 16
