@@ -107,6 +107,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -141,6 +143,8 @@ https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
+#EXTINF:-1 tvg-name="Radio Super Gospel Irati" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Radio Super Gospel Irati
+https://stmv8.samcast.com.br/radiomelodiawebtv/radiomelodiawebtv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ALFA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE ALFA TV
 https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Bençao Minha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede Bençao Minha TV
@@ -218,6 +222,8 @@ https://video05.logicahost.com.br/cinecatastrofe/cinecatastrofe/playlist.m3u8
 https://video11.logicahost.com.br/comedyclub/comedyclub/playlist.m3u8
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
+#EXTINF:-1 tvg-name="Mega Cine TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Mega Cine TV
+https://mlb.essastream.com:8081/megacinetv/index.m3u8
 #EXTINF:-1 tvg-name="MEGA ONE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",MEGA ONE TV
 https://stmv6.voxtvhd.com.br/megaonetv/megaonetv/playlist.m3u8
 #EXTINF:-1 tvg-name="MIAMI VICE E CONVIDADOS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",MIAMI VICE E CONVIDADOS
@@ -426,8 +432,6 @@ https://stmv7.voxtvhd.com.br/crntv/crntv/playlist.m3u8
 https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="JXS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",JXS TV
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
-#EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
-https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
 #EXTINF:-1 tvg-name="LATINOS TV NY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LATINOS TV NY
 https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Mundo On" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Mundo On
@@ -480,6 +484,8 @@ https://stmv4.voxtvhd.com.br/tvgalinhachoca/tvgalinhachoca/playlist.m3u8
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-13293/playlist/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv JS-HD" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv JS-HD
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
+#EXTINF:-1 tvg-name="TV LAGO AZUL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV LAGO AZUL
+https://video01.logicahost.com.br/tvlagoazul/tvlagoazul/chunklist_w1434261340.m3u8
 #EXTINF:-1 tvg-name="TV MAISCHETI" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV MAISCHETI
 https://stmv6.voxtvhd.com.br/tvmaischeti/tvmaischeti/playlist.m3u8
 #EXTINF:-1 tvg-name="Tv Metropole 16" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Tv Metropole 16
