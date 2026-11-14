@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T05:37:12Z",
+  "generated_at": "2026-11-14T13:17:11Z",
   "source": "https://clubecanais.com.br/index.php",
   "category_count": 28,
   "category_counts": {
@@ -69,7 +69,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=612&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "129",
@@ -81,7 +81,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=129&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "607",
@@ -93,7 +93,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=607&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "635",
@@ -117,7 +117,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=190&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "505",
@@ -129,7 +129,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=505&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "472",
@@ -153,7 +153,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=19&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "213",
@@ -165,7 +165,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=213&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "620",
@@ -189,7 +189,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=191&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "95",
@@ -201,7 +201,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=95&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "383",
@@ -285,7 +285,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=216&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "85",
@@ -297,7 +297,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=85&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "113",
@@ -333,7 +333,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=89&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "205",
@@ -357,7 +357,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=378&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "282",
@@ -393,7 +393,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=247&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "83",
@@ -405,7 +405,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=83&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "570",
@@ -453,7 +453,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=127&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "591",
@@ -477,7 +477,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=243&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "23",
@@ -501,7 +501,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=343&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "480",
@@ -525,7 +525,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=44&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "312",
@@ -549,7 +549,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=233&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "43",
@@ -561,7 +561,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=43&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "471",
@@ -603,7 +603,7 @@
       "id": "100",
       "name": "SBC Kids",
       "category": "DESENHOS",
-      "location": "Clube Canais Entrar Categorias Todas as Categorias a) TV ABERTA - REGIOES REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos SBC Kids Iniciar Recarregar Voltar Site do canal Curtir 4 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tv Nilcera DESENHOS Otaku Sign Tv DESENHOS TV Kidmais DESENHOS REDE LUDOVICENSE TV DESENHOS Ministério Infantil TV DESENHOS Sobre o canal A SBC Kids oferece desenhos, séries e conteúdos educativos em ambiente seguro, divertido e adequado a cada fase infantil, promovendo aprendizado, criatividade e tranquilidade para famílias. SBC Kids DESENHOS Brasil",
+      "location": "Clube Canais Entrar Categorias Todas as Categorias a) TV ABERTA - REGIOES REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos SBC Kids Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 4 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Tv Nilcera DESENHOS Otaku Sign Tv DESENHOS TV Kidmais DESENHOS REDE LUDOVICENSE TV DESENHOS Ministério Infantil TV DESENHOS Sobre o canal A SBC Kids oferece desenhos, séries e conteúdos educativos em ambiente seguro, divertido e adequado a cada fase infantil, promovendo aprendizado, criatividade e tranquilidade para famílias. SBC Kids DESENHOS Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video01.brascast.com/rede1220/rede1220/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=100&v=20260930-2",
@@ -621,7 +621,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=210&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "221",
@@ -633,7 +633,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=221&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "202",
@@ -657,7 +657,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=183&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "76",
@@ -669,7 +669,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=76&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "268",
@@ -681,7 +681,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=268&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "265",
@@ -705,7 +705,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=178&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "179",
@@ -717,7 +717,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=179&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "180",
@@ -729,7 +729,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=180&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "181",
@@ -741,7 +741,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=181&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "182",
@@ -753,7 +753,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=182&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "64",
@@ -777,7 +777,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=594&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "66",
@@ -813,7 +813,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=435&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "593",
@@ -825,7 +825,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=593&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "65",
@@ -861,13 +861,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=605&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "317",
       "name": "Top Gospel FM",
       "category": "EVANGÉLICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Top Gospel FM Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Viva Vida TV EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA Spnt TV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV Casa Do Pai EVANGÉLICA TV super gospel EVANGÉLICA TV APOCALIPSE EVANGÉLICA Sobre o canal A primeira rádio gospel em áudio e vídeo do Brasil. Somos uma rádio independente de denominações, grupos políticos ou ideologias. Tocamos o melhor da música gospel 24 horas por dia. Top Gospel FM EVANGÉLICA Recife",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Top Gospel FM Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Viva Vida TV EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA Spnt TV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV Casa Do Pai EVANGÉLICA TV super gospel EVANGÉLICA TV APOCALIPSE EVANGÉLICA Sobre o canal A primeira rádio gospel em áudio e vídeo do Brasil. Somos uma rádio independente de denominações, grupos políticos ou ideologias. Tocamos o melhor da música gospel 24 horas por dia. Top Gospel FM EVANGÉLICA Recife",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://a.cdni.live/topgospelfm/topgospelfm/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=317&v=20260930-2",
@@ -909,7 +909,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=244&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "112",
@@ -957,7 +957,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=513&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "33",
@@ -993,7 +993,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=70&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "577",
@@ -1017,7 +1017,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=79&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "450",
@@ -1113,13 +1113,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=444&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "624",
       "name": "TV NOVA GERAÇÃO",
       "category": "EVANGÉLICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV NOVA GERAÇÃO Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Viva Vida TV EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA Spnt TV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV Casa Do Pai EVANGÉLICA TV super gospel EVANGÉLICA Sobre o canal 24 HORAS NO AR TV NOVA GERAÇÃO EVANGÉLICA SAO PAULO",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV NOVA GERAÇÃO Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV SEPIOL EVANGÉLICA TV MIL ALELUIA EVANGÉLICA Viva Vida TV EVANGÉLICA Top Gospel FM EVANGÉLICA TV DIÁRIO DO AGRESTE EVANGÉLICA +Gospel EVANGÉLICA VITÓRIA PLENA TV EVANGÉLICA Spnt TV EVANGÉLICA TV LIBERDADE BETEL EVANGÉLICA TV VR GOSPEL EVANGÉLICA TV Casa Do Pai EVANGÉLICA TV super gospel EVANGÉLICA Sobre o canal 24 HORAS NO AR TV NOVA GERAÇÃO EVANGÉLICA SAO PAULO",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv5.voxtvhd.com.br/paulinho6909/paulinho6909/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=624&v=20260930-2",
@@ -1137,7 +1137,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=48&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "514",
@@ -1149,7 +1149,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=514&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "579",
@@ -1173,7 +1173,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=428&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "469",
@@ -1197,7 +1197,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=503&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "115",
@@ -1221,7 +1221,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=131&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "310",
@@ -1245,7 +1245,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=433&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "246",
@@ -1269,7 +1269,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=136&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "4",
@@ -1305,7 +1305,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=434&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "533",
@@ -1329,7 +1329,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=133&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "87",
@@ -1365,7 +1365,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=269&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "384",
@@ -1401,7 +1401,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=218&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "599",
@@ -1413,7 +1413,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=599&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "226",
@@ -1425,7 +1425,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=226&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "314",
@@ -1473,7 +1473,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=211&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "298",
@@ -1497,7 +1497,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=250&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "75",
@@ -1509,7 +1509,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=75&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "589",
@@ -1521,7 +1521,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=589&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "319",
@@ -1545,7 +1545,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=341&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "388",
@@ -1581,7 +1581,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=349&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "69",
@@ -1605,7 +1605,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=345&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "347",
@@ -1629,7 +1629,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=353&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "348",
@@ -1641,7 +1641,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=348&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "346",
@@ -1653,7 +1653,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=346&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "105",
@@ -1677,7 +1677,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=352&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "354",
@@ -1689,7 +1689,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=354&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "328",
@@ -1725,7 +1725,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=252&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "350",
@@ -1737,7 +1737,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=350&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "548",
@@ -1761,7 +1761,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=135&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "152",
@@ -1773,7 +1773,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=152&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "417",
@@ -1809,7 +1809,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=84&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "365",
@@ -1821,7 +1821,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=365&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "476",
@@ -1875,7 +1875,7 @@
       "id": "24",
       "name": "TV 100% CAIPIRA",
       "category": "MUSICA",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV 100% CAIPIRA Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA TOCA TUDO TV MUSICA Lamore Rock Show WebTV MUSICA YEEAAH 2 MUSICA Radio Liberal MUSICA TV Antena Centro MUSICA TV Planalto MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Bahiana FM TV MUSICA Sobre o canal TV 100% CAIPIRA- Um canal com o melhor da música sertaneja de raiz para o Brasil TV 100% CAIPIRA MUSICA Brasil/Paraná",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV 100% CAIPIRA Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar TV Mix Play MUSICA TOCA TUDO TV MUSICA Lamore Rock Show WebTV MUSICA YEEAAH 2 MUSICA Radio Liberal MUSICA TV Antena Centro MUSICA TV Planalto MUSICA Rádio Tv Fragata MUSICA TOP MIX TV MUSICA TV LITORAL LESTE MUSICA TOP MIX TV MUSICA Bahiana FM TV MUSICA Sobre o canal TV 100% CAIPIRA- Um canal com o melhor da música sertaneja de raiz para o Brasil TV 100% CAIPIRA MUSICA Brasil/Paraná",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video10.logicahost.com.br/caipira/caipira/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=24&v=20260930-2",
@@ -1893,7 +1893,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=590&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "625",
@@ -1917,7 +1917,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=77&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "554",
@@ -1983,7 +1983,7 @@
       "id": "11",
       "name": "CARIRI TV",
       "category": "NOTÍCIAS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos CARIRI TV Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS Tv Alpha NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal A Cariri TV é uma TV local independente, criada para informar, valorizar e conectar Boqueirão e toda a região do Cariri. Nosso conteúdo é feito por quem vive aqui, para quem vive aqui. Produzimos programas jornalísticos, culturais e comunitários, com foco em: Notícias locais Serviços de interesse da população Cultura, tradição e eventos regionais Esporte amador Valorização do comércio local CARIRI TV NOTÍCIAS Brasil/Paraiba",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos CARIRI TV Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal A Cariri TV é uma TV local independente, criada para informar, valorizar e conectar Boqueirão e toda a região do Cariri. Nosso conteúdo é feito por quem vive aqui, para quem vive aqui. Produzimos programas jornalísticos, culturais e comunitários, com foco em: Notícias locais Serviços de interesse da população Cultura, tradição e eventos regionais Esporte amador Valorização do comércio local CARIRI TV NOTÍCIAS Brasil/Paraiba",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video05.logicahost.com.br/cariritv/cariritv/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=11&v=20260930-2",
@@ -1995,7 +1995,7 @@
       "id": "9",
       "name": "Creative TV Brasil",
       "category": "NOTÍCIAS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Creative TV Brasil Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS Tv Alpha NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal A Creative TV Brasil é um canal de comunicação multiplataforma com mais de 11 anos de atuação, produzido no interior da Paraíba, com foco em jornalismo regional, podcasts, entretenimento, entrevistas, cultura e prestação de serviço. Com uma linguagem acessível e conteúdos relevantes, a Creative TV Brasil se consolidou como referência em informação local com alcance regional, conectando cidades da Paraíba e do Piauí por meio do audiovisual. Creative TV Brasil NOTÍCIAS Brasil/Paraíba",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Creative TV Brasil Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal A Creative TV Brasil é um canal de comunicação multiplataforma com mais de 11 anos de atuação, produzido no interior da Paraíba, com foco em jornalismo regional, podcasts, entretenimento, entrevistas, cultura e prestação de serviço. Com uma linguagem acessível e conteúdos relevantes, a Creative TV Brasil se consolidou como referência em informação local com alcance regional, conectando cidades da Paraíba e do Piauí por meio do audiovisual. Creative TV Brasil NOTÍCIAS Brasil/Paraíba",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://v01.taaqui.org/creativetvbrasil/creativetvbrasil/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=9&v=20260930-2",
@@ -2049,7 +2049,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=184&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "149",
@@ -2061,7 +2061,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=149&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "245",
@@ -2073,13 +2073,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=245&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "201",
       "name": "TV Atitudenew",
       "category": "NOTÍCIAS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Atitudenew Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS Tv Alpha NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal Assista TV Atitudenew ao vivo pelo Clube Canais. TV Atitudenew NOTÍCIAS",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV Atitudenew Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal Assista TV Atitudenew ao vivo pelo Clube Canais. TV Atitudenew NOTÍCIAS",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://stmv1.transmissaodigital.com/tvatitudenew/tvatitudenew/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=201&v=20260930-2",
@@ -2091,7 +2091,7 @@
       "id": "20",
       "name": "TV NOTÍCIAS AGRÍCOLAS",
       "category": "NOTÍCIAS",
-      "location": "AGRÍCOLAS - Clube Canais Entrar Categorias Todas as Categorias a) TV ABERTA - REGIOES REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV NOTÍCIAS AGRÍCOLAS Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS Tv Alpha NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Sobre o canal TV NOTÍCIAS AGRÍCOLAS- Leilões e notícias do Agro TV NOTÍCIAS AGRÍCOLAS NOTÍCIAS Brasil/São Paulo",
+      "location": "AGRÍCOLAS - Clube Canais Entrar Categorias Todas as Categorias a) TV ABERTA - REGIOES REDE NBX TV ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV NOTÍCIAS AGRÍCOLAS Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV SERRANA NOTÍCIAS TV Atitudenew NOTÍCIAS Sobre o canal TV NOTÍCIAS AGRÍCOLAS- Leilões e notícias do Agro TV NOTÍCIAS AGRÍCOLAS NOTÍCIAS Brasil/São Paulo",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video09.logicahost.com.br/tvnoticiasagricolas/tvnoticiasagricolas/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=20&v=20260930-2",
@@ -2115,7 +2115,7 @@
       "id": "34",
       "name": "TV SERRANA",
       "category": "NOTÍCIAS",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV SERRANA Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS O Sertão é Notícia NOTÍCIAS Tv Alpha NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV Atitudenew NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal TV SERRANA- Canal de São Francisco de Paula-RS. A fonte da informação da Serra Gaúcha. TV SERRANA NOTÍCIAS Brasil/Rui Grande do Sul",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV SERRANA Iniciar Recarregar Voltar Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Canal 312 NOTÍCIAS ONDA 1 TV NOTÍCIAS Tv Notícias Minas NOTÍCIAS TV Dia NOTÍCIAS REDE LAPOENSE TV NOTÍCIAS CARIRI TV NOTÍCIAS Tv Alpha NOTÍCIAS O Sertão é Notícia NOTÍCIAS Creative TV Brasil NOTÍCIAS RS NEWS NOTÍCIAS TV Atitudenew NOTÍCIAS Rádio e TV Livre Brasil NOTÍCIAS Sobre o canal TV SERRANA- Canal de São Francisco de Paula-RS. A fonte da informação da Serra Gaúcha. TV SERRANA NOTÍCIAS Brasil/Rui Grande do Sul",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video10.logicahost.com.br/tvserrana/tvserrana/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=34&v=20260930-2",
@@ -2133,7 +2133,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=597&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "497",
@@ -2193,7 +2193,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=606&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "208",
@@ -2205,7 +2205,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=208&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "632",
@@ -2241,7 +2241,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=151&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "289",
@@ -2313,7 +2313,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=361&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "357",
@@ -2325,7 +2325,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=357&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "360",
@@ -2337,7 +2337,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=360&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "59",
@@ -2349,7 +2349,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=59&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "621",
@@ -2385,7 +2385,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=125&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "121",
@@ -2397,7 +2397,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=121&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "545",
@@ -2421,7 +2421,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=596&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "616",
@@ -2445,7 +2445,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=516&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "524",
@@ -2457,7 +2457,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=524&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "544",
@@ -2493,7 +2493,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=523&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "447",
@@ -2505,7 +2505,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=447&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "518",
@@ -2529,7 +2529,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=522&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "445",
@@ -2565,7 +2565,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=525&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "531",
@@ -2601,7 +2601,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=521&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "584",
@@ -2625,7 +2625,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=609&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "640",
@@ -2661,7 +2661,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=512&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "527",
@@ -2709,7 +2709,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=441&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "426",
@@ -2733,7 +2733,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=454&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "467",
@@ -2769,7 +2769,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=517&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "539",
@@ -2793,13 +2793,13 @@
       "page": "https://clubecanais.com.br/channel.php?id=586&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "489",
       "name": "TV LAGO AZUL",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV LAGO AZUL Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES tvportalweb VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES TV MAISCHETI VARIEDADES Rede TV Manchete Oficial VARIEDADES Sobre o canal A TV LAGO AZUL LTDA nasceu com o propósito de levar informação, entretenimento, cultura e esportes para a população de Gandu e de toda a região do Baixo Sul da Bahia. Inspirada no tradicional Lago Azul, um dos principais cartões-postais da cidade de Gandu, a emissora busca valorizar a identidade local e aproximar a comunidade dos acontecimentos que fazem parte do dia a dia da região. O Lago Azul é reconhecido como um importante símbolo da cidade e ponto de referência para moradores e visitantes. � Ganduzao · 1 Ao longo de sua trajetória, a TV LAGO AZUL expandiu sua presença para o ambiente digital, oferecendo programação através da internet, aplicativo para smartphones Android, Smart TVs Android e televisores Samsung, permitindo que o público acompanhe seus conteúdos de qualquer lugar. Com foco na inovação e na comunicação regional, a emissora transmite eventos esportivos, programas informativos, culturais e de entretenimento, fortalecendo os laços com a comunidade e proporcionando espaço para divulgação de empresas, projetos sociais e ações de interesse público. Hoje, a TV LAGO AZUL segue crescendo e se consolidando como um importante veículo de comunicação regional, levando informação, lazer e conectando pessoas por meio da tecnologia e da valorização da cultura local. TV LAGO AZUL VARIEDADES Brasil",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV LAGO AZUL Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 1 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES tvportalweb VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES TV MAISCHETI VARIEDADES Rede TV Manchete Oficial VARIEDADES Sobre o canal A TV LAGO AZUL LTDA nasceu com o propósito de levar informação, entretenimento, cultura e esportes para a população de Gandu e de toda a região do Baixo Sul da Bahia. Inspirada no tradicional Lago Azul, um dos principais cartões-postais da cidade de Gandu, a emissora busca valorizar a identidade local e aproximar a comunidade dos acontecimentos que fazem parte do dia a dia da região. O Lago Azul é reconhecido como um importante símbolo da cidade e ponto de referência para moradores e visitantes. � Ganduzao · 1 Ao longo de sua trajetória, a TV LAGO AZUL expandiu sua presença para o ambiente digital, oferecendo programação através da internet, aplicativo para smartphones Android, Smart TVs Android e televisores Samsung, permitindo que o público acompanhe seus conteúdos de qualquer lugar. Com foco na inovação e na comunicação regional, a emissora transmite eventos esportivos, programas informativos, culturais e de entretenimento, fortalecendo os laços com a comunidade e proporcionando espaço para divulgação de empresas, projetos sociais e ações de interesse público. Hoje, a TV LAGO AZUL segue crescendo e se consolidando como um importante veículo de comunicação regional, levando informação, lazer e conectando pessoas por meio da tecnologia e da valorização da cultura local. TV LAGO AZUL VARIEDADES Brasil",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://video01.logicahost.com.br/tvlagoazul/tvlagoazul/chunklist_w1434261340.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=489&v=20260930-2",
@@ -2823,7 +2823,7 @@
       "id": "538",
       "name": "Tv Metropole 16",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Metropole 16 Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES tvportalweb VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES TV MAISCHETI VARIEDADES Rede TV Manchete Oficial VARIEDADES Sobre o canal Canal da fundação José possidonio Peixoto Tv Metropole 16 VARIEDADES Ceará",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos Tv Metropole 16 Clique em Iniciar para tocar o vídeo. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES tvportalweb VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES TV MAISCHETI VARIEDADES Rede TV Manchete Oficial VARIEDADES Sobre o canal Canal da fundação José possidonio Peixoto Tv Metropole 16 VARIEDADES Ceará",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://cdn-fundacao-2110.ciclano.io:1443/fundacao-2110/fundacao-2110/playlist.m3u8",
       "page": "https://clubecanais.com.br/channel.php?id=538&v=20260930-2",
@@ -2871,7 +2871,7 @@
       "id": "643",
       "name": "TV POÇO FUNDO",
       "category": "VARIEDADES",
-      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV POÇO FUNDO Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES tvportalweb VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES TV MAISCHETI VARIEDADES Rede TV Manchete Oficial VARIEDADES Sobre o canal Assista TV POÇO FUNDO ao vivo pelo Clube Canais. TV POÇO FUNDO VARIEDADES BRASIL/PERNANBUCO",
+      "location": "ALTA DEFINIÇÃO ( HD,FHD ) SERIADOS NOVELA DESENHOS FUTEBOL ESPORTES EVANGÉLICA CATOLICA EDUCATIVOS MUSICA CARRO MODA CULINÁRIA TEMPO TELEVENDAS DOCUMENTÁRIOS AGRONEGÓCIO CULTURA PUBLICOS RADIO - LIVE KIDS VARIEDADES INTERNACIONAL GAMES TV FILMES NOTÍCIAS No ar agora Adicionar aos favoritos TV POÇO FUNDO Player recarregado. Clique em Iniciar. Iniciar Recarregar Voltar Site do canal Curtir 0 Compartilhar Compartilhar canal WhatsApp Facebook Telegram X Copiar link Selecione e copie o link: Você também pode gostar Lucas tv VARIEDADES Caravana Play VARIEDADES Tv Expllosão VARIEDADES MVERSO TV VARIEDADES ORTV WEB Filmes e variedades culturais VARIEDADES tvportalweb VARIEDADES Tv Diario Caxiense VARIEDADES Web TV Cidade Janaúba e Serra Geral VARIEDADES RADIO TV BRASIL SINOP VARIEDADES WEB TV CR VARIEDADES TV MAISCHETI VARIEDADES Rede TV Manchete Oficial VARIEDADES Sobre o canal Assista TV POÇO FUNDO ao vivo pelo Clube Canais. TV POÇO FUNDO VARIEDADES BRASIL/PERNANBUCO",
       "logo": "https://clubecanais.com.br/img/logo.jpg",
       "stream": "https://ssh101.com/live/tvpocofundo2/",
       "page": "https://clubecanais.com.br/channel.php?id=643&v=20260930-2",
@@ -2901,7 +2901,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=509&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "466",
@@ -2925,7 +2925,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=448&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "569",
@@ -2949,7 +2949,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=436&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "502",
@@ -2961,7 +2961,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=502&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "515",
@@ -2973,7 +2973,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=515&v=20260930-2",
       "active": true,
       "status": 200,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "442",
@@ -2985,7 +2985,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=442&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     },
     {
       "id": "642",
@@ -3021,7 +3021,7 @@
       "page": "https://clubecanais.com.br/channel.php?id=601&v=20260930-2",
       "active": true,
       "status": 206,
-      "validation": "ok"
+      "validation": "retained_ok"
     }
   ]
 }
