@@ -107,8 +107,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -430,14 +428,10 @@ https://stmv8.samcast.com.br/alvaro9088/alvaro9088/playlist.m3u8
 https://video02.logicahost.com.br/coletivatv/coletivatv/playlist.m3u8
 #EXTINF:-1 tvg-name="CRN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",CRN TV
 https://stmv7.voxtvhd.com.br/crntv/crntv/playlist.m3u8
-#EXTINF:-1 tvg-name="FAROVISION" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",FAROVISION
-https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 #EXTINF:-1 tvg-name="JXS TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",JXS TV
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
 #EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
 https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
-#EXTINF:-1 tvg-name="LATINOS TV NY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LATINOS TV NY
-https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Mundo On" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Mundo On
 https://stmv8.samcast.com.br/suelen5027/suelen5027/playlist.m3u8
 #EXTINF:-1 tvg-name="Nacional Plus" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Nacional Plus
