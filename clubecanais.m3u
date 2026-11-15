@@ -107,6 +107,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -300,6 +302,8 @@ https://stmv1.srvif.com/tvmontana/tvmontana/playlist.m3u8
 https://vtm1.msinteractiva.com/vallenuevotv/vallenuevotv/playlist.m3u8
 #EXTINF:-1 tvg-name="VINTAGE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",VINTAGE TV
 https://video01.brascast.com/rogerio7271/rogerio7271/playlist.m3u8
+#EXTINF:-1 tvg-name="WAY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",WAY
+https://live.wayone.cloud/waytv/waytv1/playlist.m3u8
 # ===== KIDS =====
 #EXTINF:-1 tvg-name="CANAL INFANTIL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",CANAL INFANTIL
 https://stmv1.voxtvhd.com.br/canalinfantil/canalinfantil/playlist.m3u8
