@@ -4,6 +4,8 @@
 # ===== a) TV ABERTA - REGIOES =====
 #EXTINF:-1 tvg-name="IETV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",IETV
 https://stmv2.painelvideocast.com.br/7976/7976/playlist.m3u8
+#EXTINF:-1 tvg-name="RBATV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RBATV
+https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/chunklist.m3u8
 #EXTINF:-1 tvg-name="RECORD NEWS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RECORD NEWS
 https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 #EXTINF:-1 tvg-name="REDE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",REDE TV
@@ -88,8 +90,6 @@ https://video01.logicahost.com.br/bemmelhor/bemmelhor/playlist.m3u8
 https://stmv4.voxtvhd.com.br/carlosdavi6787/carlosdavi6787/playlist.m3u8
 #EXTINF:-1 tvg-name="IJUÍ PLAY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",IJUÍ PLAY
 https://video04.logicahost.com.br/schamlztv/schamlztv/playlist.m3u8
-#EXTINF:-1 tvg-name="ORTVWEB - FILMES E SÉRIES" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",ORTVWEB - FILMES E SÉRIES
-https://stmv5.voxtvhd.com.br/orlando8704/orlando8704/playlist.m3u8
 #EXTINF:-1 tvg-name="TNJ TV NOVA JUAREZ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TNJ TV NOVA JUAREZ
 https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
 #EXTINF:-1 tvg-name="TV CNU" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TV CNU
@@ -105,8 +105,6 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
-#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
-https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -218,8 +216,6 @@ https://video05.logicahost.com.br/cinecatastrofe/cinecatastrofe/playlist.m3u8
 https://video11.logicahost.com.br/comedyclub/comedyclub/playlist.m3u8
 #EXTINF:-1 tvg-name="GLN TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",GLN TV
 https://stmv8.samcast.com.br/glnfilmes/glnfilmes/playlist.m3u8
-#EXTINF:-1 tvg-name="IBT" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",IBT
-https://stmv5.voxtvhd.com.br/tvibt2026/tvibt2026/playlist.m3u8
 #EXTINF:-1 tvg-name="Mega Cine TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",Mega Cine TV
 https://mlb.essastream.com:8081/megacinetv/index.m3u8
 #EXTINF:-1 tvg-name="MEGA ONE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="FILMES",MEGA ONE TV
