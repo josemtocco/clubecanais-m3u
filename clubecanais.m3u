@@ -21,6 +21,8 @@ https://stream.ecast.com.br/nova-tv/index.m3u8
 #EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TVBE Itajaí
 https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
 # ===== AGRONEGÓCIO =====
+#EXTINF:-1 tvg-name="Canal Agroplus" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",Canal Agroplus
+https://origin2.epgbr.com.br/live/agroplus/index.m3u8
 #EXTINF:-1 tvg-name="REDE VIVAX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",REDE VIVAX TV
 https://video11.logicahost.com.br/redevivaxtv/redevivaxtv/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Folha do Campo" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="AGRONEGÓCIO",TV Folha do Campo
@@ -143,8 +145,6 @@ https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
 https://stmv3.voxtvhd.com.br/jshdtv/jshdtv/playlist.m3u8
-#EXTINF:-1 tvg-name="Radio Super Gospel Irati" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Radio Super Gospel Irati
-https://stmv8.samcast.com.br/radiomelodiawebtv/radiomelodiawebtv/playlist.m3u8
 #EXTINF:-1 tvg-name="REDE ALFA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",REDE ALFA TV
 https://stmv1.voxtvhd.com.br/7070/7070/playlist.m3u8
 #EXTINF:-1 tvg-name="Rede Bençao Minha TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Rede Bençao Minha TV
@@ -361,6 +361,8 @@ https://stmv7.samcast.com.br/lapoenseplay/lapoenseplay/playlist.m3u8
 https://video07.logicahost.com.br/rsnews01/rsnews01/playlist.m3u8
 #EXTINF:-1 tvg-name="Rádio e TV Livre Brasil" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",Rádio e TV Livre Brasil
 https://video03.logicahost.com.br/tvlivrebrasil/tvlivrebrasil/playlist.m3u8
+#EXTINF:-1 tvg-name="SBT News" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",SBT News
+https://sbtnews.maissbt.com/3.m3u8
 #EXTINF:-1 tvg-name="TV Atitudenew" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV Atitudenew
 https://stmv1.transmissaodigital.com/tvatitudenew/tvatitudenew/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NOTÍCIAS AGRÍCOLAS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="NOTÍCIAS",TV NOTÍCIAS AGRÍCOLAS
@@ -514,6 +516,10 @@ https://stmv1.voxtvhd.com.br/9030/9030/playlist.m3u8
 https://stmv4.voxtvhd.com.br/joseorlando9027/joseorlando9027/playlist.m3u8
 #EXTINF:-1 tvg-name="TV VIVE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TV VIVE
 https://stmv1.voxtvhd.com.br/14650/14650/playlist.m3u8
+#EXTINF:-1 tvg-name="TVBE Itajaí" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVBE Itajaí
+https://Stmv1.samcast.com.br/junior5083/junior5083/playlist.m3u8
+#EXTINF:-1 tvg-name="TVBE Joinville" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVBE Joinville
+https://Stmv1.samcast.com.br/stefany3846/stefany3846/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCB TV CAMPOS BELOS" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCB TV CAMPOS BELOS
 https://stmv2.samcast.com.br/dermeval8653/dermeval8653/playlist.m3u8
 #EXTINF:-1 tvg-name="TVCOM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",TVCOM
