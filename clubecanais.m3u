@@ -100,6 +100,8 @@ https://video04.logicahost.com.br/schamlztv/schamlztv/playlist.m3u8
 https://stmv5.voxtvhd.com.br/orlando8704/orlando8704/playlist.m3u8
 #EXTINF:-1 tvg-name="TNJ TV NOVA JUAREZ" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TNJ TV NOVA JUAREZ
 https://stmv2.webtvninjas.com.br/tvnovajuarez/tvnovajuarez/playlist.m3u8
+#EXTINF:-1 tvg-name="TV CNU" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TV CNU
+https://br5093.streamingdevideo.com.br/wbgpymgwys/wbgpymgwys/playlist.m3u8
 #EXTINF:-1 tvg-name="TVBE Joinville" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULTURA",TVBE Joinville
 https://Stmv1.samcast.com.br/stefany3846/stefany3846/playlist.m3u8
 # ===== DESENHOS =====
@@ -111,6 +113,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -137,6 +141,8 @@ https://video07.logicahost.com.br/rssports04/rssports04/playlist.m3u8
 #EXTINF:-1 tvg-name="RS SPORTS 5" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="ESPORTES",RS SPORTS 5
 https://video07.logicahost.com.br/rssports05/rssports05/playlist.m3u8
 # ===== EVANGÉLICA =====
+#EXTINF:-1 tvg-name="Despertar TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",Despertar TV
+https://stmv8.samcast.com.br/jarlesluiz3539/jarlesluiz3539/playlist.m3u8
 #EXTINF:-1 tvg-name="IGREJA MUNDIAL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",IGREJA MUNDIAL
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="JS-HDTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",JS-HDTV
@@ -193,6 +199,8 @@ https://stmv7.voxtvhd.com.br/tvluzdomundo/tvluzdomundo/playlist.m3u8
 https://srv4.zcast.com.br/flavio8792/flavio8792/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MIL ALELUIA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TV MIL ALELUIA
 https://srv2.zcast.com.br/tvmilaleluia/tvmilaleluia/playlist.m3u8
+#EXTINF:-1 tvg-name="TV NOVA ALIANÇA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TV NOVA ALIANÇA
+https://stmv3.voxtvhd.com.br/tvnovaalianca/tvnovaalianca/playlist.m3u8
 #EXTINF:-1 tvg-name="TV NOVA GERAÇÃO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TV NOVA GERAÇÃO
 https://stmv5.voxtvhd.com.br/paulinho6909/paulinho6909/playlist.m3u8
 #EXTINF:-1 tvg-name="TV SEPIOL" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="EVANGÉLICA",TV SEPIOL
@@ -279,7 +287,7 @@ https://live.wayone.cloud/adbtv/adbtv/playlist.m3u8
 #EXTINF:-1 tvg-name="BRAZILIANTIMES" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",BRAZILIANTIMES
 https://braziliantimes.nuvemplay.live/hls/stream.m3u8
 #EXTINF:-1 tvg-name="Canal Parlament" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",Canal Parlament
-https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/br1/99731/br1_299197367.ts
+https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/bitrate_1.m3u8
 #EXTINF:-1 tvg-name="MELODIE TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",MELODIE TV
 https://live20.bozztv.com/akamaissh101/ssh101/melodietvlive/playlist.m3u8
 #EXTINF:-1 tvg-name="Muzangala TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",Muzangala TV
@@ -312,6 +320,8 @@ https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 #EXTINF:-1 tvg-name="TV itapetinga kids" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV itapetinga kids
 https://stmv4.voxtvhd.com.br/eroaldo/eroaldo/playlist.m3u8
 # ===== MUSICA =====
+#EXTINF:-1 tvg-name="Bahiana FM TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Bahiana FM TV
+https://video01.brascast.com/radio8698/radio8698/playlist.m3u8
 #EXTINF:-1 tvg-name="Lamore Rock Show WebTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Lamore Rock Show WebTV
 https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Liberal" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Radio Liberal
@@ -397,7 +407,11 @@ https://stmv.jnbhost.com.br/tvmetropolecariri/tvmetropolecariri/playlist.m3u8
 #EXTINF:-1 tvg-name="TV VAGALUME" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="PUBLICOS",TV VAGALUME
 https://stmv2.voxtvhd.com.br/tvteste/tvteste/playlist.m3u8
 # ===== RADIO - LIVE =====
+#EXTINF:-1 tvg-name="Nova 92 Caratinga" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="RADIO - LIVE",Nova 92 Caratinga
+https://stmv3.srvsh.com.br/heliononato9350/heliononato9350/playlist.m3u8
 #EXTINF:-1 tvg-name="Rádio e Tv Web NO1FM" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="RADIO - LIVE",Rádio e Tv Web NO1FM
+https://stmv7.voxtvhd.com.br/marcelo9899/marcelo9899/playlist.m3u8
+#EXTINF:-1 tvg-name="RÁDIO TV SERPA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="RADIO - LIVE",RÁDIO TV SERPA
 https://stmv7.voxtvhd.com.br/marcelo9899/marcelo9899/playlist.m3u8
 # ===== REDE NBX TV =====
 #EXTINF:-1 tvg-name="NBX TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="REDE NBX TV",NBX TV
@@ -432,8 +446,6 @@ https://streamtv.intervenhosting.net:3754/hybrid/play.m3u8
 https://stmv7.voxtvhd.com.br/jxstv/jxstv/playlist.m3u8
 #EXTINF:-1 tvg-name="LA DESCARGA TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LA DESCARGA TV
 https://video.udwn.net:19360/ladescargatv/ladescargatv.m3u8
-#EXTINF:-1 tvg-name="LATINOS TV NY" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",LATINOS TV NY
-https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Mundo On" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Mundo On
 https://stmv8.samcast.com.br/suelen5027/suelen5027/playlist.m3u8
 #EXTINF:-1 tvg-name="Nacional Plus" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Nacional Plus
