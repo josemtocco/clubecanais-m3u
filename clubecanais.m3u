@@ -86,6 +86,8 @@ https://tv03.zas.media:1936/tvdocarro/tvdocarro/playlist.m3u8
 https://stmv5.voxtvhd.com.br/atriostv/atriostv/playlist.m3u8
 #EXTINF:-1 tvg-name="Rádio Olinda FM 105.3" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CATOLICA",Rádio Olinda FM 105.3
 https://video09.logicahost.com.br/radioolinda/radioolinda/playlist.m3u8
+#EXTINF:-1 tvg-name="TV PAI ETERNO" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CATOLICA",TV PAI ETERNO
+https://video09.logicahost.com.br/paieterno/paieterno/chunklist_w1170674421.m3u8
 # ===== CULINÁRIA =====
 #EXTINF:-1 tvg-name="Canal Bem Melhor" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="CULINÁRIA",Canal Bem Melhor
 https://video01.logicahost.com.br/bemmelhor/bemmelhor/playlist.m3u8
@@ -274,7 +276,7 @@ https://sistemavrt2023.vrtchannel.tv.br:3626/stream/play.m3u8
 #EXTINF:-1 tvg-name="CANAL START" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",CANAL START
 https://srv5.zcast.com.br/canalstart/canalstart/playlist.m3u8
 #EXTINF:-1 tvg-name="WEB Canal Blecaute TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",WEB Canal Blecaute TV
-https://stmv2.srvsh.com.br/deivisondaconceicao4233/deivisondaconceicao4233/chunklist_w1440016166.m3u8
+https://stmv2.srvsh.com.br/deivisondaconceicao4233/deivisondaconceicao4233/playlist.m3u8
 #EXTINF:-1 tvg-name="YEEAAH" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="GAMES TV",YEEAAH
 https://srv5.zcast.com.br/yeeaah/yeeaah/playlist.m3u8
 # ===== INTERNACIONAL =====
