@@ -12,8 +12,6 @@ https://run-rnw-rn.otteravision.com/rnw/rn/rnw_rn_720p_high.m3u8
 https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
 #EXTINF:-1 tvg-name="RIT TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",RIT TV
 https://stream.ecast.com.br/rit-tv/index.m3u8
-#EXTINF:-1 tvg-name="TH+ SBT Interior" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TH+ SBT Interior
-https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
 #EXTINF:-1 tvg-name="TV CONQUISTA (Record)" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV CONQUISTA (Record)
 https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 #EXTINF:-1 tvg-name="TV NOVA NORDESTE" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="a) TV ABERTA - REGIOES",TV NOVA NORDESTE
@@ -113,6 +111,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -296,6 +296,8 @@ https://5ce9406b73c33.streamlock.net/ONFM/livestream/playlist.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4211
 #EXTINF:-1 tvg-name="REDE SDP TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",REDE SDP TV
 https://video01.brascast.com/rede8652/rede8652/playlist.m3u8
+#EXTINF:-1 tvg-name="RFPTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",RFPTV
+https://video03.logicahost.com.br/rfptv/rfptv/playlist.m3u8
 #EXTINF:-1 tvg-name="RÁDIO SINES" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",RÁDIO SINES
 https://load-balancer.azotosolutions.com/cdnedge19/smil:live19.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="TV MONTANHA" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="INTERNACIONAL",TV MONTANHA
