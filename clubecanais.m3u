@@ -111,6 +111,8 @@ https://stmv1.srvif.com/anime/anime/playlist.m3u8
 https://video01.brascast.com/rede1220/rede1220/playlist.m3u8
 #EXTINF:-1 tvg-name="TV Kidmais" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",TV Kidmais
 https://stmv1.transmissaodigital.com/tvkidmais/tvkidmais/playlist.m3u8
+#EXTINF:-1 tvg-name="Tv Nilcera" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DESENHOS",Tv Nilcera
+https://183.giatvcdn.com/ssh101/ssh101/tvnilcera/playlist.m3u8
 # ===== DOCUMENTÁRIOS =====
 #EXTINF:-1 tvg-name="NZTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="DOCUMENTÁRIOS",NZTV
 https://stmv1.transmissaodigital.com/nztv/nztv/playlist.m3u8
@@ -316,6 +318,8 @@ https://stmv4.voxtvhd.com.br/1990/1990/playlist.m3u8
 #EXTINF:-1 tvg-name="TV itapetinga kids" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="KIDS",TV itapetinga kids
 https://stmv4.voxtvhd.com.br/eroaldo/eroaldo/playlist.m3u8
 # ===== MUSICA =====
+#EXTINF:-1 tvg-name="Bahiana FM TV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Bahiana FM TV
+https://video01.brascast.com/radio8698/radio8698/playlist.m3u8
 #EXTINF:-1 tvg-name="Lamore Rock Show WebTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Lamore Rock Show WebTV
 https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
 #EXTINF:-1 tvg-name="Radio Liberal" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="MUSICA",Radio Liberal
@@ -530,7 +534,5 @@ https://video11.logicahost.com.br/comunidadefm/comunidadefm/playlist.m3u8
 https://pop.uniquetv.com.br/hls/uniquetv.m3u8
 #EXTINF:-1 tvg-name="Web TV Acauã Tropical" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",Web TV Acauã Tropical
 https://v01.taaqui.org/acauatropical/acauatropical/playlist.m3u8
-#EXTINF:-1 tvg-name="WEB TV CR" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",WEB TV CR
-https://stmv1.paineldevideo.com.br/clagpl2/clagpl2/playlist.m3u8
 #EXTINF:-1 tvg-name="XTV" tvg-logo="https://clubecanais.com.br/img/logo.jpg" group-title="VARIEDADES",XTV
 https://stmv8.samcast.com.br/cleusa3086/cleusa3086/playlist.m3u8
